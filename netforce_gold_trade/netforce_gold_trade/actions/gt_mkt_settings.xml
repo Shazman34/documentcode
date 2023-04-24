@@ -1,0 +1,8 @@
+<action>
+    <field name="view">form_view</field>
+    <field name="string">Settings</field>
+    <field name="model">gt.settings</field>
+    <field name="active_id">1</field>
+    <field name="layout">gt_mkt_settings</field>
+    <field name="menu">gt_menu</field>
+</action>

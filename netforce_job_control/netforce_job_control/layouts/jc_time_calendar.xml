@@ -1,0 +1,11 @@
+<calendar model="time.entry" hide_top="1" action="time_popup">
+    <model name="time.entry" title="Time Entries" action="time_popup" time_field="start_time" duration_field="actual_hours">
+        <field name="user_id"/>
+        <field name="client_id"/>
+        <field name="jc_job_id"/>
+        <field name="date" invisible="1"/>
+        <field name="start_time" invisible="1"/>
+        <field name="actual_hours" invisible="1"/>
+        <field name="state" invisible="1"/>
+    </model>
+</calendar>

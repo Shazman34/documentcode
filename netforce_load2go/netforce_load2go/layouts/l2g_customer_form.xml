@@ -1,0 +1,38 @@
+<form model="l2g.customer">
+    <field name="phone"/>
+    <separator/>
+    <field name="first_name"/>
+    <field name="last_name"/>
+    <field name="id_no"/>
+    <field name="company"/>
+    <field name="region_id"/>
+    <field name="tos_accepted"/>
+    <field name="company_id"/>
+    <field name="group_id"/>
+    <separator/>
+    <field name="register_date"/>
+    <field name="discount_percent"/>
+    <separator/>
+    <field name="user_id"/>
+    <field name="device_token"/>
+    <separator string="Referral"/>
+    <field name="refer_code"/>
+    <field name="refer_by_id"/>
+    <field name="discount_balance"/>
+    <separator/>
+    <field name="pay_term_id"/>
+    <field name="bypass_payment"/>
+    <field name="bypass_date_check"/>
+    <separator string="Wallet"/>
+    <field name="balance"/>
+    <separator string="Sales Person"/>
+    <field name="sales_person_id"/>
+    <separator/>
+    <field name="remarks"/>
+    <field name="contact_id"/>
+    <related>
+        <field name="device_tokens"/>
+        <field name="refer_customers"/>
+        <field name="bookings"/>
+    </related>
+</form>

@@ -1,0 +1,7 @@
+<action>
+    <field name="view">multi_view</field>
+    <field name="string">Payment Transactions</field>
+    <field name="model">payment.transaction</field>
+    <field name="tabs">[["All",[]],["In Progress",[["state","=","in_progress"]]],["Completed",[["state","=","done"]]],["Reversed",[["state","=","reversed"]]],["Error",[["state","=","error"]]]]</field>
+    <field name="menu">account_menu</field>
+</action>

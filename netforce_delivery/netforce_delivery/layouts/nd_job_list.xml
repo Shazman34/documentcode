@@ -1,0 +1,10 @@
+<list model="nd.job">
+    <field name="number"/>
+    <field name="date"/>
+    <field name="title"/>
+    <field name="driver_id"/>
+    <field name="amount"/>
+    <field name="bonus_amount"/>
+    <field name="num_tasks"/>
+    <field name="state"/>
+</list>

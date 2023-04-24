@@ -1,0 +1,6 @@
+<board>
+    <hpanel>
+        <widget string="All Pending Jobs" action="jc_all_pending_job_widget"/>
+        <widget string="All Pending Tasks" action="jc_all_pending_task_widget"/>
+    </hpanel>
+</board>

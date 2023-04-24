@@ -1,0 +1,20 @@
+<list model="xb.price">
+    <top>
+        <button string="Import Bitstamp" method="import_bitstamp"/>
+        <button string="Import BTC-E" method="import_btce"/>
+        <button string="Import Gatecoin" method="import_gatecoin"/>
+        <button string="Import BX.in.th" method="import_bxth"/>
+        <button string="Import ShiningGold" method="import_sgb"/>
+        <button string="Import SCB" method="import_scb"/>
+        <button string="Import Kasikorn" method="import_kasikorn"/>
+        <button string="Import BangkokBank" method="import_bkkbank"/>
+        <button string="Update XBank Prices" method="update_xb_price"/>
+        <button string="Upload S3" method="upload_s3"/>
+        <button string="Upload Chart S3" method="upload_chart_s3"/>
+    </top>
+    <field name="time"/>
+    <field name="product"/>
+    <field name="source"/>
+    <field name="bid"/>
+    <field name="ask"/>
+</list>

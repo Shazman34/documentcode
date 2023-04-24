@@ -1,0 +1,8 @@
+<action>
+    <field name="view_cls">list_view</field>
+    <field name="model">jc.job</field>
+    <field name="domain">[["overdue","=",true],["is_manager","=",true]]</field>
+    <field name="order">due_date</field>
+    <field name="view_xml">over_job_widget</field>
+    <field name="noselect">1</field>
+</action>

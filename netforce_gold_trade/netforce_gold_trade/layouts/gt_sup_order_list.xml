@@ -1,0 +1,14 @@
+<list model="gt.sup.order" colors='{"#9f9":[["type","=","buy"]],"#f99":[["type","=","sell"]]}'>
+    <field name="number"/>
+    <field name="time"/>
+    <field name="symbol"/>
+    <field name="side"/>
+    <field name="order_type"/>
+    <field name="qty_kg"/>
+    <field name="qty_oz"/>
+    <field name="price"/>
+    <field name="amount"/>
+    <field name="time_in_force"/>
+    <field name="state"/>
+    <field name="fill_price"/>
+</list>

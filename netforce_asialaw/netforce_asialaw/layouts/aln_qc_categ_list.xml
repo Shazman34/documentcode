@@ -1,0 +1,5 @@
+<list model="aln.qc.categ">
+    <field name="name"/>
+    <field name="parent_id"/>
+    <field name="image"/>
+</list>

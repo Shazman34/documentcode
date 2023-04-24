@@ -1,0 +1,6 @@
+<menu string="Golf Course">
+    <item string="Dashboard" action="gf_board"/>
+    <item string="Members" action="gf_member"/>
+    <item string="Settings">
+    </item>
+</menu>

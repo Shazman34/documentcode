@@ -1,0 +1,8 @@
+<list model="work.time" priority="20">
+    <field name="service_id"/>
+    <field name="task_id"/>
+    <field name="date"/>
+    <field name="user_id"/>
+    <field name="hours"/>
+    <field name="description"/>
+</list>

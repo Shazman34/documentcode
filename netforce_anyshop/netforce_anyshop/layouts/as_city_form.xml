@@ -1,0 +1,4 @@
+<form model="as.city">
+    <field name="name"/>
+    <field name="region_id"/>
+</form>

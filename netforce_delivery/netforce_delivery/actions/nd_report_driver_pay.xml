@@ -1,0 +1,7 @@
+<action>
+    <field name="view">report</field>
+    <field name="string">Driver Payable Report</field>
+    <field name="model">nd.report.driver.pay</field>
+    <field name="template">nd_report_driver_pay</field>
+    <field name="menu">nd_menu</field>
+</action>

@@ -1,0 +1,7 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Service Requests</field>
+    <field name="model">l2g.serv.req</field>
+    <field name="tabs">[["All",[]],["Draft",[["state","=","draft"]]],["Confirmed",[["state","=","confirmed"]]]]</field>
+    <field name="menu">l2g_menu</field>
+</action>

@@ -1,0 +1,6 @@
+<action>
+    <field name="view">list_m</field>
+    <field name="title">Attendance</field>
+    <field name="model">ed.attend</field>
+    <field name="modes">calendar,list</field>
+</action>

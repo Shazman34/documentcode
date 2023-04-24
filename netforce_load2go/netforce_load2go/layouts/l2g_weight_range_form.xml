@@ -1,0 +1,6 @@
+<form model="l2g.weight.range">
+    <field name="truck_type_id"/>
+    <newline/>
+    <field name="min_weight"/>
+    <field name="max_weight"/>
+</form>

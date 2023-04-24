@@ -1,0 +1,56 @@
+<form model="gf.member">
+    <field name="number"/>
+    <tabs>
+        <tab string="Preferences">
+            <field name="first_name"/>
+            <field name="last_name"/>
+            <separator/>
+            <field name="start_time" view="field_time"/>
+            <separator/>
+            <field name="shoe_size"/>
+            <field name="shirt_size"/>
+            <separator/>
+            <field name="friends"/>
+        </tab>
+        <tab string="Personal">
+            <separator string="Member Description"/>
+            <separator/>
+            <field name="type"/>
+            <newline/>
+            <field name="member_fee"/>
+            <field name="discount"/>
+            <newline/>
+            <field name="remark"/>
+            <separator string="Personal Description"/>
+            <field name="id_no"/>
+            <field name="country_id"/>
+            <newline/>
+            <field name="passport_no"/>
+            <newline/>
+            <field name="birth_date"/>
+            <field name="gender"/>
+            <newline/>
+            <field name="marital_status"/>
+            <newline/>
+            <field name="address"/>
+            <newline/>
+            <field name="city"/>
+            <field name="postal_code"/>
+            <newline/>
+            <field name="home_phone"/>
+            <newline/>
+            <field name="fax"/>
+            <field name="mobile"/>
+            <newline/>
+            <field name="email"/>
+        </tab>
+        <tab string="Company">
+        </tab>
+        <tab string="Associate Member">
+        </tab>
+        <tab string="Favorites">
+        </tab>
+        <tab string="Other">
+        </tab>
+    </tabs>
+</form>

@@ -1,0 +1,6 @@
+<action>
+    <field name="view">report</field>
+    <field name="string">TAP Tax Submission File</field>
+    <field name="model">report.tap.my</field>
+    <field name="menu">account_menu</field>
+</action>

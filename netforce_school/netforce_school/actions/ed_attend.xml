@@ -1,0 +1,6 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Attendance</field>
+    <field name="model">ed.attend</field>
+    <field name="menu">ed_menu</field>
+</action>

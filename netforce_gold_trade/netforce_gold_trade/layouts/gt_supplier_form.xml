@@ -1,0 +1,6 @@
+<form model="gt.supplier">
+    <field name="name"/>
+    <related>
+        <field name="orders"/>
+    </related>
+</form>

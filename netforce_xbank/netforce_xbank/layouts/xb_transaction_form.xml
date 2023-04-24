@@ -1,0 +1,16 @@
+<form model="xb.transaction">
+    <head>
+        <button string="Options" dropdown="1">
+            <item string="Send Notif" method="send_notif"/>
+        </button>
+    </head>
+    <field name="account_id"/>
+    <field name="currency"/>
+    <field name="hash"/>
+    <field name="address"/>
+    <field name="date"/>
+    <field name="amount"/>
+    <field name="balance"/>
+    <field name="num_conf"/>
+    <field name="acc_addrs"/>
+</form>

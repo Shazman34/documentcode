@@ -1,0 +1,11 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Matched Customer Orders</field>
+    <field name="model">gt.cust.order</field>
+    <field name="tabs">[["Matched",[["state","=","matched"]]],["Paid",[["state","=","paid"]]]]</field>
+    <field name="group_field">type</field>
+    <field name="group_field_path">type</field>
+    <field name="subgroup_field">product</field>
+    <field name="subgroup_field_path">product</field>
+    <field name="menu">gt_menu</field>
+</action>

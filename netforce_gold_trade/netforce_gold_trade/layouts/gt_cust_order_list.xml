@@ -1,0 +1,35 @@
+<list model="gt.cust.order" colors='{"#f00,due_date":[["overdue","=",true]],"#9f9":[["type","=","buy"]],"#f99":[["type","=","sell"]]}'>
+    <top>
+        <button string="Update Late Fees" method="update_late_fees"/>
+        <button string="Check Pending Orders" method="check_pending_orders"/>
+        <button string="Cancel Expired Pending" method="cancel_expired_pending"/>
+    </top>
+    <head>
+        <button string="Print" icon="print" action="gt_print_cust_order"/>
+        <button string="Customer Match Orders" method="match"/>
+        <button string="Create Payment" method="copy_to_payment"/>
+        <button string="Create Delivery" method="copy_to_delivery"/>
+        <button string="Mark As Completed" method="set_done"/>
+        <button string="Cancel Order" method="cancel_order" confirm="Are you sure?"/>
+        <button string="Update Status" method="update_state"/>
+        <button string="Force Delete" method="force_delete"/>
+    </head>
+    <field name="number"/>
+    <field name="order_time"/>
+    <field name="customer_id"/>
+    <field name="product"/>
+    <field name="type"/>
+    <field name="qty"/>
+    <field name="unit_price"/>
+    <field name="spot_price"/>
+    <field name="amount"/>
+    <field name="state"/>
+    <field name="float_pl"/>
+    <field name="due_date"/>
+    <field name="late_fee"/>
+    <field name="amount_paid"/>
+    <field name="qty_paid"/>
+    <field name="qty_delivered"/>
+    <field name="match_id"/>
+    <field name="overdue" invisible="1"/>
+</list>

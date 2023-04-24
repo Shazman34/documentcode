@@ -1,0 +1,6 @@
+<inherit inherit="user_form">
+    <field name="contact_id" position="after">
+        <field name="aln_client_id"/>
+        <field name="aln_lawyer_id"/>
+    </field>
+</inherit>

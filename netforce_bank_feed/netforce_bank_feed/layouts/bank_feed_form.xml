@@ -1,0 +1,13 @@
+<form model="bank.feed">
+    <field name="type"/>
+    <field name="account_id"/>
+    <field name="state"/>
+    <separator/>
+    <field name="username"/>
+    <field name="password" password="1"/>
+    <field name="account_no"/>
+    <field name="company"/>
+    <foot>
+        <button string="Import Statements" icon="refresh" method="import_statements"/>
+    </foot>
+</form>

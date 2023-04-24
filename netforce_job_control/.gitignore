@@ -1,0 +1,14 @@
+*.pyc
+*/models_js/*
+*/templates_js/*
+*/actions_js/*
+*/templates_c/*
+*/actions_c/*
+*/views_c/*
+*/xml_views_js/*
+*/xml_views_c/*
+*.egg-info/*
+*/static/js/*
+*/static/css/*
+dist/*
+*.swp

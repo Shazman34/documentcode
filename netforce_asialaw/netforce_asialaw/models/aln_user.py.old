@@ -1,0 +1,20 @@
+from netforce.model import Model,fields,get_model
+import time
+
+class User(Model):
+    _name="aln.user"
+    _string="User"
+    _audit_log=True
+    _name_field="email"
+    _fields={
+        "email": fields.Char("Email"),
+        "password": fields.Char("Password"),
+        "first_name": fields.Char("First Name"),
+        "last_name": fields.Char("Last Name"),
+        "mobile": fields.Char("Mobile"),
+        "client_id": fields.Many2One("aln.client","Client"),
+        "lawyer_id": fields.Many2One("aln.lawyer","Lawyer"),
+        "counsel_id": fields.Many2One("aln.counsel","Counsel"),
+    }
+
+User.register()

@@ -1,0 +1,6 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Amenities</field>
+    <field name="model">ht.amenity</field>
+    <field name="menu">ht_menu</field>
+</action>

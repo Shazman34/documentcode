@@ -1,0 +1,6 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Companies</field>
+    <field name="model">l2g.company</field>
+    <field name="menu">l2g_menu</field>
+</action>

@@ -1,0 +1,30 @@
+<list model="l2g.booking" colors='{"#f99":[["show_alert","=",true]],"#ccf":[["is_late","=",true]]}'>
+    <head>
+        <button string="Update Stored Fields" method="function_store"/>
+        <button string="Copy To Invoice" method="copy_to_invoice"/>
+    </head>
+    <field name="number"/>
+    <field name="customer_id"/>
+    <field name="weight_range_id"/>
+    <field name="confirm_date"/>
+    <field name="book_date"/>
+    <field name="unload_date"/>
+    <field name="load_addr"/>
+    <field name="from_province_id"/>
+    <field name="from_district"/>
+    <field name="delivery_addr"/>
+    <field name="to_province_id"/>
+    <field name="to_district"/>
+    <field name="distance"/>
+    <field name="pricelist_id"/>
+    <field name="price_total"/>
+    <field name="driver_price_total"/>
+    <field name="state"/>
+    <field name="driver_id"/>
+    <field name="return_trip"/>
+    <field name="is_late"/>
+    <field name="comments"/>
+    <field name="has_custom"/>
+    <field name="product_type_id"/>
+    <field name="show_alert" invisible="1"/>
+</list>

@@ -1,0 +1,6 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Accomodation Types</field>
+    <field name="model">ht.accom.type</field>
+    <field name="menu">ht_menu</field>
+</action>

@@ -1,0 +1,6 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Industry</field>
+    <field name="model">aln.industry</field>
+    <field name="menu">aln_menu</field>
+</action>

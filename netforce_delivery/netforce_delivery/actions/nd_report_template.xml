@@ -1,0 +1,5 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="title">Report Templates</field>
+    <field name="model">nd.report.template</field>
+</action>

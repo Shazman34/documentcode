@@ -1,0 +1,7 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Customer Payments</field>
+    <field name="model">gt.cust.payment</field>
+    <field name="tabs">[["All",[]],["Draft",[["state","=","draft"]]],["Completed",[["state","=","done"]]]]</field>
+    <field name="menu">gt_menu</field>
+</action>

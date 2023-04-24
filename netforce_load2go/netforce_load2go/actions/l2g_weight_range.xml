@@ -1,0 +1,6 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Weight Ranges</field>
+    <field name="model">l2g.weight.range</field>
+    <field name="menu">l2g_menu</field>
+</action>

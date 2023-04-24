@@ -1,0 +1,6 @@
+<inherit inherit="account_menu">
+    <item string="Year End" position="after">
+        <divider addon="BATCH_IMPORT"/>
+        <item string="Batch Import" action="batch_import" addon="BATCH_IMPORT"/>
+    </item>
+</inherit>

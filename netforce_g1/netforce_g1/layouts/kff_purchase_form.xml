@@ -1,0 +1,7 @@
+<inherit inherit="purchase_form">
+    <button string="Options" position="append">
+        <divider/>
+        <item string="KFF: Copy To Supplier Invoice (with grading)" method="kff_copy_to_supp_invoice"/>
+        <item string="KFF: Send RM Invoice To TG" method="send_tg"/>
+    </button>
+</inherit>

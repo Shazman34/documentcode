@@ -1,0 +1,6 @@
+<form model="hx.plan">
+    <field name="name"/>
+    <field name="sequence"/>
+    <newline/>
+    <field name="addons" view="field_multi_select"/>
+</form>

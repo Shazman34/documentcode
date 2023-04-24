@@ -1,0 +1,6 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Price Plans</field>
+    <field name="model">price.plan</field>
+    <field name="menu">addon_menu</field>
+</action>

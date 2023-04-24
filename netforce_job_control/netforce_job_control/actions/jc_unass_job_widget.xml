@@ -1,0 +1,9 @@
+<action>
+    <field name="view_cls">list_view</field>
+    <field name="model">jc.job</field>
+    <field name="domain">[["user_id","=",null],["state","=","in_progress"],["is_manager","=",true]]</field>
+    <field name="order">due_date</field>
+    <field name="view_xml">unass_job_widget</field>
+    <field name="noselect">1</field>
+    <field name="board_select">1</field>
+</action>

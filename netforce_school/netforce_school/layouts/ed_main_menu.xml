@@ -1,0 +1,5 @@
+<inherit inherit="main_menu">
+    <item string="General" position="after">
+        <item string="Education" action="ed_board" addon="EDU"/>
+    </item>
+</inherit>

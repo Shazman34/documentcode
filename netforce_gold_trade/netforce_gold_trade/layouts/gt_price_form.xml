@@ -1,0 +1,6 @@
+<form model="gt.price">
+    <field name="time"/>
+    <field name="name"/>
+    <field name="bid"/>
+    <field name="ask"/>
+</form>

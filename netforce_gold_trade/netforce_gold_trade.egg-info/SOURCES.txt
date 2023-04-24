@@ -1,0 +1,5 @@
+setup.py
+netforce_gold_trade.egg-info/PKG-INFO
+netforce_gold_trade.egg-info/SOURCES.txt
+netforce_gold_trade.egg-info/dependency_links.txt
+netforce_gold_trade.egg-info/top_level.txt

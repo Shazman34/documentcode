@@ -1,0 +1,9 @@
+<list model="l2g.penalty">
+    <field name="type"/>
+    <field name="name"/>
+    <field name="from_country_id"/>
+    <field name="to_country_id"/>
+    <field name="from_addr"/>
+    <field name="to_addr"/>
+    <field name="fee"/>
+</list>

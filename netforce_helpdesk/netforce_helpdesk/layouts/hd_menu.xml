@@ -1,0 +1,5 @@
+<menu string="Helpdesk">
+    <item string="Articles" action="hd_article"/>
+    <item string="Categories" action="hd_categ"/>
+    <item string="Search Queries" action="hd_query"/>
+</menu>

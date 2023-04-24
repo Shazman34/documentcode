@@ -1,0 +1,7 @@
+<list model="sale.order">
+    <field name="number"/>
+    <field name="date"/>
+    <field name="contact_id"/>
+    <field name="amount_total"/>
+    <field name="state"/>
+</list>

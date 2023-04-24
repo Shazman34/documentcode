@@ -1,0 +1,38 @@
+<menu string="Load2Go">
+    <item string="Map" action="l2g_map"/>
+    <item string="Drivers">
+        <item string="Drivers" action="l2g_driver"/>
+        <item string="Transporters" action="l2g_transporter"/>
+    </item>
+    <item string="Customers">
+        <item string="Customers" action="l2g_customer"/>
+        <item string="Companies" action="l2g_company"/>
+    </item>
+    <item string="Delivery">
+        <item string="Bookings" action="l2g_booking"/>
+        <item string="Jobs" action="l2g_job"/>
+    </item>
+    <item string="Service">
+        <item string="Service Requests" action="l2g_serv_req"/>
+    </item>
+    <item string="Chat">
+        <item string="Chat" action="l2g_chat"/>
+        <item string="Broadcast" action="broadcast"/>
+    </item>
+    <item string="Reports">
+        <item string="Booking Report" action="l2g_booking_pivot"/>
+        <item string="Jobs Report" action="l2g_job_pivot"/>
+    </item>
+    <item string="Settings">
+        <item string="Truck Types" action="l2g_truck_type"/>
+        <item string="Weight Ranges" action="l2g_weight_range"/>
+        <item string="Pricelists" action="l2g_pricelist"/>
+        <item string="Prices" action="l2g_price"/>
+        <item string="Provinces" action="l2g_province"/>
+        <item string="Additional Charges" action="l2g_penalty"/>
+        <item string="Products" action="l2g_product"/>
+        <item string="Product Types" action="l2g_product_type"/>
+        <item string="Driver Groups" action="l2g_driver_group"/>
+        <!--<item string="Trucks" action="l2g_truck"/>-->
+    </item>
+</menu>

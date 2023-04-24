@@ -1,0 +1,9 @@
+<form model="ed.meal">
+    <field name="date"/>
+    <field name="time" view="field_time"/>
+    <field name="title"/>
+    <field name="description"/>
+    <field name="image"/>
+    <separator/>
+    <field name="group_id"/>
+</form>

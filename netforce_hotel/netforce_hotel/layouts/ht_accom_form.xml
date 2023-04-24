@@ -1,0 +1,5 @@
+<form model="ht.accom">
+    <field name="name"/>
+    <field name="accom_type_id"/>
+    <field name="sequence"/>
+</form>

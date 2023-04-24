@@ -1,0 +1,15 @@
+<form model="gt.settings" title="Market Settings">
+    <field name="market_open_time"/>
+    <field name="market_close_time"/>
+    <newline/>
+    <field name="market_state"/>
+    <field name="market_state_manual"/>
+    <separator/>
+    <field name="pending_cancel_time"/>
+    <separator/>
+    <field name="market_open_time_96_mini"/>
+    <field name="market_close_time_96_mini"/>
+    <newline/>
+    <field name="market_state_96_mini"/>
+    <field name="market_state_manual_96_mini"/>
+</form>

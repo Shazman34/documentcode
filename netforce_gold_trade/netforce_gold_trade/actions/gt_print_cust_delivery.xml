@@ -1,0 +1,7 @@
+<action>
+    <field name="view">form_popup</field>
+    <field name="string">Print Customer Delivery</field>
+    <field name="model">print.wizard</field>
+    <field name="target">popup</field>
+    <field name="context">{"model":"gt.cust.delivery","template_name":"cust_delivery"}</field>
+</action>

@@ -1,0 +1,8 @@
+<action>
+    <field name="view">form_popup</field>
+    <field name="string">Change Price Plan</field>
+    <field name="model">settings</field>
+    <field name="active_id">1</field>
+    <field name="layout">change_price_plan</field>
+    <field name="target">popup</field>
+</action>

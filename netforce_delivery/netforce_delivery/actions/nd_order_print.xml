@@ -1,0 +1,5 @@
+<action>
+    <field name="view">print_wizard2</field>
+    <field name="model">nd.order</field>
+    <field name="menu">nd_menu</field>
+</action>

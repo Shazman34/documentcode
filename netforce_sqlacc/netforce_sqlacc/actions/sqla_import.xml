@@ -1,0 +1,6 @@
+<action>
+    <field name="view">form_view</field>
+    <field name="model">sqla.sync</field>
+    <field name="layout">sqla_import</field>
+    <field name="menu">sqla_menu</field>
+</action>

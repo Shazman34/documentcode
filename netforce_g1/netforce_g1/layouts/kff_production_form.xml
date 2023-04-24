@@ -1,0 +1,8 @@
+<inherit inherit="production_form">
+    <item string="To Draft" position="before">
+        <divider/>
+        <item string="TG: Copy To PO For Packing Materials" method="tg_make_po_packing"/>
+        <item string="TG: Copy To PO For Fruits (Buy From KFF)" method="tg_make_po_fruit"/>
+        <divider/>
+    </item>
+</inherit>

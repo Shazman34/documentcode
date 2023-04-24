@@ -1,0 +1,5 @@
+<list model="nd.work.period">
+    <field name="name"/>
+    <field name="time_from"/>
+    <field name="time_to"/>
+</list>

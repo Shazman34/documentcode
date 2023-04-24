@@ -1,0 +1,19 @@
+<form model="xb.withdraw" attrs='{"readonly":[["state","=","done"]]}'>
+    <head>
+        <field name="state"/>
+        <button string="Options" dropdown="1">
+            <item string="To Draft" method="to_draft" states="done"/>
+        </button>
+    </head>
+    <field name="number"/>
+    <field name="date_created"/>
+    <field name="account_id"/>
+    <field name="currency"/>
+    <field name="amount"/>
+    <field name="address"/>
+    <separator/>
+    <field name="txid"/>
+    <foot>
+        <button string="Confirm" type="success" method="confirm" states="draft"/>
+    </foot>
+</form>

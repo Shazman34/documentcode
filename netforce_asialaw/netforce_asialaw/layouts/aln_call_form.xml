@@ -1,0 +1,17 @@
+<form model="aln.call">
+    <head>
+        <field name="state"/>
+    </head>
+    <field name="date"/>
+    <field name="client_id"/>
+    <field name="job_id"/>
+    <field name="task_id"/>
+    <field name="subject"/>
+    <field name="state"/>
+    <separator/>
+    <field name="start_time"/>
+    <field name="end_time"/>
+    <related>
+      <field name="logs"/>
+    </related>
+</form>

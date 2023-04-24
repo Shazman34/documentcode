@@ -1,0 +1,10 @@
+<list model="ht.rate">
+    <field name="accom_type_id"/>
+    <field name="sequence"/>
+    <field name="date_from"/>
+    <field name="date_to"/>
+    <field name="min_los"/>
+    <field name="max_los"/>
+    <field name="weekday"/>
+    <field name="price"/>
+</list>

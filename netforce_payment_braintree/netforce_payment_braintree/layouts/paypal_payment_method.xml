@@ -1,0 +1,20 @@
+<inherit inherit="payment_method_form">
+    <field name="account_id" position="after">
+        <group attrs='{"invisible": [["type","!=","paypal"]]}'>
+            <separator string="Paypal Settings"/>
+            <field name="paypal_user"/>
+            <field name="paypal_password" password="1"/>
+            <field name="paypal_signature"/>
+            <separator/>
+            <field name="paypal_return_url"/>
+            <field name="paypal_cancel_url"/>
+            <separator/>
+            <field name="paypal_nvp_url"/>
+            <field name="paypal_webscr_url"/>
+            <separator string="REST API"/>
+            <field name="paypal_client_id"/>
+            <field name="paypal_secret"/>
+            <field name="paypal_sandbox"/>
+        </group>
+    </field>
+</inherit>

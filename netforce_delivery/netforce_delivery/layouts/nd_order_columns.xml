@@ -1,0 +1,14 @@
+<columns model="nd.order" row_field="period_id" column_field="driver_id" group_field="route_id" colors='{"#cfc":[["state","=","done"],["deliver_perf","=","on_time"]],"#f99":[["state","=","done"],["deliver_perf","=","late"]],"#ff9":[["state","=","done"],["deliver_perf","=","early"]],"#ccf":[["state","=","in_progress"]],"#f66":[["state","=","error"]]}' action="nd_order_popup">
+    <head>
+        <button string="Time Sort" method="time_sort"/>
+        <button string="Geo Sort" method="geo_sort"/>
+        <button string="Split Route" method="split_route"/>
+    </head>
+    <field name="dest_short"/>
+    <field name="street_address" tooltip_field="address_tooltip"/>
+    <field name="eta_short"/>
+    <field name="tags_json" view="labels"/>
+    <field name="state" invisible="1"/>
+    <field name="deliver_perf" invisible="1"/>
+    <field name="address_tooltip" invisible="1"/>
+</columns>

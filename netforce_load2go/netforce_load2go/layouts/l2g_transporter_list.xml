@@ -1,0 +1,7 @@
+<list model="l2g.transporter">
+    <field name="name"/>
+    <field name="num_drivers"/>
+    <field name="remarks"/>
+    <field name="remarks2"/>
+    <field name="contact_id"/>
+</list>

@@ -1,0 +1,7 @@
+<action>
+    <field name="string">My Jobs Dashboard</field>
+    <field name="view_cls">board</field>
+    <field name="view_xml">jc_service_board_user</field>
+    <field name="menu">jc_service_menu</field>
+    <field name="reload">60</field>
+</action>

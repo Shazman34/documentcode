@@ -1,0 +1,24 @@
+<form model="as.user">
+    <field name="date_add"/>
+    <field name="username"/>
+    <newline/>
+    <field name="first_name"/>
+    <field name="last_name"/>
+    <newline/>
+    <field name="country_id"/>
+    <field name="region_id" condition='[["country_id","=",country_id]]'/>
+    <field name="city_id" condition='[["region_id","=",region_id]]'/>
+    <newline/>
+    <field name="description"/>
+    <field name="photo"/>
+    <newline/>
+    <field name="password"/>
+    <newline/>
+    <field name="email"/>
+    <field name="mobile"/>
+    <field name="gender"/>
+    <field name="birthday"/>
+    <related>
+        <field name="shops_cust"/>
+    </related>
+</form>

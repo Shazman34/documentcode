@@ -1,0 +1,7 @@
+<action>
+    <field name="view">page</field>
+    <field name="model">settings</field>
+    <field name="active_id">1</field>
+    <field name="layout">billing</field>
+    <field name="menu">addon_menu</field>
+</action>

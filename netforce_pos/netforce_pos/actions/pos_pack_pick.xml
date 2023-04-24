@@ -1,0 +1,4 @@
+<action>
+    <field name="view">pos_pack_pick</field>
+    <field name="menu">pos_menu</field>
+</action>

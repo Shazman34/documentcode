@@ -1,0 +1,4 @@
+<list model="hx.plan">
+    <field name="name"/>
+    <field name="sequence"/>
+</list>

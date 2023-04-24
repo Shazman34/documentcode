@@ -1,0 +1,38 @@
+<form model="l2g.job">
+    <head>
+        <field name="state"/>
+    </head>
+    <field name="number"/>
+    <field name="booking_id"/>
+    <field name="truck_type_id"/>
+    <field name="weight_range_id" condition='[["truck_type_id","=",truck_type_id]]'/>
+    <field name="group_id"/>
+    <field name="state"/>
+    <field name="date"/>
+    <separator/>
+    <field name="client_amount"/>
+    <field name="orig_client_amount"/>
+    <separator/>
+    <field name="driver_amount"/>
+    <field name="orig_driver_amount"/>
+    <field name="driver_id"/>
+    <field name="planner_id"/>
+    <separator/>
+    <field name="from_province_id"/>
+    <field name="to_province_id"/>
+    <separator/>
+    <field name="rating"/>
+    <field name="comment"/>
+    <field name="return_trip"/>
+    <separator/>
+    <field name="customer_cancel_fee"/>
+    <field name="driver_cancel_fee"/>
+    <foot>
+        <button string="Delivered" method="set_delivered" states="accepted" icon="ok"/>
+        <button string="Verified" method="set_verified" states="delivered" type="success" icon="ok"/>
+        <!--<button string="Manually Update Wallet" method="create_trans" states="delivered" type="danger" confirm="Are you sure?"/>-->
+    </foot>
+    <related>
+        <field name="track_entries"/>
+    </related>
+</form>

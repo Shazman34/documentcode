@@ -1,0 +1,6 @@
+<action>
+    <field name="view">calendar</field>
+    <field name="string">School Calendar</field>
+    <field name="layout">ed_calendar</field>
+    <field name="menu">ed_menu</field>
+</action>

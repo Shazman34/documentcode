@@ -1,0 +1,6 @@
+<action>
+    <field name="view">board</field>
+    <field name="string">Anyshop Dashboard</field>
+    <field name="layout">as_board</field>
+    <field name="menu">as_menu</field>
+</action>

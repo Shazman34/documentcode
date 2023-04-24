@@ -1,0 +1,8 @@
+<form model="aln.qc.categ">
+    <field name="name"/>
+    <field name="parent_id"/>
+    <field name="short_desc"/>
+    <field name="examples"/>
+    <field name="long_desc"/>
+    <field name="image"/>
+</form>

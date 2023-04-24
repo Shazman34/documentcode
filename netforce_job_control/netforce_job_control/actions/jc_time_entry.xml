@@ -1,0 +1,10 @@
+<action>
+    <field name="string">Time Entries</field>
+    <field name="view">multi_view</field>
+    <field name="model">time.entry</field>
+    <field name="modes">list,calendar,slots,form</field>
+    <field name="tabs">[["Draft",[["state","=","draft"]]],["Submitted",[["state","=","submitted"]]],["Approved",[["state","=","approved"]]],["Invoiced",[["state","=","invoiced"]]],["Merged",[["state","=","merged"]]],["All",[]]]</field>
+    <field name="group_field">user_id</field>
+    <field name="priority">1</field>
+    <field name="menu">jc_service_menu</field>
+</action>

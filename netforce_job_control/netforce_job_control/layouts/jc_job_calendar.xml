@@ -1,0 +1,9 @@
+<calendar model="jc.job" date_field="due_date" colors='{"#090":[["state","in",["done","verified","invoiced"]]],"#c00":[["overdue","=",true]],"#999":[["state","=","canceled"]]}'>
+    <field name="number"/>
+    <field name="contact_id"/>
+    <field name="name"/>
+    <field name="user_id"/>
+    <field name="state"/>
+    <field name="current_work"/>
+    <field name="overdue" invisible="1"/>
+</calendar>

@@ -1,0 +1,9 @@
+<list model="gt.price">
+    <top>
+        <button string="Load Prices" method="load_prices"/>
+    </top>
+    <field name="time"/>
+    <field name="name"/>
+    <field name="bid"/>
+    <field name="ask"/>
+</list>

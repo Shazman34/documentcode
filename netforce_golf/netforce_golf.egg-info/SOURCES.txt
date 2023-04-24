@@ -1,0 +1,5 @@
+setup.py
+netforce_golf.egg-info/PKG-INFO
+netforce_golf.egg-info/SOURCES.txt
+netforce_golf.egg-info/dependency_links.txt
+netforce_golf.egg-info/top_level.txt

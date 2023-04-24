@@ -1,0 +1,5 @@
+<action>
+    <field name="view">list_m</field>
+    <field name="title">Meeting</field>
+    <field name="model">ed.meeting</field>
+</action>

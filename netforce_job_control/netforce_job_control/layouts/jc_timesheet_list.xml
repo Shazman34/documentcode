@@ -1,0 +1,6 @@
+<list model="jc.timesheet">
+    <field name="user_id"/>
+    <field name="date_from"/>
+    <field name="date_to"/>
+    <field name="state"/>
+</list>

@@ -1,0 +1,8 @@
+<pivot model="jc.job" rows="contact_id.name,number" agg_name="count">
+    <field name="number" string="Job Number"/>
+    <field name="contact_id.name" string="Customer"/>
+    <field name="contact_id.categ_id.name" string="Customer Category"/>
+    <field name="state"/>
+    <field name="user_id.name" string="Responsible User"/>
+    <field name="due_date"/>
+</pivot>

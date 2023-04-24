@@ -1,0 +1,4 @@
+<inherit inherit="pick_in_form">
+    <button string="Options" position="append">
+    </button>
+</inherit>

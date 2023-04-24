@@ -1,0 +1,6 @@
+<list model="aln.article">
+    <field name="date"/>
+    <field name="lawyer_id"/>
+    <field name="file"/>
+    <field name="state"/>
+</list>

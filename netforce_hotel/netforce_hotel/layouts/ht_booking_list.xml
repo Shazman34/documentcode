@@ -1,0 +1,16 @@
+<list model="ht.booking">
+    <head>
+        <button string="Copy To Invoice" method="copy_to_invoice"/>
+    </head>
+    <field name="number"/>
+    <field name="guest_id"/>
+    <field name="from_date"/>
+    <field name="to_date"/>
+    <field name="num_nights"/>
+    <field name="date"/>
+    <field name="num_guests"/>
+    <field name="source_id"/>
+    <field name="amount_total"/>
+    <field name="state"/>
+    <field name="invoice_id"/>
+</list>

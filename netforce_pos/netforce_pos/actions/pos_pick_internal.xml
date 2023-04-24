@@ -1,0 +1,10 @@
+<action>
+    <field name="view">pos_list</field>
+    <field name="string">Goods Transfers</field>
+    <field name="model">stock.picking</field>
+    <field name="condition">[["type","=","internal"]]</field>
+    <field name="tabs">[["Today",[]],["All",[]]]</field>
+    <field name="list_layout">pos_pick_internal_list</field>
+    <field name="form_layout">pos_pick_internal_form</field>
+    <field name="parent_view">pos_layout</field>
+</action>

@@ -1,0 +1,10 @@
+<action>
+    <field name="view">pos_list</field>
+    <field name="string">Goods Issues</field>
+    <field name="model">stock.picking</field>
+    <field name="condition">[["type","=","out"]]</field>
+    <field name="tabs">[["Today",[]],["All",[]]]</field>
+    <field name="list_layout">pos_pick_out_list</field>
+    <field name="form_layout">pos_pick_out_form</field>
+    <field name="parent_view">pos_layout</field>
+</action>

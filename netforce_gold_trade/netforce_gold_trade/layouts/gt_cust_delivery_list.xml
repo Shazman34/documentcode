@@ -1,0 +1,12 @@
+<list model="gt.cust.delivery">
+    <head>
+        <button string="Print" icon="print" action="gt_print_cust_delivery"/>
+    </head>
+    <field name="number"/>
+    <field name="create_time"/>
+    <field name="customer_id"/>
+    <field name="direction"/>
+    <field name="qty_96"/>
+    <field name="qty_99"/>
+    <field name="state"/>
+</list>

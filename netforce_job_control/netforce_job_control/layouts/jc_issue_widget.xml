@@ -1,0 +1,7 @@
+ <list colors='{"#fcc":[["overdue","=",true]]}'>
+    <field name="date"/>
+    <field name="name"/>
+    <field name="assigned_to_id"/>
+    <field name="priority"/>
+    <field name="overdue" invisible="1"/>
+</list>

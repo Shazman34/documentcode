@@ -1,0 +1,7 @@
+<action>
+    <field name="view">multi_view</field>
+    <field name="string">Withdrawals</field>
+    <field name="model">xb.withdraw</field>
+    <field name="tabs">[["All",[]],["Draft",[["state","=","draft"]]],["Completed",[["state","=","done"]]]]</field>
+    <field name="menu">xb_menu</field>
+</action>

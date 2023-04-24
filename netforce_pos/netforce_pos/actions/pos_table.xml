@@ -1,0 +1,6 @@
+<action>
+    <field name="string">Tables</field>
+    <field name="view">list_container</field>
+    <field name="model">pos.table</field>
+    <field name="menu">pos_menu</field>
+</action>

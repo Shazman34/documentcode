@@ -1,0 +1,7 @@
+<form model="nd.report.template">
+    <field name="name"/>
+    <field name="type"/>
+    <field name="orientation"/>
+    <newline/>
+    <field name="body" width="700" height="500" view="field_code"/>
+</form>

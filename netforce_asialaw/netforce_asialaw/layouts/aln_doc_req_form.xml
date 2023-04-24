@@ -1,0 +1,6 @@
+<form model="aln.doc.req">
+    <field name="date"/>
+    <field name="client_id"/>
+    <field name="doc_type_id"/>
+    <field name="job_id"/>
+</form>

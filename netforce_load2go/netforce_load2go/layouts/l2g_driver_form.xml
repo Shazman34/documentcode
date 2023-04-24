@@ -1,0 +1,58 @@
+<form model="l2g.driver">
+    <head>
+        <field name="state"/>
+        <button string="Options">
+            <item string="Update Balances" method="update_balances"/>
+        </button>
+    </head>
+    <field name="first_name"/>
+    <field name="last_name"/>
+    <field name="phone"/>
+    <field name="id_no"/>
+    <field name="photo"/>
+    <field name="image_id_card"/>
+    <field name="image_license"/>
+    <field name="image_insurance"/>
+    <field name="company"/>
+    <field name="transporter_id"/>
+    <field name="group_id"/>
+    <field name="truck_type_id"/>
+    <field name="plate_no"/>
+    <field name="register_date"/>
+    <separator/>
+    <field name="last_coords"/>
+    <field name="last_coords_time"/>
+    <separator/>
+    <field name="state"/>
+    <field name="driver_type"/>
+    <field name="user_id"/>
+    <separator string="Wallet"/>
+    <field name="balance"/>
+    <field name="bank_account_no"/>
+    <field name="hide_wallet"/>
+    <field name="hide_price"/>
+    <separator string="Referral"/>
+    <field name="refer_code"/>
+    <field name="refer_by_id"/>
+    <separator/>
+    <field name="remarks"/>
+    <field name="contact_id"/>
+    <foot>
+        <button string="Approve" method="approve" states="new"/>
+    </foot>
+    <related>
+        <field name="device_tokens"/>
+        <field name="refer_drivers"/>
+        <field name="jobs"/>
+        <field name="loc_updates">
+            <list>
+                <field name="time"/>
+                <field name="coords"/>
+            </list>
+            <form>
+                <field name="time"/>
+                <field name="coords"/>
+            </form>
+        </field>
+    </related>
+</form>

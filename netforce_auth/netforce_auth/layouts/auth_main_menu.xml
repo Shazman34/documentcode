@@ -1,0 +1,7 @@
+<inherit inherit="main_menu">
+    <!--
+    <item string="General" position="after">
+        <item string="Netforce Auth" action="auth_board"/>
+    </item>
+    -->
+</inherit>

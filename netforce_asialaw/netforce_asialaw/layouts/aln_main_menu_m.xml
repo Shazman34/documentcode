@@ -1,0 +1,7 @@
+<inherit inherit="main_menu_m">
+    <header string="Asia Law Network"/>
+    <item string="Clients" action="aln_client_m"/>
+    <item string="Jobs" action="aln_job_m"/>
+    <item string="Meetings" action="aln_meeting_m"/>
+    <item string="Documents" action="aln_doc_m"/>
+</inherit>

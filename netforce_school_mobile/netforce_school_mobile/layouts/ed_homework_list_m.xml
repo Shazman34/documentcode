@@ -1,0 +1,8 @@
+<list_m model="ed.homework">
+    <field name="date"/>
+    <field name="course_id"/>
+    <newline/>
+    <field name="title"/>
+    <newline/>
+    <field name="group_id"/>
+</list_m>

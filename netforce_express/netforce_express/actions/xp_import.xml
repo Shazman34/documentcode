@@ -1,0 +1,6 @@
+<action>
+    <field name="view">form_view</field>
+    <field name="model">xp.sync</field>
+    <field name="layout">xp_import</field>
+    <field name="menu">xp_menu</field>
+</action>

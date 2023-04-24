@@ -1,0 +1,6 @@
+<action>
+    <field name="view">form_popup</field>
+    <field name="model">time.entry</field>
+    <field name="layout">jc_time_popup</field>
+    <field name="target">popup</field>
+</action>

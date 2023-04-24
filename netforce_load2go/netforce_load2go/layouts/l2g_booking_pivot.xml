@@ -1,0 +1,15 @@
+<pivot model="l2g.booking.line" agg_name="sum" vals="amount">
+    <field name="booking_id.number" string="Booking Number"/>
+    <field name="booking_id.customer_id.first_name" string="Client First Name"/>
+    <field name="booking_id.customer_id.last_name" string="Client Last Name"/>
+    <field name="booking_id.customer_id.company" string="Client Company"/>
+    <field name="booking_id.customer_id.region_id.name" string="Client Region"/>
+    <field name="booking_id.customer_id.phone" string="Client Phone"/>
+    <field name="booking_id.customer_id.id_no" string="Client ID No."/>
+    <field name="booking_id.state" string="Booking Status"/>
+    <field name="booking_id.book_date"/>
+    <field name="booking_id.book_date_week"/>
+    <field name="booking_id.book_date_month"/>
+    <field name="truck_type_id.name" string="Truck Type"/>
+    <field name="amount"/>
+</pivot>

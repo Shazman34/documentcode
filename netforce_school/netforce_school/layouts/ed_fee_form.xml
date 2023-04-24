@@ -1,0 +1,14 @@
+<form model="ed.fee">
+    <field name="due_date"/>
+    <field name="title"/>
+    <separator/>
+    <field name="amount"/>
+    <field name="amount_paid"/>
+    <field name="amount_due"/>
+    <separator/>
+    <field name="student_id"/>
+    <related>
+        <action name="share"/>
+        <field name="payments"/>
+    </related>
+</form>

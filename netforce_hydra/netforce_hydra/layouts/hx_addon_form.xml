@@ -1,0 +1,11 @@
+<form model="hx.addon">
+    <field name="name"/>
+    <field name="title"/>
+    <field name="sequence"/>
+    <field name="version"/>
+    <newline/>
+    <field name="description"/>
+    <newline/>
+    <field name="plans" view="field_multi_select"/>
+    <field name="file"/>
+</form>

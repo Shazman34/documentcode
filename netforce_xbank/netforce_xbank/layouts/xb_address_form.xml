@@ -1,0 +1,11 @@
+<form model="xb.address">
+    <field name="account_id"/>
+    <field name="currency"/>
+    <field name="address"/>
+    <separator/>
+    <field name="balance0"/>
+    <field name="balance1"/>
+    <field name="balance2"/>
+    <field name="balance3"/>
+    <field name="balance10"/>
+</form>

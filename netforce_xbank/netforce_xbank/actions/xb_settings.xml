@@ -1,0 +1,7 @@
+<action>
+    <field name="view">form_view</field>
+    <field name="string">Settings</field>
+    <field name="model">xb.settings</field>
+    <field name="active_id">1</field>
+    <field name="menu">xb_menu</field>
+</action>

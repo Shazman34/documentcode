@@ -1,0 +1,19 @@
+<menu string="PMS">
+    <item string="Dashboard" action="ht_board"/>
+    <item string="Calendar" action="ht_calendar"/>
+    <item string="Reservations" action="ht_booking"/>
+    <item string="Guests" action="ht_guest"/>
+    <item string="Documents" action="ht_doc"/>
+    <!--<item string="Assignments" action="ht_assign"/>-->
+    <item string="Sync">
+        <item string="CloudBeds Sync" action="ht_sync"/>
+    </item>
+    <item string="Settings">
+        <item string="Accomodation Types" action="ht_accom_type"/>
+        <item string="Accomodations" action="ht_accom"/>
+        <item string="Amenities" action="ht_amenity"/>
+        <item string="Reservation Sources" action="ht_source"/>
+        <item string="Guest Categories" action="ht_guest_categ"/>
+        <item string="Rates" action="ht_rate"/>
+    </item>
+</menu>

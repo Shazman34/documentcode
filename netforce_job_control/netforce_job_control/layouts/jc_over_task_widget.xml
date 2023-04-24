@@ -1,0 +1,8 @@
+<list model="jc.job" colors='{"deadline,#f00":[["overdue","=",true]],"days_late,#f00":[["overdue","=",true]]}' noselect="1">
+    <field name="job_id"/>
+    <field name="name"/>
+    <field name="user_id"/>
+    <field name="deadline"/>
+    <field name="days_late"/>
+    <field name="overdue" invisible="1"/>
+</list>

@@ -1,0 +1,147 @@
+<form model="gt.customer">
+    <field name="number"/>
+    <field name="name"/>
+    <field name="email"/>
+    <field name="phone"/>
+    <newline/>
+    <field name="address"/>
+    <newline/>
+    <field name="categ_id"/>
+    <field name="create_time"/>
+    <separator string="Deposits"/>
+    <field name="dep_thb"/>
+    <newline/>
+    <field name="dep_96"/>
+    <field name="dep_96_thb"/>
+    <field name="dep_99"/>
+    <field name="dep_99_thb"/>
+    <separator string="Stock Balances"/>
+    <field name="bal_96"/>
+    <field name="bal_99"/>
+    <separator string="Confirmed Orders Summary"/>
+    <template type="hbs">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>96.5%</th>
+                    <th>Qty (bg)</th>
+                    <th>Avg (THB/bg)</th>
+                    <th>Total (THB)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Buy</td>
+                    <td>{{data.conf_buy_96_qty}}</td>
+                    <td>{{data.conf_buy_96_avg}}</td>
+                    <td>-{{data.conf_buy_96_amt}}</td>
+                </tr>
+                <tr>
+                    <td>Sell</td>
+                    <td>-{{data.conf_sell_96_qty}}</td>
+                    <td>{{data.conf_sell_96_avg}}</td>
+                    <td>{{data.conf_sell_96_amt}}</td>
+                </tr>
+                <tr>
+                    <td>Net</td>
+                    <td>{{data.conf_net_96_qty}}</td>
+                    <td></td>
+                    <td>{{data.conf_net_96_amt}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </template>
+    <field name="conf_buy_96_qty" invisible="1"/>
+    <field name="conf_buy_96_avg" invisible="1"/>
+    <field name="conf_buy_96_amt" invisible="1"/>
+    <field name="conf_sell_96_qty" invisible="1"/>
+    <field name="conf_sell_96_avg" invisible="1"/>
+    <field name="conf_sell_96_amt" invisible="1"/>
+    <field name="conf_net_96_qty" invisible="1"/>
+    <field name="conf_net_96_amt" invisible="1"/>
+    <template type="hbs">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>99.99%</th>
+                    <th>Qty (Kg)</th>
+                    <th>Avg (THB/bg)</th>
+                    <th>Avg (THB/kg)</th>
+                    <th>Total (THB)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Buy</td>
+                    <td>{{data.conf_buy_99_qty}}</td>
+                    <td>{{data.conf_buy_99_avg_bg}}</td>
+                    <td>{{data.conf_buy_99_avg}}</td>
+                    <td>-{{data.conf_buy_99_amt}}</td>
+                </tr>
+                <tr>
+                    <td>Sell</td>
+                    <td>-{{data.conf_sell_99_qty}}</td>
+                    <td>{{data.conf_sell_99_avg_bg}}</td>
+                    <td>{{data.conf_sell_99_avg}}</td>
+                    <td>{{data.conf_sell_99_amt}}</td>
+                </tr>
+                <tr>
+                    <td>Net</td>
+                    <td>{{data.conf_net_99_qty}}</td>
+                    <td></td>
+                    <td></td>
+                    <td>{{data.conf_net_99_amt}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </template>
+    <field name="conf_buy_99_qty" invisible="1"/>
+    <field name="conf_buy_99_avg" invisible="1"/>
+    <field name="conf_buy_99_amt" invisible="1"/>
+    <field name="conf_sell_99_qty" invisible="1"/>
+    <field name="conf_sell_99_avg" invisible="1"/>
+    <field name="conf_sell_99_amt" invisible="1"/>
+    <field name="conf_net_99_qty" invisible="1"/>
+    <field name="conf_net_99_amt" invisible="1"/>
+    <separator string="Matched Orders Summary"/>
+    <group columns="2">
+        <field name="match_net_96_qty"/>
+        <field name="match_net_96_amt" offset="4"/>
+    </group>
+    <group columns="2">
+        <field name="match_net_99_qty"/>
+        <field name="match_net_99_amt" offset="4"/>
+    </group>
+    <separator string="Completed Orders Summary"/>
+    <group columns="2">
+        <field name="done_net_96_qty"/>
+        <field name="done_net_96_amt" offset="4"/>
+    </group>
+    <group columns="2">
+        <field name="done_net_99_qty"/>
+        <field name="done_net_99_amt" offset="4"/>
+    </group>
+    <separator string="Margin"/>
+    <field name="margin"/>
+    <field name="min_margin"/>
+    <field name="margin_eq"/>
+    <field name="margin_mkt"/>
+    <field name="fake_deposit"/>
+    <separator string="Order Limits"/>
+    <field name="lim_buy_96"/>
+    <field name="lim_sell_96"/>
+    <newline/>
+    <field name="lim_buy_99"/>
+    <field name="lim_sell_99"/>
+    <separator string="Fees"/>
+    <field name="late_pay_fee"/>
+    <separator/>
+    <field name="refer_broker"/>
+    <related>
+        <field name="users"/>
+        <field name="bank_accounts"/>
+        <field name="orders"/>
+        <field name="payments"/>
+        <field name="deliveries"/>
+    </related>
+</form>

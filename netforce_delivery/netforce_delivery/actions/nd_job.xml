@@ -1,0 +1,9 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Delivery Jobs</field>
+    <field name="model">nd.job</field>
+    <field name="tabs">[["Today",[["today","=","true"]]],["Today+1",[["today_p1","=",true]]],["Today+2",[["today_p2","=",true]]],["All",[[]]]]</field>
+    <field name="group_field">driver_id</field>
+    <field name="group_field_path">driver_id</field>
+    <field name="menu">nd_menu</field>
+</action>

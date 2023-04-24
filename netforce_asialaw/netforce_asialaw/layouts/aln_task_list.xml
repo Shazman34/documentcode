@@ -1,0 +1,6 @@
+<list model="aln.task">
+    <field name="job_id"/>
+    <field name="date"/>
+    <field name="title"/>
+    <field name="access"/>
+</list>

@@ -1,0 +1,7 @@
+<list model="ed.attend">
+    <field name="date"/>
+    <field name="student_id"/>
+    <field name="course_id"/>
+    <field name="teacher_id"/>
+    <field name="state"/>
+</list>

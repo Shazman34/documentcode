@@ -1,0 +1,6 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Cities</field>
+    <field name="model">as.city</field>
+    <field name="menu">as_menu</field>
+</action>

@@ -1,0 +1,5 @@
+<form model="ed.group">
+    <field name="name"/>
+    <separator/>
+    <field name="students"/>
+</form>

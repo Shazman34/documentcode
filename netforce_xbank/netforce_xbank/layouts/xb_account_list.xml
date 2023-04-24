@@ -1,0 +1,8 @@
+<list model="xb.account">
+    <field name="name"/>
+    <field name="date_created"/>
+    <field name="balance_thb"/>
+    <field name="balance_xbt"/>
+    <field name="balance_ltc"/>
+    <field name="balance_eth"/>
+</list>

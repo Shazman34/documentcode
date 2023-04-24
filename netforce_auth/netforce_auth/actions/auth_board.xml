@@ -1,0 +1,6 @@
+<action>
+    <field name="view">board</field>
+    <field name="string">Dashboard</field>
+    <field name="view_xml">auth_board</field>
+    <field name="menu">auth_menu</field>
+</action>

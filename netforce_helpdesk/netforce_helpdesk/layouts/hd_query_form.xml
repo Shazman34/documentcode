@@ -1,0 +1,6 @@
+<form model="hd.query">
+    <field name="time"/>
+    <field name="query"/>
+    <field name="num_results"/>
+    <field name="ip_addr"/>
+</form>

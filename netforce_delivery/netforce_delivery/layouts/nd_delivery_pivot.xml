@@ -1,0 +1,14 @@
+<pivot model="nd.order.line" rows="order_id.route_id.driver_id.name" cols="order_id.state" vals="order_id.number" agg_name="Count Unique Values" search="order_id.delivery_date,order_id.customer_id,order_id.driver_id,product_id,product_id.categ_id,order_id.state">
+    <field name="order_id.number"/>
+    <field name="order_id.delivery_date"/>
+    <field name="order_id.month"/>
+    <field name="order_id.week"/>
+    <field name="order_id.customer_id.code"/>
+    <field name="order_id.customer_id.first_name"/>
+    <field name="order_id.route_id.driver_id.name"/>
+    <field name="order_id.route_id.round_id.period_id.name"/>
+    <field name="order_id.state"/>
+    <field name="product_id.name"/>
+    <field name="product_id.categ_id.name"/>
+    <field name="qty"/>
+</pivot>

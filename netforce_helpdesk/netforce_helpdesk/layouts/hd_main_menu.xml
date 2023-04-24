@@ -1,0 +1,5 @@
+<inherit inherit="main_menu">
+    <item string="Messaging" position="after">
+        <item string="Helpdesk" action="hd_article" addon="HELPDESK"/>
+    </item>
+</inherit>

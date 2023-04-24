@@ -1,0 +1,8 @@
+<list model="l2g.product">
+    <field name="name"/>
+    <field name="width"/>
+    <field name="height"/>
+    <field name="length"/>
+    <field name="thickness"/>
+    <field name="weight"/>
+</list>

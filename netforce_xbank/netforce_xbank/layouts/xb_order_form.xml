@@ -1,0 +1,9 @@
+<form model="xb.order">
+    <field name="number"/>
+    <field name="date_created"/>
+    <field name="account_id"/>
+    <field name="product_id"/>
+    <field name="unit_price"/>
+    <field name="qty"/>
+    <field name="amount"/>
+</form>

@@ -1,0 +1,7 @@
+<action>
+    <field name="view">multi_view</field>
+    <field name="string">Credit Card Tokens</field>
+    <field name="model">card.token</field>
+    <field name="tabs">[["Active",[["state","=","active"]]],["Inactive",[["state","=","inactive"]]]]</field>
+    <field name="menu">account_menu</field>
+</action>

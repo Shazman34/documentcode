@@ -1,0 +1,7 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Documents</field>
+    <field name="model">aln.doc</field>
+    <field name="tabs">[["All",[]],["Upload Requested",[["state","=","upload_request"]]],["Signature Requested",[["state","=","sign_request"]]],["Completed",[["state","=","done"]]]]</field>
+    <field name="menu">aln_menu</field>
+</action>

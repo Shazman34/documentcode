@@ -1,0 +1,7 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Truck Types</field>
+    <field name="model">l2g.truck.type</field>
+    <field name="tabs">[["All",[]],["Archived",[["active","=",false]]]]</field>
+    <field name="menu">l2g_menu</field>
+</action>

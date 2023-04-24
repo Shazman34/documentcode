@@ -1,0 +1,6 @@
+<list model="aln.message">
+    <field name="date"/>
+    <field name="client_id"/>
+    <field name="message"/>
+    <field name="task_id"/>
+</list>

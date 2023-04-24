@@ -1,0 +1,5 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="title">Addresses</field>
+    <field name="model">nd.address</field>
+</action>

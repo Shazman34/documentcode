@@ -1,0 +1,16 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Delivery Orders</field>
+    <field name="model">nd.order</field>
+    <field name="tabs">[["Today",[["today","=","true"]]],["Today+1",[["today_p1","=",true]]],["Today+2",[["today_p2","=",true]]],["All",[[]]]]</field>
+    <field name="order">delivery_date,route_id.round_id.period_id.time_from,route_id.driver_id.sequence,sequence,id</field>
+    <field name="group_field">user_id</field>
+    <field name="group_field_path">route_id.round_id.user_id</field>
+    <field name="subgroup_field">driver_id</field>
+    <field name="subgroup_field_path">route_id.driver_id</field>
+    <field name="import_action">nd_import_order</field>
+    <field name="modes">list,columns,map,form</field>
+    <field name="form_layout">nd_order_form</field>
+    <field name="auto_reload">5</field>
+    <field name="menu">nd_menu</field>
+</action>

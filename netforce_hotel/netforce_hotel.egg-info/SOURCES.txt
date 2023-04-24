@@ -1,0 +1,5 @@
+setup.py
+netforce_hotel.egg-info/PKG-INFO
+netforce_hotel.egg-info/SOURCES.txt
+netforce_hotel.egg-info/dependency_links.txt
+netforce_hotel.egg-info/top_level.txt

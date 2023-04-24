@@ -1,0 +1,29 @@
+<menu string="Education">
+    <item string="Dashboard" action="ed_board"/>
+    <item string="Students" action="ed_student"/>
+    <item string="Attendance" action="ed_attend"/>
+    <item string="Evaluation">
+        <item string="Evaluations" action="ed_eval"/>
+        <item string="Evaluation Results" action="ed_eval_result"/>
+    </item>
+    <item string="Communication">
+        <item string="Homework" action="ed_homework"/>
+        <item string="Events" action="ed_event"/>
+        <item string="Notices" action="ed_notice"/>
+        <item string="Appointments" action="ed_meeting"/>
+        <item string="Media" action="ed_media"/>
+    </item>
+    <item string="Fees">
+        <item string="Fees" action="ed_fee"/>
+        <item string="Payments" action="ed_payment"/>
+    </item>
+    <item string="Settings">
+        <item string="Periods" action="ed_period"/>
+        <item string="Teachers" action="ed_teacher"/>
+        <item string="Student Groups" action="ed_group"/>
+        <item string="Courses" action="ed_course"/>
+        <item string="School Calendar" action="ed_calendar"/>
+        <item string="Time Slots" action="ed_time"/>
+        <item string="Meal Plan" action="ed_meal"/>
+    </item>
+</menu>

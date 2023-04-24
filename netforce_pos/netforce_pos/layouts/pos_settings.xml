@@ -1,0 +1,19 @@
+<form model="pos.settings" title="POS Settings">
+    <field name="pos_contact_id"/>
+    <newline/>
+    <field name="pos_sale_account_id"/>
+    <newline/>
+    <field name="pos_location_id"/>
+    <newline/>
+    <field name="pos_pay_method_id"/>
+    <newline/>
+    <field name="pos_table_required"/>
+    <newline/>
+    <field name="pos_bills"/>
+    <newline/>
+    <field name="pos_logo"/>
+    <newline/>
+    <field name="pos_save_receipts"/>
+    <newline/>
+    <field name="pos_lock_date"/>
+</form>

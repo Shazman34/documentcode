@@ -1,0 +1,34 @@
+<menu string="Gold Trading">
+    <item string="Dashboard" action="gt_board"/>
+    <item string="Customers">
+        <item string="Customers" action="gt_customer"/>
+        <divider/>
+        <item string="Customer Deposits" action="gt_cust_deposit"/>
+        <divider/>
+        <item string="Customer Orders" action="gt_cust_order"/>
+        <item string="Customer Matches" action="gt_cust_match"/>
+        <divider/>
+        <item string="Customer Payments" action="gt_cust_payment"/>
+        <item string="Customer Deliveries" action="gt_cust_delivery"/>
+    </item>
+    <item string="Suppliers">
+        <item string="Suppliers" action="gt_supplier"/>
+        <item string="Supplier Orders" action="gt_sup_order"/>
+    </item>
+    <item string="Prices">
+        <item string="Price Parameters" action="gt_price_param"/>
+        <item string="Current Prices" action="gt_price"/>
+    </item>
+    <item string="Settings">
+        <item string="Market Settings" action="gt_mkt_settings"/>
+        <item string="Customer Categories" action="gt_cust_categ"/>
+        <item string="Price Parameter Groups" action="gt_price_param_group"/>
+        <item string="Other Settings" action="gt_settings"/>
+    </item>
+    <item string="Reports">
+        <item string="Profit &amp; Loss" action="gt_pl_report"/>
+        <item string="Customer Balance History" action="gt_cust_bal_report"/>
+        <item string="Customer Order Analysis" action="gt_cust_order_analysis"/>
+        <item string="Supplier Order Analysis" action="gt_sup_order_analysis"/>
+    </item>
+</menu>

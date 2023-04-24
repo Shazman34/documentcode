@@ -1,0 +1,8 @@
+<inherit inherit="ecom2_cart_form">
+    <field name="transaction_no" position="after">
+        <separator/>
+        <field name="pos_table_id"/>
+        <newline/>
+        <field name="pos_pay_amounts"/>
+    </field>
+</inherit>

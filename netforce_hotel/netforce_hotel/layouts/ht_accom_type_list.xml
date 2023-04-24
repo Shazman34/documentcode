@@ -1,0 +1,9 @@
+<list model="ht.accom.type">
+    <field name="sequence"/>
+    <field name="name"/>
+    <field name="code"/>
+    <field name="num_units"/>
+    <field name="max_persons"/>
+    <field name="description"/>
+    <field name="product_id"/>
+</list>

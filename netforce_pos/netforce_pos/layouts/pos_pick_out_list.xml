@@ -1,0 +1,7 @@
+<list model="stock.picking">
+    <field name="number"/>
+    <field name="date"/>
+    <field name="contact_id"/>
+    <field name="related_id"/>
+    <field name="state"/>
+</list>

@@ -1,0 +1,15 @@
+<home_m title="e.Education">
+    <item title="Attendance" color="#0ef" icon="ios-checkmark" action="ed_attend_m"/>
+    <item title="Time Table" color="#5bf" icon="ios-time-outline" action="ed_time_m"/>
+    <item title="Review" color="#76f" icon="ios-thumbs-up-outline" action="ed_review_m"/>
+    <item title="Calendar" color="#69f" icon="ios-calendar" action="ed_calendar_m"/>
+    <item title="Events" color="#7c0" icon="ios-star" action="ed_event_m"/>
+    <item title="Notices" color="#73f" icon="ios-mail" action="ed_notice_m"/>
+    <item title="Payment" color="#7f3" icon="ios-cash" action="ed_fee_m"/>
+    <item title="Homework" color="#c4f" icon="ios-paper" action="ed_homework_m"/>
+    <item title="Meal Plan" color="#0af" icon="ios-nutrition" action="ed_meal_m"/>
+    <item title="Progress" color="#64b" icon="ios-trending-up" action="ed_eval_result_m"/>
+    <item title="Media" color="#bc0" icon="ios-play" action="ed_media_m"/>
+    <item title="Call Support" color="#874" icon="ios-call" action="ed_support_m"/>
+    <item title="Appointment" color="#e50" icon="ios-calendar-outline" action="ed_meeting_m"/>
+</home_m>

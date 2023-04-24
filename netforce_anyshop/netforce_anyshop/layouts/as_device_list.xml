@@ -1,0 +1,5 @@
+<list model="as.device">
+    <field name="date_add"/>
+    <field name="code"/>
+    <field name="model"/>
+</list>

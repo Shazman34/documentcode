@@ -1,0 +1,4 @@
+<form model="nd.report.return">
+    <field name="date_from"/>
+    <field name="date_to"/>
+</form>

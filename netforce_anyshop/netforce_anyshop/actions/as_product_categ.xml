@@ -1,0 +1,6 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Product Categories</field>
+    <field name="model">as.product.categ</field>
+    <field name="menu">as_menu</field>
+</action>

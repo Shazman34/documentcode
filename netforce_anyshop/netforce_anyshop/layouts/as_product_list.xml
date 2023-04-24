@@ -1,0 +1,11 @@
+<list model="as.product">
+    <field name="image"/>
+    <field name="date_add"/>
+    <field name="shop_id"/>
+    <field name="categ_id"/>
+    <field name="name"/>
+    <field name="condition"/>
+    <field name="sale_price"/>
+    <field name="allow_meetup"/>
+    <field name="allow_delivery"/>
+</list>

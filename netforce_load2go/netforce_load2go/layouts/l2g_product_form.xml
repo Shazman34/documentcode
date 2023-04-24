@@ -1,0 +1,24 @@
+<form model="l2g.product">
+    <field name="name"/>
+    <separator string="Dimensions"/>
+    <field name="width"/>
+    <field name="height"/>
+    <field name="length"/>
+    <field name="thickness"/>
+    <separator string="Weight"/>
+    <field name="weight"/>
+    <related>
+        <!--<field name="options">
+            <list>
+                <field name="name"/>
+                <field name="weight"/>
+                <field name="sequence"/>
+            </list>
+            <form>
+                <field name="name"/>
+                <field name="weight"/>
+                <field name="sequence"/>
+            </form>
+        </field>-->
+    </related>
+</form>

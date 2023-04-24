@@ -1,0 +1,4 @@
+<list model="as.region">
+    <field name="country_id"/>
+    <field name="name"/>
+</list>

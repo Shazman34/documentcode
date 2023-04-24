@@ -1,0 +1,6 @@
+<form model="aln.bill.req">
+    <field name="date"/>
+    <field name="client_id"/>
+    <field name="job_id"/>
+    <field name="amount"/>
+</form>

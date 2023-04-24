@@ -1,0 +1,7 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Search Queries</field>
+    <field name="model">hd.query</field>
+    <field name="tabs">[["All",[]],["No Results",["num_results","=",0]]]</field>
+    <field name="menu">hd_menu</field>
+</action>

@@ -1,0 +1,5 @@
+<action>
+    <field name="view">print_wizard2</field>
+    <field name="model">time.entry</field>
+    <field name="menu">jc_service_menu</field>
+</action>

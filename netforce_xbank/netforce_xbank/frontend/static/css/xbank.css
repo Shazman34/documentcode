@@ -1,0 +1,37 @@
+.xb-price-big {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.xb-product {
+    font-size: 20px;
+}
+
+.xb-price-table td {
+    text-align: center;
+}
+
+.xb-price-table td a {
+    color: #333;
+}
+
+.xb-price-table th {
+    text-align: center;
+}
+
+.xb-price-up {
+    color: green !important;
+}
+
+.xb-price-down {
+    color: red !important;
+}
+
+.xb-price-time {
+    color: #666;
+    font-size: 12px;
+}
+
+.xb-input-qty {
+    width: 100px;
+}

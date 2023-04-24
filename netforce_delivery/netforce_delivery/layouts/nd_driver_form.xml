@@ -1,0 +1,14 @@
+<form model="nd.driver">
+    <field name="name"/>
+    <field name="mobile"/>
+    <field name="sequence"/>
+    <separator/>
+    <field name="coords"/>
+    <field name="bat_level"/>
+    <separator/>
+    <field name="track_id"/>
+    <related>
+        <field name="rounds"/>
+        <field name="jobs"/>
+    </related>
+</form>

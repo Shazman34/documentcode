@@ -1,0 +1,4 @@
+<action>
+    <field name="view">l2g_map</field>
+    <field name="menu">l2g_menu</field>
+</action>

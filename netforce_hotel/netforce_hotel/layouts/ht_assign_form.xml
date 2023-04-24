@@ -1,0 +1,13 @@
+<form model="ht.assign">
+    <field name="booking_id"/>
+    <field name="num_guests"/>
+    <newline/>
+    <field name="accom_type_id" onchange="update_amount"/>
+    <field name="accom_id" condition='[["accom_type_id","=",accom_type_id]]' onchange="update_amount"/>
+    <newline/>
+    <field name="from_date" onchange="update_amount"/>
+    <field name="to_date" onchange="update_amount"/>
+    <newline/>
+    <field name="num_nights"/>
+    <field name="amount"/>
+</form>

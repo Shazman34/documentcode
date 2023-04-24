@@ -1,0 +1,6 @@
+<list_m model="ed.eval.result">
+    <field name="eval_id"/>
+    <field name="score"/>
+    <newline/>
+    <field name="student_id"/>
+</list_m>

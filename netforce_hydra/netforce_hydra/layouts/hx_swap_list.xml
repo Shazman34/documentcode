@@ -1,0 +1,13 @@
+<list model="hx.swap">
+    <field name="time"/>
+    <field name="number"/>
+    <field name="rfq_id"/>
+    <field name="quote_id"/>
+    <field name="from_user_id"/>
+    <field name="from_asset"/>
+    <field name="from_qty"/>
+    <field name="to_user_id"/>
+    <field name="to_asset"/>
+    <field name="to_qty"/>
+    <field name="state"/>
+</list>

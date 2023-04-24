@@ -1,0 +1,11 @@
+<menu string="POS">
+    <item string="Dashboard" action="pos_board"/>
+    <item string="Sales" action="pos_sale"/>
+    <item string="Goods Receipt" action="pos_receive_list"/>
+    <item string="Goods Issue" action="pos_pack_list"/>
+    <item string="Goods Transfer" action="pos_trans_list"/>
+    <item string="Settings">
+        <item string="POS Settings" action="pos_settings"/>
+        <item string="Tables" action="pos_table"/>
+    </item>
+</menu>

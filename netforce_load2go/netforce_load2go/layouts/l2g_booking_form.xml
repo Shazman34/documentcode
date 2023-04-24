@@ -1,0 +1,117 @@
+<form model="l2g.booking">
+<!--<form model="l2g.booking" attrs='{"readonly":[["state","!=","draft"]]}'>-->
+    <top>
+        <button string="Options">
+            <item string="Update Distance" method="update_distance"/>
+            <item string="Update Prices" method="update_prices"/>
+            <item string="Update Distance And Prices" method="update_distance_prices"/>
+        </button>
+    </top>
+    <head>
+        <field name="state"/>
+    </head>
+    <field name="number"/>
+    <field name="device_id"/>
+    <field name="customer_id"/>
+    <separator/>
+    <field name="create_date"/>
+    <field name="confirm_date"/>
+    <field name="book_date"/>
+    <field name="unload_date"/>
+    <separator string="From"/>
+    <field name="load_addr_json" view="field_location" view_options='{"country":"my"}' onchange="onchange_load_addr"/>
+    <newline/>
+    <field name="load_addr"/>
+    <field name="load_coords"/>
+    <newline/>
+    <field name="from_country"/>
+    <field name="from_country_id"/>
+    <newline/>
+    <field name="from_province"/>
+    <field name="from_province_id"/>
+    <newline/>
+    <field name="from_district"/>
+    <separator string="To"/>
+    <field name="delivery_addr_json" view="field_location" view_options='{"country":"my"}' onchange="onchange_delivery_addr"/>
+    <newline/>
+    <field name="delivery_addr"/>
+    <field name="delivery_coords"/>
+    <newline/>
+    <field name="to_country"/>
+    <field name="to_country_id"/>
+    <newline/>
+    <field name="to_province"/>
+    <field name="to_province_id"/>
+    <newline/>
+    <field name="to_district"/>
+    <separator/>
+    <field name="distance"/>
+    <field name="product_weight"/>
+    <field name="pricelist_id"/>
+    <field name="lines">
+        <list>
+            <field name="truck_type_id"/>
+            <field name="weight_range_id"/>
+            <field name="qty"/>
+            <field name="price"/>
+            <field name="driver_price"/>
+            <field name="price_id"/>
+            <field name="customer_cancel_fee"/>
+            <field name="driver_cancel_fee"/>
+        </list>
+    </field>
+    <field name="product_type_id"/>
+    <separator/>
+    <field name="add_amount"/>
+    <field name="late_amount"/>
+    <newline/>
+    <field name="price_total"/>
+    <field name="driver_price_total"/>
+    <newline/>
+    <field name="state"/>
+    <field name="user_id"/>
+    <separator/>
+    <field name="has_custom"/>
+    <field name="approve_custom"/>
+    <separator/>
+    <field name="pmt_trans_id"/>
+    <field name="pmt_auth_code"/>
+    <separator/>
+    <field name="labor_load"/>
+    <field name="labor_unload"/>
+    <field name="return_trip"/>
+    <field name="is_late"/>
+    <field name="late_rate"/>
+    <field name="comments"/>
+    <separator string="Other Charges"/>
+    <field name="charge_levy_id" condition='[["type","=","levy"],["from_country_id","=",from_country_id],["to_country_id","=",to_country_id]]'/>
+    <field name="charge_customs_id" condition='[["type","=","customs"],["from_country_id","=",from_country_id],["to_country_id","=",to_country_id]]'/>
+    <newline/>
+    <field name="agent_company"/>
+    <field name="agent_contact"/>
+    <field name="agent_phone"/>
+    <separator/>
+    <field name="invoice_id"/>
+    <foot>
+        <button string="Confirm" method="confirm" states="draft" type="success" icon="arrow-right"/>
+        <button string="Confirm (No Notifs)" method="confirm_no_notifs" states="draft" icon="arrow-right"/>
+    </foot>
+    <related>
+        <field name="products">
+            <list>
+                <field name="product_id"/>
+                <field name="qty"/>
+                <field name="weight" show_total="1"/>
+                <field name="width"/>
+                <field name="height"/>
+                <field name="length"/>
+                <field name="thickness"/>
+            </list>
+            <form>
+                <field name="product_id"/>
+                <field name="qty"/>
+            </form>
+        </field>
+        <field name="jobs"/>
+    </related>
+</form>

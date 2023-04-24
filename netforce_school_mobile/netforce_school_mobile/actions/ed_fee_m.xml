@@ -1,0 +1,5 @@
+<action>
+    <field name="view">list_m</field>
+    <field name="title">Fees</field>
+    <field name="model">ed.fee</field>
+</action>

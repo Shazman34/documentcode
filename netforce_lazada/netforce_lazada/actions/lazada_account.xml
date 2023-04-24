@@ -1,0 +1,7 @@
+<action>
+    <field name="string">Lazada Accounts</field>
+    <field name="view">multi_view</field>
+    <field name="model">lazada.account</field>
+    <field name="menu">lazada_menu</field>
+    <field name="theme">orange</field>
+</action>

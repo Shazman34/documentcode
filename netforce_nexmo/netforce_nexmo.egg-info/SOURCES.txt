@@ -1,0 +1,5 @@
+setup.py
+netforce_nexmo.egg-info/PKG-INFO
+netforce_nexmo.egg-info/SOURCES.txt
+netforce_nexmo.egg-info/dependency_links.txt
+netforce_nexmo.egg-info/top_level.txt

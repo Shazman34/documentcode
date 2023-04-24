@@ -1,0 +1,5 @@
+<action>
+    <field name="view">home_m</field>
+    <field name="title">Home</field>
+    <field name="layout">ed_home_m</field>
+</action>

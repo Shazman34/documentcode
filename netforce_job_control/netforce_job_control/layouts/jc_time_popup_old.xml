@@ -1,0 +1,12 @@
+<form model="time.entry" form_layout="stacked" show_save="1" show_delete="1" body_color="#e8f1ff" foot_color="#d7e7ff" columns="2" priority="30">
+    <field name="jc_job_id" condition='[["involved_user_id","=",user_id]]' onchange="onchange_job" required="1"/>
+    <field name="user_id"/>
+    <field name="date"/>
+    <field name="actual_hours" view="field_duration" onchange="onchange_actual_hours" required="1"/>
+    <field name="start_time" onchange="onchange_start_time" required="1"/>
+    <field name="end_time" onchange="onchange_end_time" required="1"/>
+    <field name="description"/>
+    <field name="notes"/>
+    <field name="rate"/>
+    <field name="timer_start" invisible="1"/>
+</frm>

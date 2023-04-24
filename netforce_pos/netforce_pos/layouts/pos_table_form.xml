@@ -1,0 +1,7 @@
+<form model="pos.table">
+    <field name="number"/>
+    <field name="name"/>
+    <related>
+        <field name="carts"/>
+    </related>
+</form>

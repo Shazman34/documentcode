@@ -1,0 +1,5 @@
+<form model="nd.report.driver.pay">
+    <field name="date_from"/>
+    <field name="date_to"/>
+    <field name="driver_id"/>
+</form>

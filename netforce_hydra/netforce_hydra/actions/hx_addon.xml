@@ -1,0 +1,6 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Add-Ons</field>
+    <field name="model">hx.addon</field>
+    <field name="menu">hx_menu</field>
+</action>

@@ -1,0 +1,13 @@
+<menu string="Anyshop">
+    <item string="Dashboard" action="as_board"/>
+    <item string="Devices" action="as_device"/>
+    <item string="Users" action="as_user"/>
+    <item string="Shops" action="as_shop"/>
+    <item string="Product Categories" action="as_product_categ"/>
+    <item string="Products" action="as_product"/>
+    <item string="Settings">
+        <item string="Countries" action="as_country"/>
+        <item string="Regions" action="as_region"/>
+        <item string="Cities" action="as_city"/>
+    </item>
+</menu>

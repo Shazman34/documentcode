@@ -1,0 +1,34 @@
+<form model="ht.booking">
+    <head>
+        <field name="state"/>
+        <button string="Options">
+            <item string="Copy To Invoice" method="copy_to_invoice"/>
+        </button>
+    </head>
+    <field name="number"/>
+    <field name="date"/>
+    <field name="guest_id"/>
+    <field name="source_id"/>
+    <field name="from_date"/>
+    <field name="to_date"/>
+    <field name="num_guests"/>
+    <field name="num_nights"/>
+    <field name="est_arrival_time" view="field_time"/>
+    <separator/>
+    <field name="state"/>
+    <separator/>
+    <field name="amount_total"/>
+    <field name="amount_paid"/>
+    <separator/>
+    <field name="invoice_id"/>
+    <field name="payment_id"/>
+    <foot>
+        <button string="Confirm" type="success" icon="ok" method="confirm" states="in_progress"/>
+        <button string="Check In" icon="arrow-right" method="check_in" states="confirmed"/>
+        <button string="Check Out" icon="arrow-right" method="check_out" states="checked_in"/>
+    </foot>
+    <related>
+        <field name="assigns"/>
+        <field name="docs"/>
+    </related>
+</form>

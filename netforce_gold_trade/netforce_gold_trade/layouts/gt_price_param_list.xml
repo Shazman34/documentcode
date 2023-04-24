@@ -1,0 +1,16 @@
+<list model="gt.price.param" group_field="group_id" group_color_field="group_color" no_click="1">
+    <top>
+        <button string="Upload Params" method="upload_params" icon="upload"/>
+    </top>
+    <field name="group_id" invisible="1"/>
+    <field name="group_color" invisible="1"/>
+    <field name="name"/>
+    <field name="value" string="Value"/>
+    <field name="value" string="New Value" view="field_decimal_save"/>
+    <field name="time_from"/>
+    <field name="time_to"/>
+    <field name="weekday"/>
+    <field name="description"/>
+    <field name="write_time"/>
+    <button string="Edit" icon="pencil" action="gt_price_param_popup" action_options='{"active_id":id}'/>
+</list>

@@ -1,0 +1,7 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Lawyers</field>
+    <field name="model">aln.lawyer</field>
+    <field name="tabs">[["All",[]],["Lawyers",[["is_lawyer","=",true]]],["Counsels",[["is_counsel","=",true]]]]</field>
+    <field name="menu">aln_menu</field>
+</action>

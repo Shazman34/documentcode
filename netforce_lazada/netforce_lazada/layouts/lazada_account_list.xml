@@ -1,0 +1,13 @@
+<list model="lazada.account">
+    <head>
+        <button string="Get Products" method="get_products" show_progress="1"/>
+        <button string="Get Products Categories" method="get_products_categories" show_progress="1"/>
+        <button string="Download Orders" method="get_orders" show_progress="1"/>
+        <button string="Download Payments" method="get_payments" show_progress="1"/>
+    </head>
+    <field name="name"/>
+    <field name="shop_idno"/>
+    <!--<field name="pricelist_id"/>-->
+    <field name="stock_journal_id"/>
+    <field name="contact_id"/>
+</list>

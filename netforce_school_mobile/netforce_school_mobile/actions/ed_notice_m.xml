@@ -1,0 +1,5 @@
+<action>
+    <field name="view">list_m</field>
+    <field name="title">Notices</field>
+    <field name="model">ed.notice</field>
+</action>

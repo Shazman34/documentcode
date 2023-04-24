@@ -1,0 +1,18 @@
+<page model="settings" title="Billing">
+    <head>
+        <button string="Change Price Plan" action="change_price_plan" icon="refresh"/>
+        <button string="Add Credit Card" action="bill_add_card" icon="plus"/>
+        <button string="Pay With Paypal" method="pay_paypal" icon="arrow-right"/>
+    </head>
+    <field name="bill_plan_id"/>
+    <field name="bill_plan_cost"/>
+    <newline/>
+    <field name="bill_addon_cost"/>
+    <field name="bill_month_cost"/>
+    <newline/>
+    <field name="bill_balance"/>
+    <related_tabs>
+        <tab string="Billing Periods" action="bill_period"/>
+        <tab string="Credit Cards" action="bill_credit_card"/>
+    </related_tabs>
+</page>

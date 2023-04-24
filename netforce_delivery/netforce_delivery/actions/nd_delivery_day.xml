@@ -1,0 +1,8 @@
+<action>
+    <field name="view">chart</field>
+    <field name="chart_type">line</field>
+    <field name="model">nd.order</field>
+    <field name="method">get_deliveries_per_day</field>
+    <field name="x_type">datetime</field>
+    <field name="height">200</field>
+</action>

@@ -1,0 +1,6 @@
+<list model="addon" colors='{"#cfc":[["state","=","installed"]]}'>
+    <field name="name"/>
+    <field name="plan_price"/>
+    <field name="description"/>
+    <field name="state"/>
+</list>

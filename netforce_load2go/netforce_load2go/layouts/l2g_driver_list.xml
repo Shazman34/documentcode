@@ -1,0 +1,20 @@
+<list model="l2g.driver">
+    <head>
+        <button string="Clear Wallet Balance" method="clear_bal"/>
+    </head>
+    <field name="phone"/>
+    <field name="first_name"/>
+    <field name="last_name"/>
+    <field name="manual"/>
+    <field name="id_no"/>
+    <field name="company"/>
+    <field name="transporter_id"/>
+    <field name="group_id"/>
+    <field name="truck_type_id"/>
+    <field name="plate_no"/>
+    <field name="register_date"/>
+    <field name="state"/>
+    <field name="driver_type"/>
+    <field name="remarks"/>
+    <field name="contact_id"/>
+</list>

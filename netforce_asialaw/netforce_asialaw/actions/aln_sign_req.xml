@@ -1,0 +1,7 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Signing Requests</field>
+    <field name="model">aln.sign.req</field>
+    <field name="tabs">[["All",[]],["Draft",[["state","=","draft"]]],["Awaiting Signature",[["state","=","wait_sign"]]],["Signed",[["state","=","signed"]]]]</field>
+    <field name="menu">aln_menu</field>
+</action>

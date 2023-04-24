@@ -1,0 +1,6 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Guests</field>
+    <field name="model">ht.guest</field>
+    <field name="menu">ht_menu</field>
+</action>

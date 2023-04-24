@@ -1,0 +1,5 @@
+<action>
+    <field name="view">delivery_map</field>
+    <field name="string">Delivery Map</field>
+    <field name="menu">nd_menu</field>
+</action>

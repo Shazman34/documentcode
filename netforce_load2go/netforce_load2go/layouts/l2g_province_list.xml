@@ -1,0 +1,6 @@
+<list model="l2g.province">
+    <field name="name"/>
+    <field name="disable_pickup"/>
+    <field name="disable_delivery"/>
+    <field name="price_extra_percent"/>
+</list>

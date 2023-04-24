@@ -1,0 +1,8 @@
+<action>
+    <field name="string">Lazada Orders</field>
+    <field name="view">multi_view</field>
+    <field name="model">lazada.order</field>
+    <field name="tabs">[["ALL",[]],["UNPAID",[["order_status","=","Unpaid"]]],["PENDING",[["order_status","=","Pending"]]],["REPACKED",[["order_status","=","Repacked"]]],["PACKED",[["order_status","=","Packed"]]],["READY TO SHIP PENDING",[["order_status","=","Ready_to_ship_pending"]]],["READY TO SHIP",[["order_status","=","Ready_to_ship"]]],["SHIPPING",[["order_status","=","Shipping"]]],["DELIVERED",[["order_status","=","Delivered"]]],["CANCELED",[["order_status","=","Canceled"]]],["NOT CAPTURED",[["order_status","not in",["UNPAID","PENDING","REPACKED","PACKED","READY_TO_SHIP_PENDING","READY_TO_SHIP","SHIPPING","DELIVERED","CANCELED"]]]]]</field>
+    <field name="menu">lazada_menu</field>
+    <field name="theme">orange</field>
+</action>

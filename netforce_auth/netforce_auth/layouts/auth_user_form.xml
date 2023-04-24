@@ -1,0 +1,11 @@
+<form model="auth.user">
+    <field name="email"/>
+    <field name="password"/>
+    <field name="first_name"/>
+    <field name="last_name"/>
+    <field name="orgs">
+        <list>
+            <field name="name"/>
+        </list>
+    </field>
+</form>

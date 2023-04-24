@@ -1,0 +1,6 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Reservation Sources</field>
+    <field name="model">ht.source</field>
+    <field name="menu">ht_menu</field>
+</action>

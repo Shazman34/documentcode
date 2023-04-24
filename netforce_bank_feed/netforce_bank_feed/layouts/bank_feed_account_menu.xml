@@ -1,0 +1,5 @@
+<inherit inherit="account_menu">
+    <item string="Conversion Balances" position="after">
+        <item string="Bank Feeds" action="bank_feed"/>
+    </item>
+</inherit>

@@ -1,0 +1,13 @@
+<list model="xb.address">
+    <top>
+        <button string="Update Balances" method="update_balance" icon="refresh"/>
+    </top>
+    <field name="account_id"/>
+    <field name="currency"/>
+    <field name="address"/>
+    <field name="balance0"/>
+    <field name="balance1"/>
+    <field name="balance2"/>
+    <field name="balance3"/>
+    <field name="balance10"/>
+</list>

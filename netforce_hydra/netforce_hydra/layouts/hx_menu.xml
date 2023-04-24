@@ -1,0 +1,15 @@
+<menu string="HydraX">
+    <item string="Dashboard" action="hx_board"/>
+    <item string="Users" action="hx_user"/>
+    <item string="RFQs" action="hx_rfq"/>
+    <item string="Quotes" action="hx_quote"/>
+    <item string="Swaps" action="hx_swap"/>
+    <item string="Posts" action="hx_post"/>
+    <item string="Comments" action="hx_comment"/>
+    <item string="Chat" action="hx_chat"/>
+    <item string="Settings">
+        <item string="Price Plans" action="hx_plan"/>
+        <item string="Exchanges" action="hx_exchange"/>
+        <item string="Add-Ons" action="hx_addon"/>
+    </item>
+</menu>

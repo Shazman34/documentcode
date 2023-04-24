@@ -1,0 +1,13 @@
+<list model="card.token">
+    <head>
+        <button string="Add missing names" method="add_missing_names"/>
+    </head>
+    <field name="add_time"/>
+    <field name="contact_id"/>
+    <field name="mask_card"/>
+    <field name="exp_month"/>
+    <field name="exp_year"/>
+    <field name="name"/>
+    <field name="state"/>
+    <field name="token_type"/>
+</list>

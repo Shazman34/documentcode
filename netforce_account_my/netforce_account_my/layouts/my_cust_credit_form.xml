@@ -1,0 +1,6 @@
+<inherit inherit="cust_credit_form">
+    <tab string="Other Info" position="append">
+        <newline/>
+        <field name="bad_debt"/>
+    </tab>
+</inherit>

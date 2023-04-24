@@ -1,0 +1,14 @@
+<form_m model="ed.fee">
+    <field name="due_date"/>
+    <field name="amount"/>
+    <newline/>
+    <field name="amount_paid"/>
+    <field name="amount_due"/>
+    <newline/>
+    <field name="title"/>
+    <newline/>
+    <field name="student_id"/>
+    <related>
+        <field name="payments"/>
+    </related>
+</form_m>

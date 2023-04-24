@@ -1,0 +1,6 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Members</field>
+    <field name="model">gf.member</field>
+    <field name="menu">gf_menu</field>
+</action>

@@ -1,0 +1,6 @@
+<action>
+    <field name="view">multi_view</field>
+    <field name="string">Organizations</field>
+    <field name="model">auth.org</field>
+    <field name="menu">auth_menu</field>
+</action>

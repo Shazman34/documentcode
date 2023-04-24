@@ -1,0 +1,12 @@
+<list model="aln.lawyer">
+    <field name="picture"/>
+    <field name="first_name"/>
+    <field name="last_name"/>
+    <field name="email"/>
+    <field name="designation"/>
+    <field name="firm_id"/>
+    <field name="company_id"/>
+    <field name="designation"/>
+    <field name="phone"/>
+    <field name="qc_phone"/>
+</list>

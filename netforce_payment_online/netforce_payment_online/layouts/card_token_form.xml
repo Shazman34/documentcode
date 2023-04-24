@@ -1,0 +1,11 @@
+<form model="card.token">
+    <field name="add_time"/>
+    <field name="contact_id"/>
+    <field name="mask_card"/>
+    <field name="exp_month"/>
+    <field name="exp_year"/>
+    <field name="name"/>
+    <field name="state"/>
+    <field name="token_type"/>
+    <field name="token"/>
+</form>

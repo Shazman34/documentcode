@@ -1,0 +1,5 @@
+<inherit inherit="ecom2_cart_list">
+    <field name="customer_id" position="after">
+        <field name="pos_table_id"/>
+    </field>
+</inherit>

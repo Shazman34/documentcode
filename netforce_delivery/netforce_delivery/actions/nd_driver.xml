@@ -1,0 +1,6 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Drivers</field>
+    <field name="model">nd.driver</field>
+    <field name="menu">nd_menu</field>
+</action>

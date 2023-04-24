@@ -1,0 +1,6 @@
+<action>
+    <field name="view">board</field>
+    <field name="string">PMS Dashboard</field>
+    <field name="layout">ht_board</field>
+    <field name="menu">ht_menu</field>
+</action>

@@ -1,0 +1,6 @@
+<form model="gt.cust.bal.report">
+    <group form_layout="stacked">
+        <field name="customer_id" span="2"/>
+        <field name="date" span="2"/>
+    </group>
+</form>

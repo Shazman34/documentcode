@@ -1,0 +1,5 @@
+<list model="aln.company">
+    <field name="name"/>
+    <field name="page_name"/>
+    <field name="phone"/>
+</list>

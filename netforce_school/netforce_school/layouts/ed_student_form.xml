@@ -1,0 +1,15 @@
+<form model="ed.student">
+    <field name="first_name"/>
+    <field name="middle_name"/>
+    <field name="last_name"/>
+    <field name="gender"/>
+    <separator/>
+    <field name="birth_date"/>
+    <field name="country_id"/>
+    <field name="religion"/>
+    <field name="blood_group"/>
+    <separator/>
+    <field name="apply_date"/>
+    <separator/>
+    <field name="groups"/>
+</form>

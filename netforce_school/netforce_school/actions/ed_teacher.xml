@@ -1,0 +1,6 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Teachers</field>
+    <field name="model">ed.teacher</field>
+    <field name="menu">ed_menu</field>
+</action>

@@ -1,0 +1,12 @@
+<form_m model="ed.homework">
+    <field name="date"/>
+    <field name="course_id"/>
+    <newline/>
+    <field name="title"/>
+    <newline/>
+    <field name="group_id"/>
+    <newline/>
+    <field name="description"/>
+    <newline/>
+    <field name="title"/>
+</form_m>

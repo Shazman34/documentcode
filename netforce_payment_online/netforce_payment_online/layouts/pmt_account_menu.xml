@@ -1,0 +1,8 @@
+<inherit inherit="account_menu">
+    <item string="Statements" position="after">
+        <divider/>
+        <header string="Online Payment"/>
+        <item string="Payment Transactions" action="payment_transaction"/>
+        <item string="Credit Card Tokens" action="card_token"/>
+    </item>
+</inherit>

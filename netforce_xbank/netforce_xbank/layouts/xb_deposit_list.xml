@@ -1,0 +1,11 @@
+<list model="xb.deposit">
+    <top>
+        <button string="Check Received Payments" method="check_received"/>
+    </top>
+    <field name="number"/>
+    <field name="date_created"/>
+    <field name="account_id"/>
+    <field name="currency"/>
+    <field name="amount"/>
+    <field name="state"/>
+</list>

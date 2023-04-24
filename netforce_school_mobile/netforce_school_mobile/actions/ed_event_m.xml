@@ -1,0 +1,5 @@
+<action>
+    <field name="view">list_m</field>
+    <field name="title">Events</field>
+    <field name="model">ed.event</field>
+</action>

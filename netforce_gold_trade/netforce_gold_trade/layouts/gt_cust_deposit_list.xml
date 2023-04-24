@@ -1,0 +1,11 @@
+<list model="gt.cust.deposit">
+    <field name="number"/>
+    <field name="create_time"/>
+    <field name="customer_id"/>
+    <field name="direction"/>
+    <field name="type"/>
+    <field name="product"/>
+    <field name="qty"/>
+    <field name="amount"/>
+    <field name="state"/>
+</list>

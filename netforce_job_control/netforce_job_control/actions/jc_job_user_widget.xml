@@ -1,0 +1,7 @@
+<action>
+    <field name="view_cls">chart_view</field>
+    <field name="model">jc.report</field>
+    <field name="method">jobs_per_user</field>
+    <field name="chart_type">bar</field>
+    <field name="onclick_action">click_user</field>
+</action>

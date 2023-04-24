@@ -1,0 +1,25 @@
+<form model="gt.sup.order" attrs='{"readonly":[["state","=","done"]]}'>
+    <top>
+        <button string="Options">
+            <item string="To Draft" method="to_draft" states="confirmed"/>
+        </button>
+    </top>
+    <head>
+        <field name="state"/>
+    </head>
+    <field name="number"/>
+    <field name="time"/>
+    <field name="symbol"/>
+    <field name="side"/>
+    <field name="order_type"/>
+    <field name="qty_kg"/>
+    <field name="qty_oz"/>
+    <field name="price"/>
+    <field name="amount"/>
+    <field name="time_in_force"/>
+    <field name="state"/>
+    <field name="fill_price"/>
+    <foot>
+        <!--<button string="Confirm" method="confirm" type="success" states="draft"/>-->
+    </foot>
+</form>

@@ -1,0 +1,8 @@
+<search model="time.entry">
+    <field name="client_id"/>
+    <field name="jc_job_id"/>
+    <field name="date"/>
+    <field name="description"/>
+    <field name="notes"/>
+    <field name="state"/>
+</search>

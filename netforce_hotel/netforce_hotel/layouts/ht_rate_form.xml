@@ -1,0 +1,14 @@
+<form model="ht.rate">
+    <field name="accom_type_id"/>
+    <field name="sequence"/>
+    <newline/>
+    <field name="date_from"/>
+    <field name="date_to"/>
+    <newline/>
+    <field name="min_los"/>
+    <field name="max_los"/>
+    <newline/>
+    <field name="weekday"/>
+    <separator/>
+    <field name="price"/>
+</form>

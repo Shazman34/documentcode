@@ -1,0 +1,8 @@
+<list model="xb.withdraw">
+    <field name="number"/>
+    <field name="date_created"/>
+    <field name="account_id"/>
+    <field name="currency"/>
+    <field name="amount"/>
+    <field name="state"/>
+</list>

@@ -1,0 +1,6 @@
+<list_m model="ed.attend">
+    <field name="date"/>
+    <field name="state"/>
+    <newline/>
+    <field name="student_id"/>
+</list_m>

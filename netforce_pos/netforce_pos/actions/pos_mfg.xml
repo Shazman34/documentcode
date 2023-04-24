@@ -1,0 +1,4 @@
+<action>
+    <field name="view">pos_mfg</field>
+    <field name="menu">pos_menu</field>
+</action>

@@ -1,0 +1,19 @@
+<menu string="Delivery">
+    <item string="Dashboard" action="nd_board"/>
+    <item string="Map" action="nd_map"/>
+    <item string="Delivery Orders" action="nd_order"/>
+    <item string="Delivery Routes" action="nd_route"/>
+    <item string="Delivery Jobs" action="nd_job"/>
+    <item string="Reports">
+        <item string="Delivery Analysis" action="nd_delivery_pivot"/>
+        <item string="Driver Payable Report" action="nd_report_driver_pay"/>
+        <item string="Product Returns Report" action="nd_report_return"/>
+    </item>
+    <item string="Settings">
+        <item string="Drivers" action="nd_driver"/>
+        <item string="Delivery Periods" action="nd_work_period"/>
+        <item string="Tags" action="nd_tag"/>
+        <item string="Customer Feedback" action="nd_poll"/>
+        <item string="Delivery Settings" action="nd_settings"/>
+    </item>
+</menu>

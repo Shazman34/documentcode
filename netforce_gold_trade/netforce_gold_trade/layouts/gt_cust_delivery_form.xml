@@ -1,0 +1,27 @@
+<form model="gt.cust.delivery" attrs='{"readonly":[["state","=","done"]]}'>
+    <head>
+        <field name="state"/>
+        <button string="Print" icon="print" action="gt_print_cust_delivery"/>
+        <button string="Options">
+            <item string="To Draft" method="to_draft" states="done"/>
+        </button>
+    </head>
+    <field name="number"/>
+    <field name="create_time"/>
+    <newline/>
+    <field name="customer_id"/>
+    <field name="direction"/>
+    <separator string="Delivery Lines"/>
+    <field name="lines">
+        <list>
+            <field name="order_id" condition='[["customer_id","=",parent.customer_id],["state","in",["confirmed","matched","done"]]]' onchange="onchange_order"/>
+            <field name="product"/>
+            <field name="qty"/>
+        </list>
+    </field>
+    <foot>
+        <button string="Validate" method="set_done" type="success" states="draft"/>
+    </foot>
+    <related>
+    </related>
+</form>

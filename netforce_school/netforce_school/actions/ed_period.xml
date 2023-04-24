@@ -1,0 +1,6 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Periods</field>
+    <field name="model">ed.period</field>
+    <field name="menu">ed_menu</field>
+</action>

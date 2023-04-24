@@ -1,0 +1,6 @@
+<action>
+    <field name="string">Task Analysis</field>
+    <field name="view">pivot</field>
+    <field name="model">jc.task</field>
+    <field name="menu">jc_service_menu</field>
+</action>

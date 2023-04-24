@@ -1,0 +1,4 @@
+<action>
+    <field name="view">pos_menu</field>
+    <field name="parent_view">pos_layout</field>
+</action>

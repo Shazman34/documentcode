@@ -1,0 +1,9 @@
+<inherit inherit="payment_transaction_form">
+    <field name="error" position="after">
+        <group attrs='{"invisible": [["type","!=","paypal"]]}'>
+            <separator string="Paypal Transaction Details"/>
+            <field name="paypal_token"/>
+            <field name="paypal_trans_no"/>
+        </group>
+    </field>
+</inherit>

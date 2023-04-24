@@ -1,0 +1,8 @@
+<map model="nd.order" group_field="route_id" coords_field="coords" title_field="number" short_title_field="sequence">
+    <field name="delivery_date"/>
+    <field name="time_from"/>
+    <field name="time_to"/>
+    <field name="ship_address_id"/>
+    <field name="state"/>
+    <field name="sequence"/>
+</map>

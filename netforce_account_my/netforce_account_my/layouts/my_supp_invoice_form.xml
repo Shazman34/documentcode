@@ -1,0 +1,6 @@
+<inherit inherit="supp_invoice_form">
+    <tab string="Other Info" position="append">
+        <newline/>
+        <field name="self_billed"/>
+    </tab>
+</inherit>

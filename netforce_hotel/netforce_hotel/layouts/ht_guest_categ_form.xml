@@ -1,0 +1,3 @@
+<form model="ht.guest.categ">
+    <field name="name"/>
+</form>

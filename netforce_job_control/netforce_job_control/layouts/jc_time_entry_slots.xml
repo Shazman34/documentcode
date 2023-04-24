@@ -1,0 +1,2 @@
+<slots model="time.entry" group_model="jc.job" group_condition='[["state","=","in_progress"]]' group_order="contact_id.name" date_field="date" group_field="jc_job_id" agg_field="actual_hours" click_action="time_popup">
+</slots>

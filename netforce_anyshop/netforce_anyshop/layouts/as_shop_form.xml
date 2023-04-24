@@ -1,0 +1,14 @@
+<form model="as.shop">
+    <field name="date_add"/>
+    <field name="name"/>
+    <field name="user_id"/>
+    <field name="city_id"/>
+    <field name="photo"/>
+    <field name="description"/>
+    <field name="website"/>
+    <field name="color"/>
+    <field name="code"/>
+    <related>
+        <field name="users"/>
+    </related>
+</form>

@@ -1,0 +1,16 @@
+<form model="xb.settings">
+    <separator string="BTC / THB"/>
+    <field name="btc_thb_premium"/>
+    <field name="btc_thb_discount"/>
+    <separator string="Gold 96% / BTC"/>
+    <field name="gold96_btc_premium"/>
+    <field name="gold96_btc_discount"/>
+    <separator string="USD / THB"/>
+    <field name="manual_usd_thb_bid"/>
+    <field name="manual_usd_thb_ask"/>
+    <separator string="AWS"/>
+    <field name="aws_key"/>
+    <field name="aws_secret" password="1"/>
+    <separator string="Node"/>
+    <field name="node_ip"/>
+</form>

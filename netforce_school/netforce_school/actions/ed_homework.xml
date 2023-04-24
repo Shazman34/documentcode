@@ -1,0 +1,6 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Homework</field>
+    <field name="model">ed.homework</field>
+    <field name="menu">ed_menu</field>
+</action>

@@ -1,0 +1,6 @@
+<action>
+    <field name="string">Service Stages</field>
+    <field name="view_cls">multi_view</field>
+    <field name="model">jc.service.stage</field>
+    <field name="menu">jc_service_menu</field>
+</action>

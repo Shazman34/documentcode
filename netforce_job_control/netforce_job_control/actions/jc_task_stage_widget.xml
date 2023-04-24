@@ -1,0 +1,6 @@
+<action>
+    <field name="view_cls">chart_view</field>
+    <field name="model">jc.report</field>
+    <field name="method">tasks_per_stage</field>
+    <field name="chart_type">bar</field>
+</action>

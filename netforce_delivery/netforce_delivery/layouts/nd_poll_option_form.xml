@@ -1,0 +1,3 @@
+<form model="nd.poll.option">
+    <field name="name"/>
+</form>

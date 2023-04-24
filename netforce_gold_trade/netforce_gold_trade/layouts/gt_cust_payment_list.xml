@@ -1,0 +1,11 @@
+<list model="gt.cust.payment">
+    <head>
+        <button string="Print" icon="print" action="gt_print_cust_payment"/>
+    </head>
+    <field name="number"/>
+    <field name="payment_time"/>
+    <field name="customer_id"/>
+    <field name="direction"/>
+    <field name="amount_total"/>
+    <field name="state"/>
+</list>

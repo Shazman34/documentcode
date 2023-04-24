@@ -1,0 +1,5 @@
+<form model="ed.calendar">
+    <field name="date"/>
+    <field name="type"/>
+    <field name="title"/>
+</form>

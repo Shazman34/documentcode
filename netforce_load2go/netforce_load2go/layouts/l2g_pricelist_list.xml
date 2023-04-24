@@ -1,0 +1,4 @@
+<list model="l2g.pricelist">
+    <field name="name"/>
+    <field name="sequence"/>
+</list>

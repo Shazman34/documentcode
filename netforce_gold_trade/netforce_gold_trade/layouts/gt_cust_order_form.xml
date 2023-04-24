@@ -1,0 +1,45 @@
+<form model="gt.cust.order" attrs='{"readonly":[["state","in",["confirmed","matched","done"]]]}' show_save="1">
+    <head>
+        <field name="state"/>
+        <button string="Print" icon="print" action="gt_print_cust_order"/>
+        <button string="Options">
+            <item string="To Draft" method="to_draft"/>
+        </button>
+    </head>
+    <field name="number"/>
+    <field name="order_time"/>
+    <field name="customer_id"/>
+    <field name="product" onchange="update_price"/>
+    <field name="type" onchange="update_price"/>
+    <field name="execution"/>
+    <field name="qty"/>
+    <field name="unit_price"/>
+    <field name="amount"/>
+    <separator/>
+    <field name="confirm_time"/>
+    <field name="done_time"/>
+    <field name="expire_time"/>
+    <field name="cancel_time"/>
+    <separator/>
+    <field name="match_id"/>
+    <separator/>
+    <field name="late_days"/>
+    <field name="no_late_fee" readonly="0"/>
+    <field name="late_fee" readonly="0"/>
+    <separator/>
+    <field name="amount_paid"/>
+    <field name="amount_due"/>
+    <separator/>
+    <field name="delivery_id"/>
+    <separator/>
+    <field name="spot_price"/>
+    <field name="usd_thb_rate"/>
+    <foot>
+        <button string="Confirm" method="confirm" type="success" states="draft"/>
+        <button string="Pending" method="pending" states="draft"/>
+        <button string="Mark As Completed" method="set_done" type="success" icon="ok" states="matched"/>
+    </foot>
+    <related>
+        <field name="payment_lines"/>
+    </related>
+</form>

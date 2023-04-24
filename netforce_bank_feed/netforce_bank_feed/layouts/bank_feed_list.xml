@@ -1,0 +1,11 @@
+<list model="bank.feed">
+    <head>
+        <button string="Import Statements" method="import_statements"/>
+    </head>
+    <field name="type"/>
+    <field name="account_id"/>
+    <field name="username"/>
+    <field name="account_no"/>
+    <field name="company"/>
+    <field name="state"/>
+</list>

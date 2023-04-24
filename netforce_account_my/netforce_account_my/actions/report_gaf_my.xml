@@ -1,0 +1,6 @@
+<action>
+    <field name="view">report</field>
+    <field name="string">GST Audit File</field>
+    <field name="model">report.gaf.my</field>
+    <field name="menu">account_menu</field>
+</action>

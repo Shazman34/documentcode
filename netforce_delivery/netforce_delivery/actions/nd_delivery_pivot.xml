@@ -1,0 +1,7 @@
+<action>
+    <field name="view">pivot</field>
+    <field name="string">Delivery Analysis</field>
+    <field name="model">nd.order.line</field>
+    <field name="report_code">delivery_pivot</field>
+    <field name="menu">nd_menu</field>
+</action>

@@ -1,0 +1,6 @@
+<form model="gt.price.param.group">
+    <field name="name"/>
+    <field name="sequence"/>
+    <field name="description"/>
+    <field name="color"/>
+</form>

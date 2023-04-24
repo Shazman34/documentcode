@@ -1,0 +1,8 @@
+<action>
+    <field name="view_cls">chart_view</field>
+    <field name="model">jc.report</field>
+    <field name="method">tasks_per_service</field>
+    <field name="chart_type">bar</field>
+    <field name="onclick_action">click_service</field>
+    <field name="board_select">1</field>
+</action>

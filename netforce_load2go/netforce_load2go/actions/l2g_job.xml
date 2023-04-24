@@ -1,0 +1,7 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Jobs</field>
+    <field name="model">l2g.job</field>
+    <field name="tabs">[["All",[]],["Pending",[["state","=","pending"]]],["Accepted",[["state","=","accepted"]]],["Delivered",[["state","=","delivered"]]],["Verified",[["state","=","verified"]]],["Invoiced",[["state","=","invoiced"]]],["Canceled",[["state","=","canceled"]]]]</field>
+    <field name="menu">l2g_menu</field>
+</action>

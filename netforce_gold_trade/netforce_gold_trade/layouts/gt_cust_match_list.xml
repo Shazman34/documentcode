@@ -1,0 +1,18 @@
+<list model="gt.cust.match">
+    <head>
+        <button string="Print" icon="print" action="gt_print_match"/>
+        <button string="Create Payment" method="copy_to_payment"/>
+    </head>
+    <field name="number"/>
+    <field name="create_time"/>
+    <field name="customer_id"/>
+    <field name="product"/>
+    <field name="num_orders"/>
+    <field name="net_thb"/>
+    <field name="late_fee_total"/>
+    <field name="pl_amount"/>
+    <field name="qty_96"/>
+    <field name="qty_99"/>
+    <field name="state"/>
+    <field name="payment_id"/>
+</list>

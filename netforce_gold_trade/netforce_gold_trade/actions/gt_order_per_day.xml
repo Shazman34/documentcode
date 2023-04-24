@@ -1,0 +1,8 @@
+<action>
+    <field name="view_cls">chart</field>
+    <field name="model">gt.cust.order</field>
+    <field name="method">get_orders_per_day</field>
+    <field name="chart_type">area</field>
+    <field name="x_type">datetime</field>
+    <field name="height">150</field>
+</action>

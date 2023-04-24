@@ -1,0 +1,14 @@
+<form model="jc.task" show_company="1">
+    <head>
+        <field name="state"/>
+    </head>
+    <field name="name"/>
+    <field name="job_id" link="job"/>
+    <field name="user_id"/>
+    <field name="description"/>
+    <field name="deadline"/>
+    <field name="state"/>
+    <related>
+        <field name="comments"/>
+    </related>
+</form>

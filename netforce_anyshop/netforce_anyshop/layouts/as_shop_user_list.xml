@@ -1,0 +1,4 @@
+<list model="as.shop.user">
+    <field name="shop_id"/>
+    <field name="device_id"/>
+</list>

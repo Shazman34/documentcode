@@ -1,0 +1,9 @@
+<action>
+    <field name="string">Lazada Settings</field>
+    <field name="view">form_view</field>
+    <field name="active_id">1</field>
+    <field name="model">lazada.settings</field>
+    <field name="layout">lazada_settings_form</field>
+    <field name="menu">lazada_menu</field>
+    <field name="theme">orange</field>
+</action>

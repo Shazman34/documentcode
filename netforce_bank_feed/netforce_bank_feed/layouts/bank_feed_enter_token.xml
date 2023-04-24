@@ -1,0 +1,8 @@
+<form model="bank.feed.enter.token">
+    <field name="token"/>
+    <field name="proc_id" invisible="1"/>
+    <field name="feed_id" invisible="1"/>
+    <foot>
+        <button string="Continue" icon="arrow-right" method="do_import" type="primary"/>
+    </foot>
+</form>

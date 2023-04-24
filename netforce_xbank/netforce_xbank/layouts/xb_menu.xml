@@ -1,0 +1,9 @@
+<menu string="XBank">
+    <item string="Prices" action="xb_price"/>
+    <item string="Accounts" action="xb_account"/>
+    <item string="Addresses" action="xb_address"/>
+    <item string="Transactions" action="xb_transaction"/>
+    <item string="Withdraw" action="xb_withdraw"/>
+    <item string="Exchange" action="xb_order"/>
+    <item string="Settings" action="xb_settings"/>
+</menu>

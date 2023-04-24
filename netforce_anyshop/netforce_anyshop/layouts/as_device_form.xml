@@ -1,0 +1,8 @@
+<form model="as.device">
+    <field name="date_add"/>
+    <field name="code"/>
+    <field name="model"/>
+    <related>
+        <field name="shops"/>
+    </related>
+</form>

@@ -1,0 +1,6 @@
+<board>
+    <hpanel>
+        <widget action="gt_order_per_day" string="Orders Per Day" span="12"/>
+        <widget action="gt_cust_per_day" string="Total Customers" span="12"/>
+    </hpanel>
+</board>

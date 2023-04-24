@@ -1,0 +1,6 @@
+<form model="nd.create.route">
+    <field name="date"/>
+    <foot>
+        <button string="Create Routes" method="create_routes" type="primary"/>
+    </foot>
+</form>

@@ -1,0 +1,8 @@
+<list model="ed.time">
+    <field name="date"/>
+    <field name="time_from"/>
+    <field name="time_to"/>
+    <field name="title"/>
+    <field name="group_id"/>
+    <field name="course_id"/>
+</list>

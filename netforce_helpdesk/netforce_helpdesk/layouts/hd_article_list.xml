@@ -1,0 +1,7 @@
+<list model="hd.article">
+    <field name="title"/>
+    <field name="categ_id"/>
+    <field name="sequence"/>
+    <field name="state"/>
+    <field name="short_name"/>
+</list>

@@ -1,0 +1,6 @@
+<list model="l2g.company">
+    <field name="name"/>
+    <field name="num_customers"/>
+    <field name="balance"/>
+    <field name="contact_id"/>
+</list>

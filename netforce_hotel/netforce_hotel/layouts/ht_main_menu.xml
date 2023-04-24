@@ -1,0 +1,5 @@
+<inherit inherit="main_menu">
+    <item string="General" position="after">
+        <item string="PMS" action="ht_board" addon="HOTEL"/>
+    </item>
+</inherit>

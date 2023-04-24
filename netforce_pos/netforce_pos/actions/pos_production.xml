@@ -1,0 +1,8 @@
+<action>
+    <field name="view">pos_list</field>
+    <field name="string">Production Orders</field>
+    <field name="model">production.order</field>
+    <field name="tabs">[["Today",[]],["All",[]]]</field>
+    <field name="list_layout">pos_production_list</field>
+    <field name="form_layout">pos_production_form</field>
+</action>

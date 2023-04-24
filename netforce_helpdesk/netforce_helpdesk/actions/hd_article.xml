@@ -1,0 +1,7 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Articles</field>
+    <field name="model">hd.article</field>
+    <field name="tabs">[["All",[]],["Draft",[["state","=","draft"]]],["Published",[["state","=","published"]]]]</field>
+    <field name="menu">hd_menu</field>
+</action>

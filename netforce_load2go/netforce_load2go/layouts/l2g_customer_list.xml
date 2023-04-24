@@ -1,0 +1,17 @@
+<list model="l2g.customer">
+    <head>
+        <button string="Gen Referral Code" method="gen_refer_code"/>
+    </head>
+    <field name="phone"/>
+    <field name="first_name"/>
+    <field name="last_name"/>
+    <field name="id_no"/>
+    <field name="company"/>
+    <field name="region_id"/>
+    <field name="register_date"/>
+    <field name="refer_code"/>
+    <field name="pay_term_id"/>
+    <field name="group_id"/>
+    <field name="sales_person_id"/>
+    <field name="remarks"/>
+</list>

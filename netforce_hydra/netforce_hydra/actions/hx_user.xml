@@ -1,0 +1,7 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Users</field>
+    <field name="model">base.user</field>
+    <field name="tabs">[["All",[]],["Awaiting Approval",["state","=","wait_approve"]],["Approved",["state","=","approved"]]]</field>
+    <field name="menu">hx_menu</field>
+</action>

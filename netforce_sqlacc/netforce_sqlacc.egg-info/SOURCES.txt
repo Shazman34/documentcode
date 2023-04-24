@@ -1,0 +1,5 @@
+setup.py
+netforce_sqlacc.egg-info/PKG-INFO
+netforce_sqlacc.egg-info/SOURCES.txt
+netforce_sqlacc.egg-info/dependency_links.txt
+netforce_sqlacc.egg-info/top_level.txt

@@ -1,0 +1,18 @@
+<form model="aln.sign.req">
+    <head>
+        <field name="state"/>
+        <button string="Options">
+            <item string="To Draft" method="to_draft" states="wait_sign,signed"/>
+        </button>
+    </head>
+    <field name="date"/>
+    <field name="client_id"/>
+    <field name="job_id"/>
+    <field name="task_id"/>
+    <field name="file"/>
+    <foot>
+        <button string="Prepare Doc For Signing" states="draft" icon="cog" method="prepare_doc"/>
+        <button string="Request Signature" states="draft" icon="arrow-right" method="request_sig"/>
+        <button string="Sign Document" states="wait_sign" icon="pencil" action="aln_sign" action_options='{"active_id":id}'/>
+    </foot>
+</form>

@@ -1,0 +1,13 @@
+<pivot model="time.entry" rows="jc_job_id.contact_id.name,job_id.number" cols="user_id.name" agg_name="sum" vals="actual_hours">
+    <field name="user_id.name" string="User Name"/>
+    <field name="state" string="Time Entry Status"/>
+    <field name="date" string="Date"/>
+    <field name="date_week" string="Week"/>
+    <field name="date_month" string="Month"/>
+    <field name="jc_job_id.number" string="Job Number"/>
+    <field name="jc_job_id.contact_id.name" string="Customer"/>
+    <field name="jc_job_id.contact_id.categ_id.name" string="Customer Category"/>
+    <field name="jc_job_id.state" string="Job Status"/>
+    <field name="actual_hours"/>
+    <field name="bill_hours"/>
+</pivot>

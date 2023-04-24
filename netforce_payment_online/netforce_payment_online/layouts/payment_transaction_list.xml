@@ -1,0 +1,16 @@
+<list model="payment.transaction" colors='{"#f99":[["state","=","error"]],"#9f9":[["state","=","done"]]}'>
+    <head>
+        <button string="Check Payment Received" method="check_payment_received"/>
+        <button string="Manual Confirm Received" method="manual_received" confirm="Are you sure?"/>
+    </head>
+    <field name="start_time"/>
+    <field name="type"/>
+    <field name="pay_method_id"/>
+    <field name="amount"/>
+    <field name="currency_id"/>
+    <field name="contact_id"/>
+    <field name="related_id"/>
+    <field name="state"/>
+    <field name="end_time"/>
+    <field name="card_token_id"/>
+</list>

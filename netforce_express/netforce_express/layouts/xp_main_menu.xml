@@ -1,0 +1,5 @@
+<inherit inherit="main_menu">
+    <item string="General" position="after">
+        <item string="Express Sync" action="xp_import" addon="EXPRESS"/>
+    </item>
+</inherit>

@@ -1,0 +1,19 @@
+<form model="l2g.province">
+    <field name="name"/>
+    <newline/>
+    <field name="disable_pickup"/>
+    <field name="disable_delivery"/>
+    <newline/>
+    <field name="price_extra_percent"/>
+    <related>
+        <field name="min_weights"/>
+        <field name="locations">
+            <list>
+                <field name="name"/>
+            </list>
+            <form>
+                <field name="name"/>
+            </form>
+        </field>
+    </related>
+</form>

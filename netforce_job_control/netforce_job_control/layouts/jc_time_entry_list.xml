@@ -1,0 +1,28 @@
+<list model="time.entry" priority="1" show_search="1" colors='{"#ccc":[["state","=","merged"]],"#cfc":[["state","=","approved"]],"#ccf":[["state","=","invoiced"]]}'>
+    <top>
+        <button string="Send Notifications" method="send_notifs" icon="envelope"/>
+    </top>
+    <head>
+        <button string="Submit" method="submit" type="primary" icon="arrow-right" hide_profile="ADMIN"/>
+        <button string="Approve" method="approve" type="success" icon="ok" hide_profile="LAWYER"/>
+        <button string="To Draft" method="to_draft" icon="arrow-left" hide_profile="LAWYER"/>
+        <button string="Merge" method="merge"/>
+        <button string="Copy To Invoice" method="copy_to_invoice" hide_profile="LAWYER"/>
+    </head>
+    <field name="date"/>
+    <field name="jc_job_id"/>
+    <field name="description"/>
+    <field name="user_id"/>
+    <field name="actual_hours" view="field_duration" view_options='{"no_timer":true,"hide_format":true,"auto_save":true}' show_total="1" total_format="hours"/>
+    <field name="bill_hours" view="field_duration" view_options='{"no_timer":true,"hide_format":true,"auto_save":true}' show_total="1" total_format="hours"/>
+    <field name="amount" show_total="1"/>
+    <field name="notes"/>
+    <field name="state"/>
+    <field name="timer_start" invisible="1"/>
+    <field name="job_bill_type" invisible="1"/>
+    <group>
+        <button string="Submit" type="primary" icon="arrow-right" method="submit" states="draft" attrs='{"invisible":[["job_bill_type","=","flat"]]}' hide_profile="ADMIN"/>
+        <button string="Approve" type="success" icon="ok" method="approve" states="draft,submitted" attrs='{"invisible":[["job_bill_type","=","flat"]]}' hide_profile="LAWYER"/>
+        <button string="To Draft" icon="arrow-left" method="to_draft" states="submitted" attrs='{"invisible":[["job_bill_type","=","flat"]]}' hide_profile="LAWYER"/>
+    </group>
+</list>

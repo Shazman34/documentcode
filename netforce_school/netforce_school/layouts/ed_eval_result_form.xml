@@ -1,0 +1,5 @@
+<form model="ed.eval.result">
+    <field name="eval_id"/>
+    <field name="student_id"/>
+    <field name="score"/>
+</form>

@@ -1,0 +1,17 @@
+<form model="aln.company">
+    <field name="name"/>
+    <field name="page_name"/>
+    <field name="phone"/>
+    <field name="fax"/>
+    <separator string="Address"/>
+    <field name="street"/>
+    <field name="building"/>
+    <field name="city"/>
+    <field name="state"/>
+    <field name="postal_code"/>
+    <field name="country_id"/>
+    <separator/>
+    <field name="about"/>
+    <field name="linkedin_url"/>
+    <field name="industries"/>
+</form>

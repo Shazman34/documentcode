@@ -1,0 +1,22 @@
+<form model="hx.quote">
+    <head>
+        <field name="state"/>
+    </head>
+    <field name="number"/>
+    <field name="time"/>
+    <field name="user_id"/>
+    <field name="state"/>
+    <separator/>
+    <field name="rfq_id"/>
+    <newline/>
+    <field name="rfq_asset_buy"/>
+    <field name="rfq_asset_sell"/>
+    <field name="rfq_qty"/>
+    <field name="rfq_price"/>
+    <separator/>
+    <field name="qty"/>
+    <field name="price"/>
+    <field name="amount"/>
+    <separator/>
+    <field name="swap_id"/>
+</form>

@@ -1,0 +1,24 @@
+<form model="ht.guest">
+    <head>
+        <button string="Options">
+            <item string="Copy To Contact" method="copy_to_contact"/>
+        </button>
+    </head>
+    <field name="code"/>
+    <field name="categ_id"/>
+    <newline/>
+    <field name="first_name"/>
+    <field name="last_name"/>
+    <newline/>
+    <field name="email"/>
+    <field name="phone"/>
+    <newline/>
+    <field name="birth_date"/>
+    <field name="picture"/>
+    <separator/>
+    <field name="contact_id"/>
+    <related>
+        <field name="addresses"/>
+        <field name="docs"/>
+    </related>
+</form>

@@ -1,0 +1,6 @@
+<action>
+    <field name="view_cls">list_view</field>
+    <field name="model">jc.task</field>
+    <field name="domain">[["user_id","=",null]]</field>
+    <field name="view_xml">unass_task_widget</field>
+</action>

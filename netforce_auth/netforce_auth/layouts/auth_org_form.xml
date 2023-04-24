@@ -1,0 +1,17 @@
+<form model="auth.org">
+    <field name="name"/>
+    <newline/>
+    <field name="users">
+        <list>
+            <field name="email"/>
+            <field name="first_name"/>
+            <field name="last_name"/>
+        </list>
+    </field>
+    <separator string="Database"/>
+    <field name="hostname"/>
+    <field name="port"/>
+    <field name="protocol"/>
+    <field name="database"/>
+    <field name="schema"/>
+</form>

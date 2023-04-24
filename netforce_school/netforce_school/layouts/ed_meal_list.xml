@@ -1,0 +1,8 @@
+<list model="ed.meal">
+    <field name="date"/>
+    <field name="time"/>
+    <field name="title"/>
+    <field name="description"/>
+    <field name="image"/>
+    <field name="group_id"/>
+</list>

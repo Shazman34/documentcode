@@ -1,0 +1,6 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Exchanges</field>
+    <field name="model">hx.exchange</field>
+    <field name="menu">hx_menu</field>
+</action>

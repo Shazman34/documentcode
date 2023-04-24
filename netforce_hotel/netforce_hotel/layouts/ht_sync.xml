@@ -1,0 +1,9 @@
+<form model="ht.sync" title="CloudBeds Sync">
+    <field name="oauth_code"/>
+    <newline/>
+    <field name="token"/>
+    <foot replace="1">
+        <button string="Authorize" icon="arrow-right" method="authorize"/>
+        <button string="Sync" icon="refresh" type="success" method="sync_cloudbeds" show_progress="1"/>
+    </foot>
+</form>

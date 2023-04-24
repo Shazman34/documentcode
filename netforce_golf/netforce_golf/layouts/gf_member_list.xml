@@ -1,0 +1,10 @@
+<list model="gf.member">
+    <field name="number"/>
+    <field name="first_name"/>
+    <field name="last_name"/>
+    <field name="type"/>
+    <field name="home_phone"/>
+    <field name="mobile"/>
+    <field name="country_id"/>
+    <field name="gender"/>
+</list>

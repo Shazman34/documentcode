@@ -1,0 +1,8 @@
+<form model="l2g.get.addr">
+    <field name="booking_id"/>
+    <field name="type"/>
+    <field name="location"/>
+    <foot>
+        <button string="Set Address" method="set_addr" icon="arrow-right" type="primary"/>
+    </foot>
+</form>

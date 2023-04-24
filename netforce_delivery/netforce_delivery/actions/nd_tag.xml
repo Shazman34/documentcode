@@ -1,0 +1,6 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Tags</field>
+    <field name="model">nd.tag</field>
+    <field name="menu">nd_menu</field>
+</action>

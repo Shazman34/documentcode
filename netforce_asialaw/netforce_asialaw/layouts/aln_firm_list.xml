@@ -1,0 +1,5 @@
+<list model="aln.firm">
+    <field name="name"/>
+    <field name="business_idno"/>
+    <field name="short_name"/>
+</list>

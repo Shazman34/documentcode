@@ -1,0 +1,7 @@
+<list model="ed.media">
+    <field name="date"/>
+    <field name="title"/>
+    <field name="file"/>
+    <field name="group_id"/>
+    <field name="event_id"/>
+</list>

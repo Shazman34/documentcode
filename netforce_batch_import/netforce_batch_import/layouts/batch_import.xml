@@ -1,0 +1,7 @@
+<form model="batch.import">
+    <field name="file"/>
+    <foot replace="1">
+        <button string="Import" method="do_import" type="primary"/>
+        <button string="Check Data" method="check_data"/>
+    </foot>
+</form>

@@ -1,0 +1,21 @@
+<list model="nd.route">
+    <top>
+        <button string="Auto Create Routes" action="nd_create_route"/>
+    </top>
+    <head>
+        <button string="Print" icon="print" action="nd_route_print"/>
+        <button string="Calc ETAs" method="calc_times"/>
+        <button string="Create Jobs" method="create_jobs"/>
+    </head>
+    <field name="delivery_date"/>
+    <field name="driver_id"/>
+    <field name="period_id"/>
+    <field name="num_orders"/>
+    <field name="seq_from"/>
+    <field name="seq_to"/>
+    <field name="est_pickup_time"/>
+    <field name="est_return_time"/>
+    <field name="state"/>
+    <field name="pickup_image"/>
+    <field name="return_image"/>
+</list>

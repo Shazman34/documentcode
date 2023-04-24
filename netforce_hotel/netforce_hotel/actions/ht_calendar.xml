@@ -1,0 +1,5 @@
+<action>
+    <field name="view">gantt</field>
+    <field name="string">Calendar</field>
+    <field name="menu">ht_menu</field>
+</action>

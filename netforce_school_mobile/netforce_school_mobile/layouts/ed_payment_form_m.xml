@@ -1,0 +1,8 @@
+<form_m model="ed.payment">
+    <field name="date"/>
+    <field name="amount"/>
+    <newline/>
+    <field name="fee_id"/>
+    <newline/>
+    <field name="student_id"/>
+</form_m>

@@ -1,0 +1,8 @@
+<action>
+    <field name="view">pos_list</field>
+    <field name="string">Purchase Orders</field>
+    <field name="model">purchase.order</field>
+    <field name="tabs">[["Today",[]],["All",[]]]</field>
+    <field name="list_layout">pos_purchase_list</field>
+    <field name="form_layout">pos_purchase_form</field>
+</action>

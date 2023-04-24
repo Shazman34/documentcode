@@ -1,0 +1,11 @@
+<list model="hd.categ">
+    <top>
+        <button string="Update PDF Manual" method="update_pdf"/>
+    </top>
+    <head>
+        <button string="Print" action="hd_print" icon="print"/>
+    </head>
+    <field name="name"/>
+    <field name="sequence"/>
+    <field name="include_pdf"/>
+</list>

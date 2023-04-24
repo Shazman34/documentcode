@@ -1,0 +1,9 @@
+<form model="report.gaf.my">
+    <group form_layout="stacked">
+        <field name="date_from" span="2"/>
+        <field name="date_to" span="2"/>
+    </group>
+    <foot>
+        <button string="Download GAF" icon="download" type="primary" method="download_file"/>
+    </foot>
+</form>

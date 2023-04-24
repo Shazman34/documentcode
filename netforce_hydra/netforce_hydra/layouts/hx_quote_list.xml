@@ -1,0 +1,11 @@
+<list model="hx.quote">
+    <field name="time"/>
+    <field name="number"/>
+    <field name="user_id"/>
+    <field name="rfq_id"/>
+    <field name="price"/>
+    <field name="qty"/>
+    <field name="amount"/>
+    <field name="state"/>
+    <field name="swap_id"/>
+</list>

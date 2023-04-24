@@ -1,0 +1,8 @@
+<action>
+    <field name="string">Jobs</field>
+    <field name="view">list_container</field>
+    <field name="model">jc.job</field>
+    <field name="tabs">[["All",[]],["In Progress",[["state","=","in_progress"]]],["Completed",[["state","=","done"]]],["Verified",[["state","=","verified"]]],["Invoiced",[["state","=","invoiced"]]]]</field>
+    <field name="modes">list,calendar,page,form</field>
+    <field name="menu">jc_service_menu</field>
+</action>

@@ -1,0 +1,5 @@
+<inherit inherit="main_menu">
+    <item string="Addons" position="after">
+        <item string="Anyshop" action="as_board" addon="ANYSHOP"/>
+    </item>
+</inherit>

@@ -1,0 +1,4 @@
+Delivery Date,From Time,To Time,Customer / First Name,Customer / Last Name,Customer / Customer Code,Customer / Email,Customer / Mobile,Shipping Address / Postal Code,Shipping Address / Street Address,Shipping Address / Instructions,Delivery Products / Product,Delivery Products / Qty,Notification Template Set / Set Name,Tags / Tag Name
+2016-06-01,12:00,13:30,John,Doe,C-0001,john@doe.com,123456789,90210,802 Linden Drive,knock on the door,American Beef Stew,1,Meals,"MP 1, Cannot be late"
+,,,,,,,,,,,American Omelette,2,,
+2016-06-01,16:00,17:30,Alice,Smith,C-0002,alice@smith.com,987654321,95014,1 Infinite Loop,,BBQ Boston Pork Steak,1,Groceries,MP 2

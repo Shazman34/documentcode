@@ -1,0 +1,23 @@
+<list model="jc.job" colors='{"due_date,#f00":[["overdue","=",true]],"days_late,#f00":[["overdue","=",true]],"#9f9":[["state","in",["done","verified","invoiced"]]],"#ccc":[["state","=","canceled"]],"percent_paid,#0c0":[["percent_paid","=",100]],"percent_invoiced,#0c0":[["percent_invoiced","=",100]],"#f0f":[["is_duplicate","=",true],["state","=","in_progress"]]}' priority="1">
+    <top>
+        <!--<button string="Check duplicates" action="check_dup"/>-->
+        <!--<button string="Migrate old data" method="migrate" show_progress="1"/>-->
+        <button string="Migrate service->product" method="migrate_prod"/>
+    </top>
+    <field name="number"/>
+    <field name="contact_id"/>
+    <field name="name"/>
+    <field name="user_id"/>
+    <field name="due_date"/>
+    <field name="current_work"/>
+    <field name="last_fup"/>
+    <field name="percent_done" suffix="%"/>
+    <field name="percent_invoiced" suffix="%"/>
+    <field name="percent_paid" suffix="%"/>
+    <field name="deposit_amount"/>
+    <field name="uninvoiced_time_amount"/>
+    <field name="company_id"/>
+    <field name="state" invisible="1"/>
+    <field name="overdue" invisible="1"/>
+    <field name="is_duplicate" invisible="1"/>
+</list>

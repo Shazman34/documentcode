@@ -1,0 +1,4 @@
+<list model="pos.table">
+    <field name="number"/>
+    <field name="name"/>
+</list>

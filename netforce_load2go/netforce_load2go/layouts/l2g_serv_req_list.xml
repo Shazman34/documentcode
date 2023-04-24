@@ -1,0 +1,7 @@
+<list model="l2g.serv.req">
+    <field name="number"/>
+    <field name="date"/>
+    <field name="customer_id"/>
+    <field name="type"/>
+    <field name="state"/>
+</list>

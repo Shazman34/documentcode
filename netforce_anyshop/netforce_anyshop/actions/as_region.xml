@@ -1,0 +1,6 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Regions</field>
+    <field name="model">as.region</field>
+    <field name="menu">as_menu</field>
+</action>

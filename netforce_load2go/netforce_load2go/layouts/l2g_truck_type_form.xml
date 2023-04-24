@@ -1,0 +1,22 @@
+<form model="l2g.truck.type">
+    <field name="name"/>
+    <field name="code"/>
+    <field name="parent_id"/>
+    <newline/>
+    <field name="max_width"/>
+    <field name="max_height"/>
+    <field name="max_length"/>
+    <field name="sequence"/>
+    <field name="description"/>
+    <field name="image"/>
+    <field name="image_big"/>
+    <separator string="Price"/>
+    <field name="min_fare"/>
+    <separator string="Regions"/>
+    <field name="exclude_from_regions"/>
+    <related>
+        <field name="children"/>
+        <field name="weight_ranges"/>
+        <field name="min_weights"/>
+    </related>
+</form>

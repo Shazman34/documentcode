@@ -1,0 +1,12 @@
+<pivot model="gt.cust.order" rows="customer_id.categ_id.name,customer_id.name" cols="state,product,type" vals="qty" agg_name="sum">
+    <field name="customer_id.name" string="Customer"/>
+    <field name="customer_id.categ_id.name" string="Customer Category"/>
+    <field name="type" string="Type"/>
+    <field name="execution" string="Execution"/>
+    <field name="product" string="Product"/>
+    <field name="state" string="Status"/>
+    <field name="create_time" string="Create Time"/>
+    <field name="number" string="Order Number"/>
+    <field name="qty" string="Qty"/>
+    <field name="amount" string="Amount"/>
+</pivot>

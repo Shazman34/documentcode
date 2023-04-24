@@ -1,0 +1,5 @@
+<inherit inherit="main_menu">
+    <item string="Addons" position="after">
+        <item string="Job Control" action="jc_service_board" addon="JOB_CONTROL"/>
+    </item>
+</inherit>

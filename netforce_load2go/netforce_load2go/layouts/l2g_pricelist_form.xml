@@ -1,0 +1,12 @@
+<form model="l2g.pricelist">
+    <field name="name"/>
+    <field name="sequence"/>
+    <separator string="Criteria"/>
+    <field name="customers"/>
+    <newline/>
+    <field name="from_regions"/>
+    <field name="to_regions"/>
+    <related>
+        <field name="prices"/>
+    </related>
+</form>

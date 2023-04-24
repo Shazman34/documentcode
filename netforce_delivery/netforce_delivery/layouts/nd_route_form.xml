@@ -1,0 +1,38 @@
+<form model="nd.route">
+    <field name="delivery_date"/>
+    <field name="driver_id"/>
+    <newline/>
+    <field name="round_id"/>
+    <field name="state"/>
+    <newline/>
+    <field name="pickup_address_id"/>
+    <field name="return_address_id"/>
+    <newline/>
+    <field name="est_pickup_time"/>
+    <field name="est_return_time"/>
+    <newline/>
+    <field name="est_distance"/>
+    <field name="est_duration"/>
+    <field name="act_duration"/>
+    <newline/>
+    <field name="pickup_image"/>
+    <field name="return_image"/>
+    <newline/>
+    <field name="require_pickup_image"/>
+    <field name="require_return_image"/>
+    <newline/>
+    <field name="blind_mode"/>
+    <newline/>
+    <field name="seq_from"/>
+    <field name="seq_to"/>
+    <newline/>
+    <field name="period_id"/>
+    <foot>
+        <button string="Get Directions" method="get_directions" icon="refresh"/>
+        <button string="Confirm Job" method="confirm" icon="ok" type="success"/>
+    </foot>
+    <related>
+        <!--<view name="nd_route_map"/>-->
+        <field name="orders"/>
+    </related>
+</form>

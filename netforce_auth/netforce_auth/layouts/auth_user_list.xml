@@ -1,0 +1,6 @@
+<list model="auth.user">
+    <field name="email"/>
+    <field name="first_name"/>
+    <field name="last_name"/>
+    <field name="num_orgs"/>
+</list>

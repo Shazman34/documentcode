@@ -1,0 +1,3 @@
+<form model="l2g.driver.group">
+    <field name="name"/>
+</form>

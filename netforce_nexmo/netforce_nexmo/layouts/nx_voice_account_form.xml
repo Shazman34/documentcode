@@ -1,0 +1,12 @@
+<inherit inherit="voice_account_form">
+    <form position="append">
+        <group>
+            <field name="nexmo_app_id"/>
+            <field name="nexmo_private_key"/>
+            <field name="nexmo_phone"/>
+            <field name="nexmo_app_name"/>
+            <field name="nexmo_key"/>
+            <field name="nexmo_secret"/>
+        </group>
+    </form>
+</inherit>

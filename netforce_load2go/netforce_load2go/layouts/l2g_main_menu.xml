@@ -1,0 +1,5 @@
+<inherit inherit="main_menu">
+    <item string="General" position="after">
+        <item string="Load2Go" action="l2g_board" addon="L2G"/>
+    </item>
+</inherit>

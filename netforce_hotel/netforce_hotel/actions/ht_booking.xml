@@ -1,0 +1,7 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Reservations</field>
+    <field name="model">ht.booking</field>
+    <field name="tabs">[["All",[]],["Pending Confirmation",[["state","=","in_progress"]]],["Confirmed",[["state","=","Confirmed"]]],["Checked In",[["state","=","checked_in"]]],["Checked Out",[["state","=","checked_out"]]]]</field>
+    <field name="menu">ht_menu</field>
+</action>

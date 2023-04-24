@@ -1,0 +1,5 @@
+<list model="nd.report.template">
+    <field name="name"/>
+    <field name="type"/>
+    <field name="orientation"/>
+</list>

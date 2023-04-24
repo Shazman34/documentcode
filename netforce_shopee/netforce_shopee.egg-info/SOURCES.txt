@@ -1,0 +1,5 @@
+setup.py
+netforce_shopee.egg-info/PKG-INFO
+netforce_shopee.egg-info/SOURCES.txt
+netforce_shopee.egg-info/dependency_links.txt
+netforce_shopee.egg-info/top_level.txt

@@ -1,0 +1,5 @@
+<action>
+    <field name="view">list_m</field>
+    <field name="title">Meal Plan</field>
+    <field name="model">ed.meal</field>
+</action>

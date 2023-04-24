@@ -1,0 +1,9 @@
+<list model="as.user">
+    <field name="date_add"/>
+    <field name="username"/>
+    <field name="first_name"/>
+    <field name="last_name"/>
+    <field name="country_id"/>
+    <field name="region_id"/>
+    <field name="city_id"/>
+</list>

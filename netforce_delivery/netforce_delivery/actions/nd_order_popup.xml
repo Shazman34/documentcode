@@ -1,0 +1,7 @@
+<action>
+    <field name="view">form_popup</field>
+    <field name="title">Delivery Order</field>
+    <field name="model">nd.order</field>
+    <field name="layout">nd_order_popup</field>
+    <field name="target">popup</field>
+</action>

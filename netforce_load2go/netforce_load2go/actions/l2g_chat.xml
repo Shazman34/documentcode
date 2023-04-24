@@ -1,0 +1,5 @@
+<action>
+    <field name="view">chat</field>
+    <field name="string">Chat</field>
+    <field name="menu">l2g_menu</field>
+</action>

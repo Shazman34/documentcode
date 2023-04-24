@@ -1,0 +1,6 @@
+<list model="hd.query" colors='{"#fcc":[["num_results","=",0]]}'>
+    <field name="time"/>
+    <field name="query"/>
+    <field name="num_results"/>
+    <field name="ip_addr"/>
+</list>

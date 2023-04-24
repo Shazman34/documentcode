@@ -1,0 +1,4 @@
+<action>
+    <field name="view">list</field>
+    <field name="model">bill.period</field>
+</action>

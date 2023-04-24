@@ -1,0 +1,6 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Customer Polls</field>
+    <field name="model">nd.poll</field>
+    <field name="menu">nd_menu</field>
+</action>

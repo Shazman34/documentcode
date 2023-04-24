@@ -1,0 +1,7 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Drivers</field>
+    <field name="model">l2g.driver</field>
+    <field name="tabs">[["All",[]],["Awaiting Approval",[["state","=","new"]]],["Pending",[["state","=","pending"]]],["Approved",[["state","=","approved"]]]]</field>
+    <field name="menu">l2g_menu</field>
+</action>

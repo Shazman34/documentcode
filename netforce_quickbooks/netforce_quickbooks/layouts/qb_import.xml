@@ -1,0 +1,6 @@
+<form title="Quickbooks Import">
+    <field name="file"/>
+    <foot replace="1">
+        <button string="Import Data" type="primary" icon="arrow-right" method="do_import" show_progress="1"/>
+    </foot>
+</form>

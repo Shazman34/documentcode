@@ -1,0 +1,19 @@
+<form model="l2g.price">
+    <field name="pricelist_id"/>
+    <separator string="Criteria"/>
+    <field name="truck_type_id"/>
+    <field name="max_weight"/>
+    <field name="from_district"/>
+    <field name="to_district"/>
+    <field name="min_distance"/>
+    <separator string="Customer Price"/>
+    <field name="fare_per_km"/>
+    <field name="fare_per_ton"/>
+    <field name="min_fare"/>
+    <field name="cancel_fee"/>
+    <separator string="Driver Price"/>
+    <field name="driver_fare_per_km"/>
+    <field name="driver_fare_per_ton"/>
+    <field name="driver_min_fare"/>
+    <field name="driver_cancel_fee"/>
+</form>

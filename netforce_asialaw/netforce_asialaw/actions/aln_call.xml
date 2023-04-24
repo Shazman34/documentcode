@@ -1,0 +1,7 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Phone Calls</field>
+    <field name="model">aln.call</field>
+    <field name="tabs">[["All",[]],["Requested",[["state","=","request"]]],["Confirmed",[["state","=","confirmed"]]],["Completed",[["state","=","done"]]]]</field>
+    <field name="menu">aln_menu</field>
+</action>

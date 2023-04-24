@@ -1,0 +1,7 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Cases</field>
+    <field name="model">aln.job</field>
+    <field name="tabs">[["All",[]],["Inquiry",[["state","=","inquiry"]]],["Awaiting Acceptance",[["state","=","wait_accept"]]],["In Progress",[["state","=","in_progress"]]],["Completed",[["state","=","done"]]],["Archived",[["state","=","archived"]]],["Canceled",[["state","=","canceled"]]]]</field>
+    <field name="menu">aln_menu</field>
+</action>

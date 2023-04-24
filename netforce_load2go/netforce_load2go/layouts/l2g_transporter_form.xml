@@ -1,0 +1,13 @@
+<form model="l2g.transporter">
+    <field name="name"/>
+    <separator string="Wallet"/>
+    <field name="balance"/>
+    <separator/>
+    <field name="remarks"/>
+    <field name="remarks2"/>
+    <separator/>
+    <field name="contact_id"/>
+    <related>
+        <field name="drivers"/>
+    </related>
+</form>

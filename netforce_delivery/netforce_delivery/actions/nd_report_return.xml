@@ -1,0 +1,7 @@
+<action>
+    <field name="view">report</field>
+    <field name="string">Product Returns Report</field>
+    <field name="model">nd.report.return</field>
+    <field name="template">nd_report_return</field>
+    <field name="menu">nd_menu</field>
+</action>

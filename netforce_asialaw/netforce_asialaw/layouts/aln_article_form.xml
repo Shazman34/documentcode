@@ -1,0 +1,9 @@
+<form model="aln.article">
+    <field name="date"/>
+    <field name="lawyer_id"/>
+    <field name="state"/>
+    <separator/>
+    <field name="body" view="field_html" width="900" height="500"/>
+    <separator/>
+    <field name="file"/>
+</form>

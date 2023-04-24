@@ -1,0 +1,5 @@
+<list model="l2g.min.weight">
+    <field name="truck_type_id"/>
+    <field name="region_id"/>
+    <field name="min_weight"/>
+</list>

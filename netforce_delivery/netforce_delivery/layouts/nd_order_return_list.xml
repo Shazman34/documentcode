@@ -1,0 +1,5 @@
+<list model="nd.order.return">
+    <field name="image"/>
+    <field name="product_id"/>
+    <field name="qty"/>
+</list>

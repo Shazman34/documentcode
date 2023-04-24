@@ -1,0 +1,7 @@
+<list model="bill.period" hide_select="1">
+    <head replace="1"/>
+    <field name="date_from"/>
+    <field name="date_to"/>
+    <field name="amount_bill"/>
+    <field name="amount_paid"/>
+</list>

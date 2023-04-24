@@ -1,0 +1,14 @@
+<inherit inherit="hr_menu">
+    <item string="Pay Slips" position="after">
+        <divider/>
+        <header string="Monthly Reports"/>
+        <item string="PND1: Personal Income Tax" action="report_pnd1"/>
+        <item string="Social Security" action="report_sso"/>
+        <item string="Providend Fund" action="report_provident"/>
+        <divider/>
+        <header string="Yearly Reports"/>
+        <item string="PND1 Kor: Personal Income Tax" action="report_pnd1_kor"/>
+        <item string="WHT50: Personal Income Tax" action="report_wht50"/>
+        <item string="PND91: Personal Income Tax" action="report_pnd91"/> 
+    </item>
+</inherit>

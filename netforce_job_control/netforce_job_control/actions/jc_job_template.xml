@@ -1,0 +1,7 @@
+<action>
+    <field name="string">Job Templates</field>
+    <field name="view_cls">multi_view</field>
+    <field name="model">jc.job.template</field>
+    <field name="menu">jc_service_menu</field>
+    <field name="tabs">[["Active",[]],["Archived",[["active","=",false]]]]</field>
+</action>

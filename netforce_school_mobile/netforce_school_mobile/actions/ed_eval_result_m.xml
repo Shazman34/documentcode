@@ -1,0 +1,5 @@
+<action>
+    <field name="view">list_m</field>
+    <field name="title">Progress</field>
+    <field name="model">ed.eval.result</field>
+</action>

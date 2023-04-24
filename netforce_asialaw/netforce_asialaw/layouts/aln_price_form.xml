@@ -1,0 +1,5 @@
+<form model="aln.price">
+    <field name="firm_id"/>
+    <field name="qctr_categ_id"/>
+    <field name="credits"/>
+</form>

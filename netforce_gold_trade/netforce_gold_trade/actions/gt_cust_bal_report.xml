@@ -1,0 +1,7 @@
+<action>
+    <field name="view">report</field>
+    <field name="string">Customer Balance Report</field>
+    <field name="model">gt.cust.bal.report</field>
+    <field name="template">gt_cust_bal_report</field>
+    <field name="menu">gt_menu</field>
+</action>

@@ -1,0 +1,8 @@
+<list model="hx.addon">
+    <field name="sequence"/>
+    <field name="name"/>
+    <field name="title"/>
+    <field name="version"/>
+    <field name="description"/>
+    <field name="plans"/>
+</list>

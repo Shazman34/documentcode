@@ -1,0 +1,5 @@
+<inherit inherit="user_list">
+    <field name="company_id" position="after">
+        <field name="hx_plan_id"/>
+    </field>
+</inherit>

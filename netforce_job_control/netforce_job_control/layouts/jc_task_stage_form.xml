@@ -1,0 +1,8 @@
+<form model="task.stage">
+    <field name="service_id"/>
+    <field name="name"/>
+    <field name="sequence"/>
+    <related>
+        <field name="comments"/>
+    </related>
+</form>

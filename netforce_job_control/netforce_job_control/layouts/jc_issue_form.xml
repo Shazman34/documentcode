@@ -1,0 +1,19 @@
+<form model="jc.issue">
+    <head>
+        <field name="state"/>
+    </head>
+    <field name="date"/>
+    <field name="state"/>
+    <field name="report_by_id"/>
+    <field name="assigned_to_id"/>
+    <field name="name" size="xlarge"/>
+    <newline/>
+    <field name="details" width="900" height="350"/>
+    <newline/>
+    <field name="priority"/>
+    <newline/>
+    <field name="attach"/>
+    <related>
+        <field name="comments"/>
+    </related>
+</form>

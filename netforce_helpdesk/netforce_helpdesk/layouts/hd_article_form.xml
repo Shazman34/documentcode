@@ -1,0 +1,10 @@
+<form model="hd.article">
+    <field name="categ_id"/>
+    <field name="sequence"/>
+    <field name="title"/>
+    <newline/>
+    <field name="body" view="field_html" width="800" height="500"/>
+    <newline/>
+    <field name="state"/>
+    <field name="short_name"/>
+</form>

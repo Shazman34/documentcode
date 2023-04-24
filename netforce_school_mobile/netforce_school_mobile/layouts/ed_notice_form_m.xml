@@ -1,0 +1,8 @@
+<form_m model="ed.notice">
+    <field name="date"/>
+    <field name="group_id"/>
+    <newline/>
+    <field name="title"/>
+    <newline/>
+    <field name="message"/>
+</form_m>

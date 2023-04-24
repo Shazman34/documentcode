@@ -1,0 +1,7 @@
+<action>
+    <field name="view">multi_view</field>
+    <field name="string">Tasks</field>
+    <field name="model">nd.task</field>
+    <field name="tabs">[["Open",[["state","=","open"]]],["Closed",[["state","=","closed"]]]]</field>
+    <field name="menu">nd_menu</field>
+</action>

@@ -1,0 +1,10 @@
+<action>
+    <field name="view">list</field>
+    <field name="model">time.entry</field>
+    <field name="condition">[["own_user","=",true]]</field>
+    <field name="show_date_filter">1</field>
+    <field name="limit">10</field>
+    <field name="hide_buttons">1</field>
+    <field name="hide_page">1</field>
+    <field name="layout">jc_time_pending</field>
+</action>

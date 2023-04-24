@@ -1,0 +1,7 @@
+<list model="nd.driver">
+    <field name="name"/>
+    <field name="mobile"/>
+    <field name="num_rounds"/>
+    <field name="sequence"/>
+    <field name="track_id"/>
+</list>

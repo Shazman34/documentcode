@@ -1,0 +1,3 @@
+<form model="aln.pb.categ">
+    <field name="name"/>
+</form>

@@ -1,0 +1,5 @@
+setup.py
+netforce_anyshop.egg-info/PKG-INFO
+netforce_anyshop.egg-info/SOURCES.txt
+netforce_anyshop.egg-info/dependency_links.txt
+netforce_anyshop.egg-info/top_level.txt

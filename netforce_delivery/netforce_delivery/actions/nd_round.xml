@@ -1,0 +1,6 @@
+<action>
+    <field name="view">multi_view</field>
+    <field name="string">Delivery Rounds</field>
+    <field name="model">nd.round</field>
+    <field name="menu">nd_menu</field>
+</action>

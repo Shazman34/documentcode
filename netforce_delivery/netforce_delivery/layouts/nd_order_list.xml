@@ -1,0 +1,25 @@
+<list model="nd.order" colors='{"#cfc":[["state","=","done"],["deliver_perf","=","on_time"]],"#f99":[["state","=","done"],["deliver_perf","=","late"]],"#ff9":[["state","=","done"],["deliver_perf","=","early"]],"#ccf":[["state","=","in_progress"]],"#f66":[["state","=","error"]]}'>
+    <top>
+        <button string="Auto Assign Routes" method="auto_assign"/>
+    </top>
+    <head>
+        <button string="Print" icon="print" action="nd_order_print" action_options='{"ids":ids}'/>
+        <button string="Completed" method="set_done" icon="ok" type="success"/>
+        <button string="Reset Route" method="reset_route"/>
+        <button string="Send Updates" method="send_update_notif"/>
+    </head>
+    <field name="number"/>
+    <field name="delivery_date"/>
+    <field name="driver_id"/>
+    <field name="from_region_id"/>
+    <field name="to_region_id"/>
+    <field name="sender_id"/>
+    <field name="sender_name"/>
+    <field name="recipient_id"/>
+    <field name="recipient_name"/>
+    <field name="qty"/>
+    <field name="uom_id"/>
+    <field name="cash_collect_amount"/>
+    <field name="state"/>
+    <field name="ref"/>
+</list>

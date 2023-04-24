@@ -1,0 +1,7 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Articles</field>
+    <field name="model">aln.article</field>
+    <field name="tabs">[["All",[]],["Draft",[["state","=","draft"]]],["In Review",[["state","=","in_review"]]],["Published",[["state","=","published"]]],["Rejected",[["state","=","rejected"]]]]</field>
+    <field name="menu">aln_menu</field>
+</action>

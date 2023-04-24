@@ -1,0 +1,11 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Delivery Routes</field>
+    <field name="model">nd.route</field>
+    <field name="tabs">[["Today",[["today","=","true"]]],["Today+1",[["today_p1","=",true]]],["Today+2",[["today_p2","=",true]]],["All",[[]]]]</field>
+    <field name="group_field">period_id</field>
+    <field name="group_field_path">round_id.period_id</field>
+    <field name="subgroup_field">driver_id</field>
+    <field name="subgroup_field_path">driver_id</field>
+    <field name="menu">nd_menu</field>
+</action>

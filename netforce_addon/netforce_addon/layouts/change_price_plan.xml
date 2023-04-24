@@ -1,0 +1,6 @@
+<form model="settings">
+    <field name="bill_plan_id"/>
+    <foot>
+        <button string="Save" type="primary" method="change_price_plan"/>
+    </foot>
+</form>

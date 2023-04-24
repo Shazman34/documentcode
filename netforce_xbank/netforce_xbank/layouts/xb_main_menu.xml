@@ -1,0 +1,5 @@
+<inherit inherit="main_menu">
+    <item string="General" position="after">
+        <item string="XBank" action="xb_board" addon="XBANK"/>
+    </item>
+</inherit>

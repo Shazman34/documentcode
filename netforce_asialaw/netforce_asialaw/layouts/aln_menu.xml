@@ -1,0 +1,48 @@
+<menu string="Asia Law Network">
+    <item string="Dashboard" icon="home"/>
+    <item string="Timeline" action="aln_board" icon="time"/>
+    <item string="Clients" action="aln_client" icon="user"/>
+    <item string="Cases" action="aln_job" icon="briefcase"/>
+    <item string="Tasks" action="aln_task" icon="list"/>
+    <item string="Calls" action="aln_call" icon="phone"/>
+    <item string="Meetings" action="aln_meeting" icon="calendar"/>
+    <item string="Documents" action="aln_doc" icon="folder-open"/>
+    <item string="Templates" action="aln_template" icon="copy"/>
+    <item string="Signing Requests" action="aln_sign_req" icon="pencil"/>
+    <item string="Billing Requests" action="aln_bill_req" icon="usd"/>
+    <item string="Articles" action="aln_article" icon="font"/>
+    <item string="Messages" action="aln_message" icon="envelope"/>
+    <item string="Feedback" action="aln_feedback" icon="star"/>
+    <item string="Prices" action="aln_price" icon="usd"/>
+    <item string="Settings" icon="cog">
+        <item string="Job Types" action="aln_job_type"/>
+        <item string="Document Types" action="aln_doc_type"/>
+    </item>
+    <item string="Internal">
+        <item string="Lawyers" action="aln_lawyer"/>
+        <item string="Law Firms" action="aln_firm"/>
+        <item string="Companies" action="aln_company"/>
+        <item string="Practice Areas" action="aln_practice_area"/>
+        <item string="Industries" action="aln_industry"/>
+        <item string="Probono Categories" action="aln_pb_categ"/>
+        <item string="Quick Consult Categories" action="aln_qc_categ"/>
+        <item string="Quick Contract Categories" action="aln_qctr_categ"/>
+        <item string="Users" action="user"/>
+        <item string="Countries" action="country"/>
+        <item string="Reason Codes" action="reason_code"/>
+        <item string="Payment Methods" action="payment_method"/>
+        <item string="Payment Transactions" action="payment_transaction"/>
+        <item string="Voice Accounts" action="voice_account"/>
+        <item string="Voice Calls" action="voice_call"/>
+        <item string="Email Accounts" action="email_account"/>
+        <item string="Email Mailboxes" action="email_mailbox"/>
+        <item string="Email Templates" action="email_tmpl"/>
+        <item string="Email Messages" action="email"/>
+        <item string="SMS Accounts" action="sms_account"/>
+        <item string="SMS Templates" action="sms_template"/>
+        <item string="SMS Messages" action="sms_message"/>
+        <item string="Workflow Rules" action="wkf_rule"/>
+        <item string="Cron Jobs" action="cron_job"/>
+        <item string="Background Tasks" action="bg_task"/>
+    </item>
+</menu>

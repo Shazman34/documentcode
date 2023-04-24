@@ -1,0 +1,64 @@
+<form model="lazada.product">
+    <top>
+        <button string="Options">
+            <item string="Get Variants" method="get_model_list"/>
+            <item string="Map System Product" method="map_product"/>
+            <item string="Update Lazada Stock" method="update_stock"/>
+        </button>
+    </top>
+    <head>
+        <field name="item_status"/>
+    </head>
+    <tabs>
+        <tab string="General">
+            <field name="account_id"/>
+            <field name="sync_id"/>
+            <field name="item_status"/>
+            <field name="item_sku"/>
+            <field name="item_name"/>
+            <field name="product_id"/>
+<!--            <field name="category_id" condition='[["has_children","=",false]]'/>-->
+            <field name="category_id"/>
+            <field name="description"/>
+            <group attrs='{"invisible":[["hase_model","=","1"]]}'>
+                <field name="current_price"/>
+                <field name="normal_stock"/>
+            </group>
+            <field name="has_model"/>
+            <field name="image"/>
+            <group attrs='{"invisible":[["has_model","=","0"]]}'>
+                <separator string="Variants"/>
+                <field name="models">
+                    <list colors='{"#f66":[["show_warning","=",true]]}'>
+                        <field name="model_sku"/>
+                        <field name="item_id"/>
+                        <field name="name"/>
+                        <field name="current_price"/>
+                        <field name="created_at"/>
+                        <field name="updated_at"/>
+                        <field name="status"/>
+                        <field name="total_quantity"/>
+                        <field name="available_quantity"/>
+                        <field name="seller_sku"/>
+                        <field name="shop_sku"/>
+                        <field name="item_skuID"/>
+                        <field name="package_width"/>
+                        <field name="package_height"/>
+                        <field name="package_length"/>
+                        <field name="package_weight"/>
+                        <field name="variation"/>
+                        <field name="brand"/>
+                        <field name="warranty_type"/>
+                        <field name="show_warning" invisible="1"/>
+                    </list>
+                </field>
+            </group>
+        </tab>
+    </tabs>
+    <related>
+        <field name="tier_variation"/>
+    </related>
+    <foot>
+        <button string="Confirm" method=""/>
+    </foot>
+</form>

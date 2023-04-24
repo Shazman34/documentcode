@@ -1,0 +1,53 @@
+<form model="stock.picking">
+    <field name="number"/>
+    <field name="date"/>
+    <field name="contact_id"/>
+    <field name="related_id"/>
+    <related>
+        <field name="lines">
+            <list>
+                <field name="product_id"/>
+                <field name="lot_id"/>
+                <field name="qty"/>
+                <field name="uom_id"/>
+                <field name="qty2"/>
+                <field name="location_from_id"/>
+                <field name="location_to_id"/>
+                <field name="state"/>
+                <button string="Validate" action="pos_validate_add" icon="arrow-right"/>
+                <!--<button string="Print" action="pos_print_label" icon="print"/>-->
+            </list>
+            <form>
+                <field name="product_id"/>
+                <field name="lot_id"/>
+                <field name="qty"/>
+                <field name="uom_id"/>
+                <field name="qty2"/>
+                <separator/>
+                <field name="location_from_id"/>
+                <field name="location_to_id"/>
+                <separator/>
+                <field name="state"/>
+            </form>
+        </field>
+        <field name="validate_lines" string="Stock Movements">
+            <list>
+                <head>
+                    <button string="Completed" type="success" icon="ok" method="validate_done"/>
+                </head>
+                <field name="product_id"/>
+                <field name="lot_no"/>
+                <field name="qty"/>
+                <field name="uom_id"/>
+                <field name="qty2"/>
+            </list>
+            <form>
+                <field name="product_id"/>
+                <field name="lot_no"/>
+                <field name="qty"/>
+                <field name="uom_id"/>
+                <field name="qty2"/>
+            </form>
+        </field>
+    </related>
+</form>

@@ -1,0 +1,9 @@
+<form model="l2g.company">
+    <field name="name"/>
+    <field name="contact_id"/>
+    <separator string="Payable"/>
+    <field name="balance"/>
+    <related>
+        <field name="customers"/>
+    </related>
+</form>

@@ -1,0 +1,6 @@
+<action>
+    <field name="view">board</field>
+    <field name="string">XBank Dashboard</field>
+    <field name="view_xml">xb_board</field>
+    <field name="menu">xb_menu</field>
+</action>

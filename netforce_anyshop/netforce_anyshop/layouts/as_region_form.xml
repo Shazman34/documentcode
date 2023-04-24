@@ -1,0 +1,7 @@
+<form model="as.region">
+    <field name="name"/>
+    <field name="country_id"/>
+    <related>
+        <field name="cities"/>
+    </related>
+</form>

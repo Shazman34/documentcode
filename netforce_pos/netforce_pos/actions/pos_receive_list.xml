@@ -1,0 +1,4 @@
+<action>
+    <field name="view">pos_receive_list</field>
+    <field name="menu">pos_menu</field>
+</action>

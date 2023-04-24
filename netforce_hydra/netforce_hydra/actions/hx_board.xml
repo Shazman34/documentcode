@@ -1,0 +1,6 @@
+<action>
+    <field name="view">board</field>
+    <field name="string">HydraX Dashboard</field>
+    <field name="layout">hx_board</field>
+    <field name="menu">hx_menu</field>
+</action>

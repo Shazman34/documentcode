@@ -1,0 +1,6 @@
+<action>
+    <field name="string">Select Location</field>
+    <field name="view">form_popup</field>
+    <field name="model">l2g.get.addr</field>
+    <field name="target">popup</field>
+</action>

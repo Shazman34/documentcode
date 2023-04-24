@@ -1,0 +1,5 @@
+<list model="nd.tag">
+    <field name="name"/>
+    <field name="color"/>
+    <field name="description"/>
+</list>

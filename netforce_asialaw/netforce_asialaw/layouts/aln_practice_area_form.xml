@@ -1,0 +1,3 @@
+<form model="aln.practice.area">
+    <field name="name"/>
+</form>

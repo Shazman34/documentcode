@@ -1,0 +1,6 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Customer Categories</field>
+    <field name="model">gt.cust.categ</field>
+    <field name="menu">gt_menu</field>
+</action>

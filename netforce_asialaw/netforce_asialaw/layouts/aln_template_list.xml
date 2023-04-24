@@ -1,0 +1,6 @@
+<list model="aln.template">
+    <field name="date"/>
+    <field name="doc_type_id"/>
+    <field name="name"/>
+    <field name="file"/>
+</list>

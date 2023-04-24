@@ -1,0 +1,8 @@
+<list model="aln.user">
+    <field name="email"/>
+    <field name="first_name"/>
+    <field name="last_name"/>
+    <field name="mobile"/>
+    <field name="client_id"/>
+    <field name="lawyer_id"/>
+</list>

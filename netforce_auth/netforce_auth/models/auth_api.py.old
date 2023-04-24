@@ -1,0 +1,127 @@
+from netforce.model import Model,fields,get_model
+from netforce import access
+import xmlrpc.client
+from netforce import database
+from netforce import utils
+import os
+import base64
+
+class Auth(Model):
+    _name="auth.api"
+    _store=False
+
+    def sign_up(self,first_name,last_name,email,password,company,context={}):
+        print("#"*80)
+        print("sign_up",first_name,last_name,email,password,company)
+        access.set_active_user(1)
+        if not first_name:
+            raise Exception("Missing first name")
+        if not last_name:
+            raise Exception("Missing last name")
+        if not email:
+            raise Exception("Missing email")
+        if not utils.check_email_syntax(email):
+            raise Exception("Invalid email syntax")
+        if not password:
+            raise Exception("Missing password")
+        if not company:
+            raise Exception("Missing company name")
+        res=get_model("auth.user").search([["email","=ilike",email]])
+        if res:
+            raise Exception("Email is already in use")
+        vals={
+            "first_name": first_name,
+            "last_name": last_name,
+            "email": email,
+            "password": password,
+        }
+        user_id=get_model("auth.user").create(vals)
+        vals={
+            "name": company,
+            "users": [("add",[user_id])],
+        }
+        org_id=get_model("auth.org").create(vals)
+        schema="org_%s"%org_id
+        db=database.get_connection()
+        db.execute("CREATE SCHEMA %s"%schema)
+        db.commit()
+        os.system("cat /home/datrus/netforce_backend/db_templates/nf_template.sql | sed 's/org_0/%s/g' | psql -d netforce_online"%schema)
+        database.set_active_schema(schema)
+        with database.Transaction():
+            vals={
+                "name": first_name+" "+last_name,
+                "login": email,
+                "password": password,
+                "email": email,
+            }
+            get_model("base.user").write([1],vals)
+            vals={
+                "name": company,
+            }
+            get_model("company").write([1],vals)
+        return {
+            "org_id": org_id,
+        }
+
+    def login(self,email,password,context={}):
+        print("#"*80)
+        print("login",email,password)
+        access.set_active_user(1)
+        res=get_model("auth.user").search([["email","=ilike",email]])
+        if not res:
+            raise Exception("User not found with that email")
+        user_id=res[0]
+        db=database.get_connection()
+        res=db.get("SELECT password FROM auth_user WHERE id=%s",user_id)
+        enc_password=res.password
+        if not utils.check_password(password,enc_password):
+            raise Exception("Invalid password")
+        user=get_model("auth.user").browse(user_id)
+        orgs=[]
+        for org in user.orgs:
+            orgs.append({
+                "id": org.id,
+                "name": org.name,
+            })
+        return {
+            "first_name": user.first_name,
+            "last_name": user.last_name,
+            "orgs": orgs,
+        }
+
+    def login_org(self,email,password,org_id,context={}):
+        print("#"*80)
+        print("login_org",email,password,org_id)
+        access.set_active_user(1)
+        res=get_model("auth.user").search([["email","=ilike",email]])
+        if not res:
+            raise Exception("User not found with that email")
+        user_id=res[0]
+        res=get_model("auth.org").search([["id","=",org_id]])
+        if not res:
+            raise Exception("Invalid org ID")
+        org=get_model("auth.org").browse(org_id)
+        schema="org_%s"%org.id
+        print("schema",schema)
+        database.set_active_schema(schema)
+        with database.Transaction():
+            res=get_model("base.user").search([["login","=ilike",email]])
+            if not res:
+                raise Exception("User not found in schema '%s' with login '%s'"%(schema,email))
+            schema_user_id=res[0]
+            token = utils.new_token("netforce_online.%s"%schema,schema_user_id)
+            schema_user=get_model("base.user").browse(schema_user_id)
+            res=get_model("company").search([],order="id")
+            if not res:
+                raise Exception("Company not found in schema '%s'"%schema)
+            company_id=res[0]
+            action=schema_user.login_action or "account_board"
+            return {
+                "schema": schema,
+                "user_id": schema_user_id,
+                "token": token,
+                "company_id": company_id,
+                "action": action,
+            }
+
+Auth.register()

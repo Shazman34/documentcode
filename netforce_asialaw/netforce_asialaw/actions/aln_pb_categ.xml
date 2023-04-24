@@ -1,0 +1,6 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Probono Categories</field>
+    <field name="model">aln.pb.categ</field>
+    <field name="menu">aln_menu</field>
+</action>

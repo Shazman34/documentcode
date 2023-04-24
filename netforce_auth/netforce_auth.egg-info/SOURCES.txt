@@ -1,0 +1,5 @@
+setup.py
+netforce_auth.egg-info/PKG-INFO
+netforce_auth.egg-info/SOURCES.txt
+netforce_auth.egg-info/dependency_links.txt
+netforce_auth.egg-info/top_level.txt

@@ -1,0 +1,7 @@
+<action>
+    <field name="view">pos_popup</field>
+    <field name="string">Validate Stock Movement</field>
+    <field name="model">pick.validate.line</field>
+    <field name="layout">pos_validate_add</field>
+    <field name="target">popup</field>
+</action>

@@ -1,0 +1,13 @@
+<list model="ht.guest">
+    <head>
+        <button string="Copy To Contact" method="copy_to_contact"/>
+    </head>
+    <field name="code"/>
+    <field name="first_name"/>
+    <field name="last_name"/>
+    <field name="email"/>
+    <field name="phone"/>
+    <field name="birth_date"/>
+    <field name="picture"/>
+    <field name="categ_id"/>
+</list>

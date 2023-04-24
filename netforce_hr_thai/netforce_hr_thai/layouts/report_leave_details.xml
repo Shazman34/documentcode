@@ -1,0 +1,6 @@
+<form model="report.leave.details">
+    <group form_layout="stacked">
+        <field name="employee_id" span="2"/>
+        <field name="leave_type_id" span="2"/>
+    </group>
+</form>

@@ -1,0 +1,5 @@
+<search model="jc.task">
+    <field name="user_id" select="1"/>
+    <field name="state"/>
+    <field name="deadline"/>
+</search>

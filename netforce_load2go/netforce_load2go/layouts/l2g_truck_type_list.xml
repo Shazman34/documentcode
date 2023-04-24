@@ -1,0 +1,10 @@
+<list model="l2g.truck.type">
+    <field name="name"/>
+    <field name="code"/>
+    <field name="max_width"/>
+    <field name="max_height"/>
+    <field name="max_length"/>
+    <field name="sequence"/>
+    <field name="image"/>
+    <field name="parent_id"/>
+</list>

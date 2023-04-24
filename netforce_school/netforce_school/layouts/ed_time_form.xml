@@ -1,0 +1,9 @@
+<form model="ed.time">
+    <field name="date"/>
+    <field name="title"/>
+    <field name="time_from" view="field_time"/>
+    <field name="time_to" view="field_time"/>
+    <separator/>
+    <field name="group_id"/>
+    <field name="course_id"/>
+</form>

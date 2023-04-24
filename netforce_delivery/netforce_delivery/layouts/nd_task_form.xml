@@ -1,0 +1,14 @@
+<form model="nd.task">
+    <field name="sequence"/>
+    <field name="type"/>
+    <field name="title"/>
+    <field name="est_duration"/>
+    <field name="est_start_time"/>
+    <field name="est_end_time"/>
+    <field name="details"/>
+    <field name="require_gps"/>
+    <field name="state"/>
+    <separator/>
+    <field name="route_id"/>
+    <field name="order_id"/>
+</form>

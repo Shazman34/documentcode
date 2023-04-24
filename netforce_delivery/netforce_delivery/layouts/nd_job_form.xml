@@ -1,0 +1,17 @@
+<form model="nd.job">
+    <field name="number"/>
+    <field name="date"/>
+    <field name="title"/>
+    <field name="driver_id"/>
+    <field name="amount"/>
+    <field name="state"/>
+    <field name="num_tasks"/>
+    <field name="comments"/>
+    <field name="bonus_amount"/>
+    <separator string="Bonus Conditions"/>
+    <field name="bonus_min_deliveries"/>
+    <field name="bonus_min_on_time_percent"/>
+    <related>
+        <field name="tasks"/>
+    </related>
+</form>

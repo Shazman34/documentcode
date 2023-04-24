@@ -1,0 +1,7 @@
+<form model="report.pnd1.kor" title="PND1 Kor: Personal Income Tax Report">
+    <field name="year" mode="year"/>
+    <foot replace="1">
+        <button string="Print Cover" method="print_cover" icon="print"/>
+        <button string="Print Attachment" method="print_attach" icon="print"/>
+    </foot>
+</form>

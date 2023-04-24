@@ -1,0 +1,6 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Supplier Orders</field>
+    <field name="model">gt.sup.order</field>
+    <field name="menu">gt_menu</field>
+</action>

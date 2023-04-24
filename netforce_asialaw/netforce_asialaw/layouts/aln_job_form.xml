@@ -1,0 +1,45 @@
+<form model="aln.job">
+    <head>
+        <field name="state"/>
+    </head>
+    <field name="date"/>
+    <field name="number"/>
+    <field name="client_id"/>
+    <field name="lawyer_id"/>
+    <field name="job_type_id"/>
+    <field name="state"/>
+    <field name="origin"/>
+    <field name="user_id"/>
+    <separator string="Quick Consult"/>
+    <field name="qc_categ_id"/>
+    <field name="facts"/>
+    <field name="questions"/>
+    <field name="parties"/>
+    <field name="qc_call_time"/>
+    <field name="qc_call_reminders_sent"/>
+    <field name="qc_state"/>
+    <separator/>
+    <field name="is_paid"/>
+    <foot>
+        <button string="View Timeline" action="aln_board" action_options='{"active_id":id}' icon="time"/>
+    </foot>
+    <related>
+        <field name="user_access">
+            <list>
+                <field name="user_id"/>
+                <field name="access_type"/>
+            </list>
+            <form>
+                <field name="user_id"/>
+                <field name="access_type"/>
+            </form>
+        </field>
+        <field name="tasks"/>
+        <field name="meetings"/>
+        <field name="documents"/>
+        <field name="bill_reqs"/>
+        <field name="payments"/>
+        <field name="feedback"/>
+        <field name="logs"/>
+    </related>
+</form>

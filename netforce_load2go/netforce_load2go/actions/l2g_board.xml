@@ -1,0 +1,6 @@
+<action>
+    <field name="view">board</field>
+    <field name="string">L2G Dashboard</field>
+    <field name="layout">l2g_board</field>
+    <field name="menu">l2g_menu</field>
+</action>

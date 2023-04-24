@@ -1,0 +1,4 @@
+<list model="ht.source">
+    <field name="name"/>
+    <field name="is_ota"/>
+</list>

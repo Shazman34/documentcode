@@ -1,0 +1,7 @@
+<action>
+    <field name="view">multi_view</field>
+    <field name="string">Customer Deposits</field>
+    <field name="model">xb.deposit</field>
+    <field name="tabs">[["All",[]],["Draft",[["state","=","draft"]]],["Completed",[["state","=","done"]]]]</field>
+    <field name="menu">xb_menu</field>
+</action>

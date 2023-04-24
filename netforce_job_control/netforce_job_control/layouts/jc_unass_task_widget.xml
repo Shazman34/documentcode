@@ -1,0 +1,7 @@
+<list model="jc.task" colors='{"#f99":[["overdue","=",true]],"#9f9":[["state","=","done"]]}'>
+    <field name="contact_id"/>
+    <field name="service_id"/>
+    <field name="name"/>
+    <field name="deadline"/>
+    <field name="overdue" invisible="1"/>
+</list>

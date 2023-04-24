@@ -1,0 +1,5 @@
+<list model="nd.poll">
+    <field name="name"/>
+    <field name="num_options"/>
+    <field name="num_answers"/>
+</list>

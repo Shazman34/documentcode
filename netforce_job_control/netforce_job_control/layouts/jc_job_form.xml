@@ -1,0 +1,187 @@
+<form model="jc.job" show_company="1">
+    <top>
+        <button string="Print" icon="print" action="jc_print_job" action_options='{"active_id":id}'/>
+        <button string="Options" dropdown="1">
+            <item string="Copy Job" method="copy"/>
+            <item string="Create Tasks" method="create_tasks"/>
+            <item string="Create Next Job" method="create_next"/>
+            <!--<divider/>
+            <item string="Copy To Customer Invoice" method="copy_to_invoice"/>-->
+        </button>
+    </top>
+    <head>
+        <field name="state"/>
+    </head>
+    <field name="contact_id"/>
+    <field name="person_id" domain='[["relations.to_partner_id","=",contact_id]]'/>
+    <field name="product_id" onchange="onchange_product"/>
+    <field name="service_id"/>
+    <field name="template_id" onchange="onchange_template"/>
+    <field name="name"/>
+    <field name="number"/>
+    <field name="start_date"/>
+    <field name="due_date"/>
+    <field name="user_id"/>
+    <field name="request_by_id"/>
+    <field name="state" onchange="onchange_state"/>
+    <field name="bill_type"/>
+    <field name="description"/>
+    <field name="last_fup"/>
+    <field name="est_hours"/>
+    <field name="percent_done"/>
+    <field name="company_id"/>
+    <field name="users" view="field_multi_select"/>
+    <group attrs='{"invisible":[["state","!=","canceled"]]}'>
+        <field name="cancel_reason"/>
+        <field name="cancel_periodic"/>
+    </group>
+    <!--
+    <separator string="Invoicing"/>
+    <field name="deposit_amount"/>
+    <newline/>
+    <field name="invoice_id" action="view_invoice"/>
+    <newline/>
+    <field name="percent_invoiced"/>
+    <field name="percent_paid"/>
+    -->
+    <separator string="Payment Installments"/>
+    <field name="bill_amount"/>
+    <field name="deposit_amount"/>
+    <field name="payment_plans" nolabel="1">
+        <list>
+            <field name="amount"/>
+            <field name="description"/>
+            <field name="period"/>
+            <field name="invoice_id"/>
+            <field name="state" readonly="1"/>
+            <button string="Create Invoice" method="create_invoice" icon="arrow-right" states="waiting"/>
+        </list>
+    </field>
+    <field name="percent_invoiced"/>
+    <field name="percent_paid"/>
+    <field name="company_id" invisible="1"/>
+    <foot>
+        <button string="Completed" method="set_done" type="success" states="in_progress" icon="ok" confirm="Please confirm that all time entries and expenses have been recorded."/>
+        <!--<button string="Confirm" method="confirm" type="success" states="new" icon="arrow-right"/>-->
+    </foot>
+    <related>
+        <field name="status_history">
+            <list>
+                <field name="date"/>
+                <field name="description"/>
+            </list>
+            <form>
+                <field name="date"/>
+                <field name="description"/>
+            </form>
+        </field>
+        <field name="tasks">
+            <list colors='{"deadline,#f00":[["overdue","=",true]],"days_late,#f00":[["overdue","=",true]],"#9f9":[["state","=","done"]]}'>
+                <head>
+                    <button string="Mark as completed" type="success" icon="ok" method="set_done"/>
+                </head>
+                <field name="name"/>
+                <field name="user_id"/>
+                <field name="deadline"/>
+                <field name="state"/>
+                <field name="est_hours"/>
+                <field name="overdue" invisible="1"/>
+            </list>
+            <form>
+                <field name="name"/>
+                <field name="user_id"/>
+                <field name="deadline"/>
+                <newline/>
+                <field name="state"/>
+                <field name="description"/>
+                <field name="est_hours"/>
+            </form>
+        </field>
+        <field name="time_entries_other">
+            <form>
+                <field name="jc_job_id" condition='[["involved_user_id","=",user_id]]' onchange="onchange_job" required="1"/>
+                <field name="user_id" onchange="onchange_user"/>
+                <separator/>
+                <field name="date"/>
+                <field name="start_time" onchange="onchange_start_time"/>
+                <field name="actual_hours" view="field_duration" onchange="onchange_actual_hours"/>
+                <field name="end_time" onchange="onchange_end_time"/>
+                <separator/>
+                <field name="description" required="1"/>
+                <field name="notes" help="Eg. traveling time"/>
+                <separator/>
+                <field name="product_id" condition='[["bill_user_id","=",user_id]]' onchange="onchange_product"/>
+                <field name="bill_type" invisible="1"/>
+                <group attrs='{"invisible":[["bill_type","!=","hour"]]}' columns="1" span="6">
+                    <field name="rate"/>
+                </group>
+                <group attrs='{"invisible":[["bill_type","!=","hour"]]}'>
+                    <field name="bill_hours" view="field_duration" view_options='{"no_timer":true,"hide_format":true}' onchange="onchange_bill_hours"/>
+                    <field name="amount"/>
+                </group>
+                <group attrs='{"invisible":[["bill_type","=","hour"]]}' columns="1" span="6">
+                    <field name="flat_fee"/>
+                </group>
+                <separator/>
+                <field name="state"/>
+                <field name="invoice_id" readonly="1"/>
+                <field name="timer_start" invisible="1"/>
+            </form>
+            <list>
+                <search>
+                    <field name="date"/>
+                    <field name="state"/>
+                </search>
+                <head>
+                    <button string="Submit" method="submit" type="primary" icon="arrow-right" hide_profile="ADMIN"/>
+                    <button string="Approve" method="approve" type="success" icon="ok" hide_profile="LAWYER"/>
+                    <button string="To Draft" method="to_draft" icon="arrow-left" hide_profile="LAWYER"/>
+                    <button string="Merge" method="merge"/>
+                    <button string="Print" icon="print" action="jc_print_time" action_options='{"ids":ids}'/>
+                    <button string="Copy To Invoice" method="copy_to_invoice" hide_profile="LAWYER"/>
+                </head>
+                <field name="date"/>
+                <field name="description"/>
+                <field name="user_id"/>
+                <field name="bill_hours" view="field_duration" view_options='{"no_timer":true,"hide_format":true,"auto_save":true}' show_total="1" total_format="hours"/>
+                <field name="amount" show_total="1"/>
+                <field name="notes"/>
+                <field name="state"/>
+                <field name="timer_start" invisible="1"/>
+                <field name="job_bill_type" invisible="1"/>
+                <group>
+                    <button string="Submit" type="primary" icon="arrow-right" method="submit" states="draft" attrs='{"invisible":[["job_bill_type","=","flat"]]}' hide_profile="ADMIN"/>
+                    <button string="Approve" type="success" icon="ok" method="approve" states="draft,submitted" attrs='{"invisible":[["job_bill_type","=","flat"]]}' hide_profile="LAWYER"/>
+                    <button string="To Draft" icon="arrow-left" method="to_draft" states="submitted" attrs='{"invisible":[["job_bill_type","=","flat"]]}' hide_profile="LAWYER"/>
+                </group>
+            </list>
+        </field>
+        <field name="time_entries_invoiced">
+            <list hide_buttons="1" hide_select="1" pill_field="invoice_id">
+                <search>
+                    <field name="date"/>
+                    <field name="invoice_id"/>
+                </search>
+                <field name="date"/>
+                <field name="description"/>
+                <field name="user_id"/>
+                <field name="bill_hours" view="field_duration" view_options='{"readonly":true}' show_total="1" total_format="hours"/>
+                <field name="amount" show_total="1"/>
+                <field name="notes"/>
+                <field name="state"/>
+                <field name="invoice_id"/>
+                <field name="timer_start" invisible="1"/>
+            </list>
+        </field>
+        <field name="time_entries_merged"/>
+        <field name="expenses"/>
+        <field name="invoiced_expenses"/>
+        <field name="documents" show_inline="1"/>
+        <field name="required_docs"/>
+        <field name="folders"/>
+        <field name="invoices"/>
+        <field name="payments"/>
+        <field name="emails"/>
+        <field name="comments"/>
+    </related>
+</form>

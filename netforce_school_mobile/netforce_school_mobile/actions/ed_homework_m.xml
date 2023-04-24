@@ -1,0 +1,5 @@
+<action>
+    <field name="view">list_m</field>
+    <field name="title">Homework</field>
+    <field name="model">ed.homework</field>
+</action>

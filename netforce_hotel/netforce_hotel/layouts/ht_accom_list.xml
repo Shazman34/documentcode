@@ -1,0 +1,5 @@
+<list model="ht.accom">
+    <field name="sequence"/>
+    <field name="name"/>
+    <field name="accom_type_id"/>
+</list>

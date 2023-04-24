@@ -1,0 +1,6 @@
+<action>
+    <field name="view">multi_view</field>
+    <field name="string">Transactions</field>
+    <field name="model">xb.transaction</field>
+    <field name="menu">xb_menu</field>
+</action>

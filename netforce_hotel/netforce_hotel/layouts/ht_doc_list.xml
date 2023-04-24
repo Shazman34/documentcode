@@ -1,0 +1,10 @@
+<list model="ht.doc">
+    <field name="type"/>
+    <field name="number"/>
+    <field name="issue_date"/>
+    <field name="issue_country_id"/>
+    <field name="expire_date"/>
+    <field name="file"/>
+    <field name="guest_id"/>
+    <field name="booking_id"/>
+</list>

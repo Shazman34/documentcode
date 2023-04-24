@@ -1,0 +1,12 @@
+<list model="aln.job">
+    <field name="date"/>
+    <field name="number"/>
+    <field name="client_id"/>
+    <field name="lawyer_id"/>
+    <field name="job_type_id"/>
+    <field name="state"/>
+    <field name="origin"/>
+    <field name="user_id"/>
+    <field name="is_paid"/>
+    <button string="View Timeline" action="aln_board" action_options='{"active_id":id}' icon="time"/>
+</list>

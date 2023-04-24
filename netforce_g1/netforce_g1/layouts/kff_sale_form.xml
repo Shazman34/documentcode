@@ -1,0 +1,14 @@
+<inherit inherit="sale_form">
+    <item string="Online Payment" position="after">
+        <divider/>
+        <item string="TG: Create Freight Invoice" method="tg_make_freight_inv"/>
+        <item string="TG: Create Production Order In KFF" method="tg_make_mfg"/>
+        <item string="KFF: Create Labor Invoice" method="kff_make_labor_inv"/>
+        <item string="TG: Create Packing List" method="tg_make_pick_out"/>
+        <item string="TG/KFF: Create Invoice For Customer" method="tg_make_cust_inv"/>
+        <item string="TG/KFF: Delete Related Documents" method="delete_related" confirm="Are you sure?"/>
+    </item>
+    <!--<field name="sale_categ_id" position="replace">
+        <field name="supplier_type" span="2"/>
+    </field>-->
+</inherit>

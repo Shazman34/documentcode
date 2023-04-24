@@ -1,0 +1,18 @@
+<menu string="Job Control">
+    <item string="Dashboards">
+        <item string="Manager Dashboard" action="jc_service_board" perm="service_manager"/>
+        <item string="User Dashboard" action="jc_service_board_user"/>
+    </item>
+    <item string="Jobs" action="jc_job"/>
+    <item string="Time Entries" action="jc_time_entry"/>
+    <item string="Expenses" action="jc_expense"/>
+    <item string="Reports">
+        <item string="Job Analysis" action="jc_job_analysis"/>
+        <item string="Task Analysis" action="jc_task_analysis"/>
+        <item string="Time Analysis" action="jc_time_analysis"/>
+    </item>
+    <item string="Settings">
+        <item string="Job Templates" action="jc_job_template"/>
+        <item string="Services (DEPRECATED)" action="jc_service"/>
+    </item>
+</menu>

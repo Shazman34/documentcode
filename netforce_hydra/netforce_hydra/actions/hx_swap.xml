@@ -1,0 +1,7 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Swaps</field>
+    <field name="model">hx.swap</field>
+    <field name="tabs">[["All",[]],["Draft",[["state","=","draft"]]],["In Progress",[["state","=","in_progress"]]],["Completed",[["state","=","done"]]]]</field>
+    <field name="menu">hx_menu</field>
+</action>

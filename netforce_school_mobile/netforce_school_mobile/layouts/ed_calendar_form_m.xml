@@ -1,0 +1,6 @@
+<form_m model="ed.calendar">
+    <field name="date"/>
+    <field name="type"/>
+    <newline/>
+    <field name="title"/>
+</form_m>

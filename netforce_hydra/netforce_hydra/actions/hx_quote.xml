@@ -1,0 +1,7 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Quotes</field>
+    <field name="model">hx.quote</field>
+    <field name="tabs">[["All",[]],["Pending",[["state","=","pending"]]],["Accepted",[["state","=","accepted"]]],["Completed",[["state","=","done"]]]]</field>
+    <field name="menu">hx_menu</field>
+</action>

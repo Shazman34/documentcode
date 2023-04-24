@@ -1,0 +1,4 @@
+<menu string="Addons">
+    <item string="Addons" action="addon"/>
+    <item string="Billing" action="billing"/>
+</menu>

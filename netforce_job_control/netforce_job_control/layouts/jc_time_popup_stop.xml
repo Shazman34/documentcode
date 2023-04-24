@@ -1,0 +1,9 @@
+<form model="time.entry" form_layout="stacked" show_save="1">
+    <field name="date"/>
+    <field name="client_id"/>
+    <field name="jc_job_id"/>
+    <field name="notes"/>
+    <separator/>
+    <field name="actual_hours" view="field_duration"/>
+    <field name="timer_start" invisible="1"/>
+</form>

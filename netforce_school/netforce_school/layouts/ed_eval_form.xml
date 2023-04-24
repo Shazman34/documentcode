@@ -1,0 +1,19 @@
+<form model="ed.eval">
+    <field name="date"/>
+    <field name="title"/>
+    <field name="course_id"/>
+    <field name="teacher_id"/>
+    <separator/>
+    <field name="max_score"/>
+    <separator string="Results"/>
+    <field name="results" view="field_o2m_inline" nolabel="1" span="12">
+        <list>
+            <field name="student_id"/>
+            <field name="score"/>
+        </list>
+        <form save_title="Add Result" save_icon="plus">
+            <field name="student_id"/>
+            <field name="score"/>
+        </form>
+    </field>
+</form>

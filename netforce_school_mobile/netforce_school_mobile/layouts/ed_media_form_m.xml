@@ -1,0 +1,10 @@
+<form_m model="ed.media">
+    <field name="date"/>
+    <field name="group_id"/>
+    <newline/>
+    <field name="title"/>
+    <newline/>
+    <field name="file"/>
+    <newline/>
+    <field name="event_id"/>
+</form_m>

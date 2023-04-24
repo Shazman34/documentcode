@@ -1,0 +1,6 @@
+<action>
+    <field name="view">list_m</field>
+    <field name="title">School Calendar</field>
+    <field name="model">ed.calendar</field>
+    <field name="modes">calendar,list</field>
+</action>

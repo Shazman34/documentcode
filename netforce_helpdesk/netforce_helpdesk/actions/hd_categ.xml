@@ -1,0 +1,6 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Categories</field>
+    <field name="model">hd.categ</field>
+    <field name="menu">hd_menu</field>
+</action>

@@ -1,0 +1,6 @@
+<action>
+    <field name="view">board</field>
+    <field name="string">POS Dashboard</field>
+    <field name="layout">pos_board</field>
+    <field name="menu">pos_menu</field>
+</action>

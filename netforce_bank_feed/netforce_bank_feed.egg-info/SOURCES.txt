@@ -1,0 +1,5 @@
+setup.py
+netforce_bank_feed.egg-info/PKG-INFO
+netforce_bank_feed.egg-info/SOURCES.txt
+netforce_bank_feed.egg-info/dependency_links.txt
+netforce_bank_feed.egg-info/top_level.txt

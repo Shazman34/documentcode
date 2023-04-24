@@ -1,0 +1,6 @@
+<action>
+    <field name="view">form_popup</field>
+    <field name="string">Create Routes</field>
+    <field name="model">nd.create.route</field>
+    <field name="target">popup</field>
+</action>

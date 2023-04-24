@@ -1,0 +1,5 @@
+<action>
+    <field name="view">list_m</field>
+    <field name="title">Time Table</field>
+    <field name="model">ed.time</field>
+</action>

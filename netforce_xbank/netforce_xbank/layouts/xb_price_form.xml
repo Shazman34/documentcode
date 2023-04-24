@@ -1,0 +1,7 @@
+<form model="xb.price">
+    <field name="time"/>
+    <field name="product"/>
+    <field name="source"/>
+    <field name="bid"/>
+    <field name="ask"/>
+</form>

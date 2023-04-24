@@ -1,0 +1,10 @@
+<list model="ht.assign">
+    <field name="booking_id"/>
+    <field name="accom_type_id"/>
+    <field name="accom_id"/>
+    <field name="from_date"/>
+    <field name="to_date"/>
+    <field name="num_nights"/>
+    <field name="num_guests"/>
+    <field name="amount"/>
+</list>

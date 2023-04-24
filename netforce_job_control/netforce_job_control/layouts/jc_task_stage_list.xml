@@ -1,0 +1,5 @@
+<list model="task.stage">
+    <field name="service_id"/>
+    <field name="name"/>
+    <field name="sequence"/>
+</list>

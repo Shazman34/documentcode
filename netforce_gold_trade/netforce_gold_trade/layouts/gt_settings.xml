@@ -1,0 +1,21 @@
+<form model="gt.settings" title="Other Settings">
+    <separator string="Sequences"/>
+    <field name="seq_cust_id"/>
+    <newline/>
+    <field name="seq_cust_order_id"/>
+    <field name="seq_cust_match_id"/>
+    <field name="seq_cust_payment_id"/>
+    <field name="seq_cust_delivery_id"/>
+    <field name="seq_cust_deposit_id"/>
+    <newline/>
+    <field name="seq_sup_order_id"/>
+    <separator string="Order Qtys"/>
+    <field name="order_qtys_96"/>
+    <field name="order_qtys_99"/>
+    <field name="order_qtys_96_mini"/>
+    <separator string="Fees"/>
+    <field name="late_pay_fee"/>
+    <related>
+        <field name="bank_accounts"/>
+    </related>
+</form>

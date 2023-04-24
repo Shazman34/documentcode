@@ -1,0 +1,29 @@
+<form model="gt.cust.payment" attrs='{"readonly":[["state","=","done"]]}'>
+    <head>
+        <field name="state"/>
+        <button string="Print" icon="print" action="gt_print_cust_payment"/>
+        <button string="Options">
+            <item string="To Draft" method="to_draft" states="done"/>
+        </button>
+    </head>
+    <field name="number"/>
+    <field name="payment_time"/>
+    <field name="customer_id"/>
+    <field name="direction"/>
+    <separator string="Payment Lines"/>
+    <field name="lines">
+        <list>
+            <field name="order_id" condition='[["customer_id","=",parent.customer_id],["state","in",["confirmed","matched"]]]' onchange="onchange_order"/>
+            <field name="qty"/>
+            <field name="amount"/>
+            <field name="late_fee"/>
+        </list>
+    </field>
+    <field name="amount_total"/>
+    <separator string="Payment Method"/>
+    <field name="cust_bank_account_id"/>
+    <field name="comp_bank_account_id" condition='[["related_id","=","gt.settings,1"]]'/>
+    <foot>
+        <button string="Validate" method="set_done" type="success" states="draft"/>
+    </foot>
+</form>

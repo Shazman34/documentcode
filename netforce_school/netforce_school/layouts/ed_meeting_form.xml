@@ -1,0 +1,14 @@
+<form model="ed.meeting">
+    <head>
+        <field name="state"/>
+    </head>
+    <field name="date"/>
+    <field name="time"/>
+    <newline/>
+    <field name="teacher_id"/>
+    <field name="course_id"/>
+    <newline/>
+    <field name="student_id"/>
+    <separator/>
+    <field name="state"/>
+</form>

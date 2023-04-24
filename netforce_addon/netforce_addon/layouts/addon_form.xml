@@ -1,0 +1,15 @@
+<form model="addon">
+    <head>
+        <field name="state"/>
+    </head>
+    <field name="name"/>
+    <field name="code"/>
+    <field name="price"/>
+    <field name="description"/>
+    <field name="sequence"/>
+    <field name="price_plans"/>
+    <foot>
+        <button string="Install" method="install_addon" type="success" states="not_installed"/>
+        <button string="Uninstall" method="uninstall_addon" states="installed"/>
+    </foot>
+</form>

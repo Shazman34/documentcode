@@ -1,0 +1,19 @@
+<form model="gt.cust.match">
+    <head>
+        <button string="Print" icon="print" action="gt_print_match"/>
+    </head>
+    <field name="number"/>
+    <field name="create_time"/>
+    <field name="customer_id"/>
+    <field name="product"/>
+    <separator/>
+    <field name="num_orders"/>
+    <field name="net_thb"/>
+    <field name="buy_96_qty"/>
+    <field name="sell_96_qty"/>
+    <field name="buy_99_qty"/>
+    <field name="sell_99_qty"/>
+    <related>
+        <field name="orders"/>
+    </related>
+</form>

@@ -1,0 +1,6 @@
+<form model="price.plan">
+    <field name="name"/>
+    <field name="price"/>
+    <field name="sequence"/>
+    <field name="addons"/>
+</form>

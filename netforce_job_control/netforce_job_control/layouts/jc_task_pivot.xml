@@ -1,0 +1,10 @@
+<pivot model="jc.task" rows="job_id.contact_id.name,job_id.number" agg_name="count">
+    <field name="name" string="Task Name"/>
+    <field name="state" string="Task Status"/>
+    <field name="job_id.number" string="Job Number"/>
+    <field name="job_id.contact_id.name" string="Customer"/>
+    <field name="job_id.contact_id.categ_id.name" string="Customer Category"/>
+    <field name="job_id.state" string="Job Status"/>
+    <field name="job_id.user_id.name" string="Responsible User"/>
+    <field name="job_id.due_date"/>
+</pivot>

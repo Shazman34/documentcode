@@ -1,0 +1,34 @@
+<form model="jc.project">
+    <head>
+        <field name="state"/>
+    </head>
+    <field name="name"/>
+    <field name="contact_id"/>
+    <field name="start_date"/>
+    <field name="end_date"/>
+    <field name="product_id"/>
+    <field name="state"/>
+    <field name="description"/>
+    <related>
+        <field name="jobs"/>
+        <field name="tasks"/>
+        <field name="work_time"/>
+        <field name="documents">
+            <list>
+                <field name="file" target="_blank"/>
+                <field name="categ_id"/>
+                <field name="description"/>
+                <field name="date"/>
+                <field name="expiry_date"/>
+            </list>
+            <form>
+                <field name="categ_id"/>
+                <field name="file" target="_blank" onchange="onchange_file"/>
+                <field name="date"/>
+                <field name="description"/>
+                <field name="expiry_date"/>
+            </form>
+        </field>
+        <field name="comments"/>
+    </related>
+</form>

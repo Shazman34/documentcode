@@ -1,0 +1,7 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Bookings</field>
+    <field name="model">l2g.booking</field>
+    <field name="tabs">[["All",[]],["Draft",[["state","=","draft"]]],["Confirmed",[["state","=","confirmed"]]],["Invoiced",[["state","=","invoiced"]]],["Paid",[["state","=","paid"]]]]</field>
+    <field name="menu">l2g_menu</field>
+</action>

@@ -1,0 +1,7 @@
+<form model="l2g.trans">
+    <field name="driver_id"/>
+    <field name="time"/>
+    <field name="description"/>
+    <field name="amount"/>
+    <field name="balance"/>
+</form>

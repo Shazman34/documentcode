@@ -1,0 +1,12 @@
+<menu string="Lazada">
+    <item string="Lazada Products" action="lazada_product"/>
+    <item string="Lazada Accounts" action="lazada_account"/>
+    <item string="Lazada Orders" action="lazada_order"/>
+    <item string="Settings">
+        <item string="Lazada Settings" action="lazada_settings"/>
+        <item string="Lazada Product Categories" action="lazada_product_categ"/>
+    </item>
+    <item string="Others">
+        <item string="Webhook" action="lazada_webhook"/>
+    </item>
+</menu>

@@ -1,0 +1,39 @@
+<form model="nd.order">
+    <field name="number"/>
+    <field name="state"/>
+    <newline/>
+    <field name="delivery_date"/>
+    <field name="sale_id"/>
+    <newline/>
+    <field name="time_from" view="field_time"/>
+    <field name="time_to" view="field_time"/>
+    <newline/>
+    <field name="customer_id"/>
+    <field name="ship_address_id"/>
+    <separator string="Route Assignment"/>
+    <field name="route_id" condition='[["filter_order_id","=",id]]'/>
+    <field name="sequence"/>
+    <separator string="Planned Times"/>
+    <field name="est_deliver_time"/>
+    <field name="est_drive_duration"/>
+    <field name="est_wait_duration"/>
+    <separator string="Actual Times"/>
+    <field name="act_deliver_time"/>
+    <field name="error_time"/>
+    <separator string="Photos"/>
+    <field name="require_dropoff_image"/>
+    <field name="require_return_image"/>
+    <field name="dropoff_image"/>
+    <field name="return_image"/>
+    <separator string="Coordinates"/>
+    <field name="require_dropoff_coords"/>
+    <field name="dropoff_coords"/>
+    <separator string="Notifications"/>
+    <field name="template_set_id"/>
+    <separator string="Customer Poll"/>
+    <field name="poll_id"/>
+    <field name="poll2_id"/>
+    <separator string="Other Info"/>
+    <field name="tags"/>
+    <field name="hide"/>
+</form>

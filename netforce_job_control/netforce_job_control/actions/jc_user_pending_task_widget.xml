@@ -1,0 +1,8 @@
+<action>
+    <field name="view_cls">list</field>
+    <field name="model">jc.task</field>
+    <field name="condition">[["user_board","=",true],["state","=","in_progress"]]</field>
+    <field name="order">deadline</field>
+    <field name="layout">jc_user_pending_task_widget</field>
+    <field name="noselect">1</field>
+</action>

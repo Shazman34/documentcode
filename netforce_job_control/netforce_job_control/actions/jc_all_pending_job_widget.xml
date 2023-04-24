@@ -1,0 +1,9 @@
+<action>
+    <field name="view">list</field>
+    <field name="model">jc.job</field>
+    <field name="condition">[["state","=","in_progress"]]</field>
+    <field name="order">due_date</field>
+    <field name="layout">jc_all_pending_job_widget</field>
+    <field name="noselect">1</field>
+    <field name="board_select">1</field>
+</action>

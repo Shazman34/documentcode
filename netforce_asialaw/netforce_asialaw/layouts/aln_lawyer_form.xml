@@ -1,0 +1,66 @@
+<form model="aln.lawyer">
+    <field name="first_name"/>
+    <field name="last_name"/>
+    <field name="email"/>
+    <field name="designation"/>
+    <field name="about"/>
+    <field name="phone"/>
+    <field name="gender"/>
+    <separator/>
+    <field name="is_lawyer"/>
+    <field name="firm_id"/>
+    <separator/>
+    <field name="is_counsel"/>
+    <field name="company_id"/>
+    <separator/>
+    <field name="qc_phone"/>
+    <field name="fax"/>
+    <field name="page_name"/>
+    <separator string="Address"/>
+    <field name="street"/>
+    <field name="building"/>
+    <field name="city"/>
+    <field name="state"/>
+    <field name="postal_code"/>
+    <field name="country_id"/>
+    <separator/>
+    <field name="linkedin_url"/>
+    <field name="education"/>
+    <field name="affiliation"/>
+    <field name="certification"/>
+    <field name="prev_appoint"/>
+    <field name="prof_idno"/>
+    <field name="year_bar"/>
+    <field name="jurisdiction"/>
+    <field name="languages_spoken"/>
+    <field name="languages_written"/>
+    <field name="practice_areas"/>
+    <field name="industries"/>
+    <field name="avg_rate"/>
+    <field name="avg_rate_currency_id"/>
+    <field name="max_practice_areas"/>
+    <separator/>
+    <field name="paypal_email"/>
+    <separator string="Services"/>
+    <field name="probono"/>
+    <field name="pb_categs"/>
+    <newline/>
+    <field name="pb_quick_consult"/>
+    <field name="pb_qc_categs"/>
+    <newline/>
+    <field name="quick_consult"/>
+    <field name="qc_categs"/>
+    <separator/>
+    <field name="remarks"/>
+    <newline/>
+    <field name="quick_consult_plus"/>
+    <field name="qcp_categs"/>
+    <newline/>
+    <field name="quick_contracts"/>
+    <separator/>
+    <field name="remarks"/>
+    <related>
+        <field name="users"/>
+        <field name="feedback"/>
+    </related>
+</form>

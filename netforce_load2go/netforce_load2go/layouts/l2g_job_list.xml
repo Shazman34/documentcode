@@ -1,0 +1,33 @@
+<list model="l2g.job">
+    <head>
+        <button string="Send Notifs" method="send_notifs"/>
+        <button string="Cancel" method="cancel"/>
+        <button string="Create Tracking Entries" method="copy_to_track"/>
+        <button string="DO Received" method="set_do_received"/>
+        <button string="Clear Driver Group" method="clear_group"/>
+    </head>
+    <field name="number"/>
+    <field name="date"/>
+    <field name="booking_id"/>
+    <field name="customer_id"/>
+    <field name="truck_type_id"/>
+    <field name="weight_range_id"/>
+    <field name="group_id"/>
+    <field name="client_amount"/>
+    <field name="client_price_diff"/>
+    <field name="driver_amount"/>
+    <field name="driver_price_diff"/>
+    <field name="driver_id"/>
+    <field name="planner_id"/>
+    <field name="load_addr"/>
+    <field name="from_province_id"/>
+    <field name="delivery_addr"/>
+    <field name="to_province_id"/>
+    <field name="return_trip"/>
+    <field name="state"/>
+    <field name="rating"/>
+    <field name="comment"/>
+    <field name="cust_invoice_id"/>
+    <field name="supp_invoice_id"/>
+    <field name="do_received"/>
+</list>

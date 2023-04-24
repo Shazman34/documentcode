@@ -1,0 +1,5 @@
+<board>
+    <hpanel>
+        <widget action="nd_delivery_day" string="Deliveries Per Day" span="12"/>
+    </hpanel>
+</board>

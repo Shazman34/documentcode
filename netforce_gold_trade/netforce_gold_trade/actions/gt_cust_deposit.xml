@@ -1,0 +1,7 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Customer Deposits</field>
+    <field name="model">gt.cust.deposit</field>
+    <field name="tabs">[["All",[]],["Draft",[["state","=","draft"]]],["Completed",[["state","=","done"]]]]</field>
+    <field name="menu">gt_menu</field>
+</action>

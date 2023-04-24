@@ -1,0 +1,5 @@
+<action>
+    <field name="type">print</field>
+    <field name="model">pick.validate.line</field>
+    <field name="report_template">pos_print_label</field>
+</action>

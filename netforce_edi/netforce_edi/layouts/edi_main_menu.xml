@@ -1,0 +1,5 @@
+<inherit inherit="main_menu">
+    <item string="General" position="after">
+        <item string="EDI" action="edi_import" addon="EDI"/>
+    </item>
+</inherit>

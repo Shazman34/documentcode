@@ -1,0 +1,6 @@
+<inherit inherit="fin_settings">
+    <form position="append">
+        <separator string="Malaysia GST"/>
+        <field name="gst_self_bill_no"/>
+    </form>
+</inherit>

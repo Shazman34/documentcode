@@ -1,0 +1,3 @@
+<form model="aln.industry">
+    <field name="name"/>
+</form>

@@ -1,0 +1,5 @@
+<menu string="Netforce Auth">
+    <item string="Dashboard" action="auth_board"/>
+    <item string="Users" action="auth_user"/>
+    <item string="Organizations" action="auth_org"/>
+</menu>

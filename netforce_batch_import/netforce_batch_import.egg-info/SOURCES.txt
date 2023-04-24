@@ -1,0 +1,5 @@
+setup.py
+netforce_batch_import.egg-info/PKG-INFO
+netforce_batch_import.egg-info/SOURCES.txt
+netforce_batch_import.egg-info/dependency_links.txt
+netforce_batch_import.egg-info/top_level.txt

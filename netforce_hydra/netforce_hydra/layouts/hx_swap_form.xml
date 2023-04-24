@@ -1,0 +1,44 @@
+<form model="hx.swap">
+    <top>
+        <button string="Options">
+            <item string="Create Contract" method="create_contract"/>
+            <item string="Get Contract Address" method="get_contract_addr"/>
+            <item string="Get Deposit Balances" method="get_deposit_bals"/>
+            <item string="Release Funds" method="release_funds"/>
+            <divider/>
+            <item string="Update Status" method="update_status"/>
+            <item string="Next Step" method="next_step"/>
+        </button>
+    </top>
+    <head>
+        <field name="state"/>
+    </head>
+    <field name="number"/>
+    <field name="time"/>
+    <separator/>
+    <field name="rfq_id"/>
+    <field name="quote_id"/>
+    <separator/>
+    <field name="from_user_id"/>
+    <field name="from_asset"/>
+    <field name="from_qty"/>
+    <separator/>
+    <field name="to_user_id"/>
+    <field name="to_asset"/>
+    <field name="to_qty"/>
+    <separator/>
+    <field name="from_user_receive_addr"/>
+    <field name="to_user_receive_addr"/>
+    <separator/>
+    <field name="from_user_transfer_addr"/>
+    <field name="to_user_transfer_addr"/>
+    <separator/>
+    <field name="state"/>
+    <field name="status_message"/>
+    <separator/>
+    <field name="contract_tx_hash"/>
+    <field name="contract_addr"/>
+    <field name="from_deposit_qty"/>
+    <field name="to_deposit_qty"/>
+    <field name="release_tx_hash"/>
+</form>

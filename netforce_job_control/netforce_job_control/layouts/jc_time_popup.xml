@@ -1,0 +1,29 @@
+<form model="time.entry" form_layout="stacked" show_save="1" show_delete="1" body_color="#e8f1ff" foot_color="#d7e7ff" columns="2">
+    <field name="jc_job_id" condition='[["involved_user_id","=",user_id]]' onchange="onchange_job" required="1"/>
+    <field name="user_id" onchange="onchange_user"/>
+    <separator/>
+    <field name="date"/>
+    <field name="start_time" onchange="onchange_start_time"/>
+    <field name="actual_hours" view="field_duration" onchange="onchange_actual_hours"/>
+    <field name="end_time" onchange="onchange_end_time"/>
+    <separator/>
+    <field name="description" required="1"/>
+    <field name="notes" help="Eg. traveling time"/>
+    <separator/>
+    <field name="product_id" condition='[["bill_user_id","=",user_id]]' onchange="onchange_product"/>
+    <field name="bill_type" invisible="1"/>
+    <group attrs='{"invisible":[["bill_type","!=","hour"]]}' columns="1" span="6">
+        <field name="rate"/>
+    </group>
+    <group attrs='{"invisible":[["bill_type","!=","hour"]]}'>
+        <field name="bill_hours" view="field_duration" view_options='{"no_timer":true,"hide_format":true}' onchange="onchange_bill_hours"/>
+        <field name="amount"/>
+    </group>
+    <group attrs='{"invisible":[["bill_type","=","hour"]]}' columns="1" span="6">
+        <field name="flat_fee"/>
+    </group>
+    <separator/>
+    <field name="state"/>
+    <field name="invoice_id" readonly="1"/>
+    <field name="timer_start" invisible="1"/>
+</form>

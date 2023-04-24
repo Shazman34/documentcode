@@ -1,0 +1,9 @@
+<form_m model="ed.attend">
+    <field name="date"/>
+    <field name="state"/>
+    <newline/>
+    <field name="student_id"/>
+    <newline/>
+    <field name="course_id"/>
+    <field name="teacher_id"/>
+</form_m>

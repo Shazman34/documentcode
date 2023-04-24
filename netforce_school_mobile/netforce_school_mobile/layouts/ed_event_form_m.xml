@@ -1,0 +1,9 @@
+<form_m model="ed.event">
+    <field name="date"/>
+    <field name="time_from"/>
+    <field name="time_to"/>
+    <newline/>
+    <field name="title"/>
+    <newline/>
+    <field name="description"/>
+</form_m>

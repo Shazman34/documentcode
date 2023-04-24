@@ -1,0 +1,12 @@
+<list model="hx.rfq">
+    <field name="time"/>
+    <field name="number"/>
+    <field name="user_id"/>
+    <field name="asset_buy"/>
+    <field name="asset_sell"/>
+    <field name="qty"/>
+    <field name="price"/>
+    <field name="amount"/>
+    <field name="state"/>
+    <field name="swap_id"/>
+</list>

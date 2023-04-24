@@ -1,0 +1,4 @@
+<search model="jc.service">
+    <field name="categ_id" select="1"/>
+    <field name="partner_id" select="1"/>
+</search>

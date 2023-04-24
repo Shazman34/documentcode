@@ -1,0 +1,31 @@
+<form model="xb.account">
+    <head>
+        <button string="Options" dropdown="1">
+            <item string="Deposit" method="deposit"/>
+            <item string="Withdraw" method="withdraw"/>
+            <divider/>
+            <item string="Generate XBT Address" method="new_addr_xbt"/>
+            <item string="Generate LTC Address" method="new_addr_ltc"/>
+            <item string="Generate ETH Address" method="new_addr_eth"/>
+        </button>
+    </head>
+    <field name="name"/>
+    <field name="date_created"/>
+    <separator/>
+    <field name="balance_thb"/>
+    <separator/>
+    <field name="balance_xbt"/>
+    <field name="address_xbt_id" condition='[["account_id","=",id]]'/>
+    <separator/>
+    <field name="balance_ltc"/>
+    <field name="address_ltc_id" condition='[["account_id","=",id]]'/>
+    <separator/>
+    <field name="balance_eth"/>
+    <field name="address_eth_id" condition='[["account_id","=",id]]'/>
+    <separator/>
+    <field name="notif_url"/>
+    <related>
+        <field name="addresses"/>
+        <field name="transactions"/>
+    </related>
+</form>

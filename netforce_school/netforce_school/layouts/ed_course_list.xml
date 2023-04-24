@@ -1,0 +1,5 @@
+<list model="ed.course">
+    <field name="name"/>
+    <field name="period_id"/>
+    <field name="group_id"/>
+</list>

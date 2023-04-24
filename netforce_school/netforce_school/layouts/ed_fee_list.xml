@@ -1,0 +1,8 @@
+<list model="ed.fee">
+    <field name="due_date"/>
+    <field name="title"/>
+    <field name="amount"/>
+    <field name="amount_paid"/>
+    <field name="amount_due"/>
+    <field name="student_id"/>
+</list>

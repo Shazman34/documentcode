@@ -1,0 +1,11 @@
+<form model="l2g.serv.req">
+    <field name="number"/>
+    <field name="date"/>
+    <field name="customer_id"/>
+    <field name="type"/>
+    <field name="state"/>
+    <separator string="Engine System"/>
+    <field name="eng_pipe"/> 
+    <newline/>
+    <field name="eng_part"/> 
+</form>

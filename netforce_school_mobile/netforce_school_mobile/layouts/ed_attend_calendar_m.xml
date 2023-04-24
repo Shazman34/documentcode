@@ -1,0 +1,4 @@
+<calendar_m model="ed.attend" colors='{"green":[["state","=","present"]],"orange":[["state","=","late"]],"red":[["state","=","absent"]]}'>
+    <field name="date"/>
+    <field name="state"/>
+</calendar_m>

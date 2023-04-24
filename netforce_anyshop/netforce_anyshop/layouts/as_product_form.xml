@@ -1,0 +1,30 @@
+<form model="as.product">
+    <field name="date_add"/>
+    <field name="shop_id"/>
+    <field name="categ_id"/>
+    <field name="name"/>
+    <field name="condition"/>
+    <field name="description"/>
+    <field name="sale_price"/>
+    <separator/>
+    <field name="allow_meetup"/>
+    <field name="meetup_coords"/>
+    <field name="meetup_details"/>
+    <separator/>
+    <field name="allow_delivery"/>
+    <field name="delivery_details"/>
+    <separator/>
+    <field name="image"/>
+    <related>
+        <field name="images">
+            <list>
+                <field name="sequence"/>
+                <field name="file"/>
+            </list>
+            <form>
+                <field name="sequence"/>
+                <field name="file"/>
+            </form>
+        </field>
+    </related>
+</form>

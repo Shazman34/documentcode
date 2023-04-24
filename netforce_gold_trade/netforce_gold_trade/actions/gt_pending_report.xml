@@ -1,0 +1,4 @@
+<action>
+    <field name="view">gt_pending</field>
+    <field name="menu">gt_menu</field>
+</action>

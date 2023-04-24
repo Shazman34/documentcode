@@ -1,0 +1,11 @@
+<list model="l2g.truck">
+    <field name="plate_no"/>
+    <field name="truck_type_id"/>
+    <field name="max_weight"/>
+    <field name="width"/>
+    <field name="height"/>
+    <field name="length"/>
+    <field name="transporter_id"/>
+    <field name="driver_id"/>
+    <field name="register_date"/>
+</list>

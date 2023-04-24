@@ -1,0 +1,30 @@
+{
+  "name": "netforce_xbank",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "npm run serve | npm run dev",
+    "serve": "./node_modules/.bin/http-server -p 8080",
+    "dev": "webpack-dev-server --progress --colors --port 8090",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "history": "^1.13.0",
+    "jquery": "^2.1.4",
+    "moment": "^2.10.6",
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2",
+    "react-redux": "^4.0.0",
+    "react-router": "^1.0.0",
+    "redux": "^3.0.4",
+    "redux-thunk": "^1.0.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "http-server": "^0.8.5",
+    "jsx-loader": "^0.13.2",
+    "webpack": "^1.12.4",
+    "webpack-dev-server": "^1.12.1"
+  }
+}

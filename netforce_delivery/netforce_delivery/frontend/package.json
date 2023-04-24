@@ -1,0 +1,8 @@
+{
+  "name": "netforce_ui_delivery",
+  "version": "1.0.0",
+  "description": "Netforce delivery module frontend",
+  "main": "index.js",
+  "author": "Netforce Software Ltd.",
+  "license": "MIT"
+}

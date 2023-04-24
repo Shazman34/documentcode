@@ -1,0 +1,5 @@
+<inherit inherit="main_menu">
+    <item string="General" position="after">
+        <item string="HydraX" action="hx_board" addon="HYDRAX"/>
+    </item>
+</inherit>

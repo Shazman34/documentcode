@@ -1,0 +1,6 @@
+<action>
+    <field name="view">form_popup</field>
+    <field name="string">Edit Parameter</field>
+    <field name="model">gt.price.param</field>
+    <field name="target">popup</field>
+</action>

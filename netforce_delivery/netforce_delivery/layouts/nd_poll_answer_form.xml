@@ -1,0 +1,6 @@
+<form model="nd.poll.answer">
+    <field name="date"/>
+    <field name="order_id"/>
+    <field name="poll_id"/>
+    <field name="option_id"/>
+</form>

@@ -1,0 +1,5 @@
+<inherit inherit="main_menu">
+    <item string="General" position="after">
+        <item string="Golf Course" action="gf_board" addon="GOLF"/>
+    </item>
+</inherit>

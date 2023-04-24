@@ -1,0 +1,42 @@
+<form model="jc.job.template">
+    <head>
+        <button string="Options" dropdown="1">
+            <item string="Copy" method="copy"/>
+        </button>
+    </head>
+    <field name="name"/>
+    <field name="product_id"/>
+    <field name="job_name"/>
+    <field name="description"/>
+    <field name="due_date"/>
+    <field name="est_hours"/>
+    <field name="periodicity"/>
+    <field name="auto_complete"/>
+    <field name="assign_from_client"/>
+    <field name="update_due_date"/>
+    <related>
+        <field name="task_templates">
+            <list>
+                <field name="name"/>
+                <field name="user_id"/>
+                <field name="assign_from_job"/>
+                <field name="deadline"/>
+                <field name="sequence"/>
+                <field name="wait_for"/>
+                <field name="est_hours"/>
+            </list>
+            <form>
+                <field name="name"/>
+                <field name="description"/>
+                <field name="deadline"/>
+                <field name="user_id"/>
+                <field name="assign_from_job"/>
+                <field name="sequence"/>
+                <field name="wait_for"/>
+                <field name="est_hours"/>
+            </form>
+        </field>
+        <!--<field name="required_docs"/>-->
+        <field name="comments"/>
+    </related>
+</form>

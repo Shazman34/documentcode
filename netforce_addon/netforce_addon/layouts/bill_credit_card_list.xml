@@ -1,0 +1,4 @@
+<list model="bill.credit.card">
+    <head replace="1"/>
+    <field name="date_added"/>
+</list>

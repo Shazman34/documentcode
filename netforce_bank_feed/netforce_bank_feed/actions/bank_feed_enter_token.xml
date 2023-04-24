@@ -1,0 +1,6 @@
+<action>
+    <field name="view">form_popup</field>
+    <field name="string">Enter Token</field>
+    <field name="model">bank.feed.enter.token</field>
+    <field name="target">popup</field>
+</action>

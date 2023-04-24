@@ -1,0 +1,37 @@
+<form model="payment.transaction" show_company="1">
+    <head>
+        <button string="Options">
+            <item string="Check Payment Status" method="check_payment_received"/>
+        </button>
+    </head>
+    <field name="start_time"/>
+    <field name="end_time"/>
+    <newline/>
+    <field name="type"/>
+    <field name="pay_method_id" condition='[["type","=",type]]'/>
+    <newline/>
+    <field name="amount"/>
+    <field name="currency_id"/>
+    <newline/>
+    <field name="contact_id"/>
+    <field name="related_id"/>
+    <newline/>
+    <field name="state"/>
+    <field name="payment_id"/>
+    <field name="card_token_id"/>
+    <separator/>
+    <field name="return_url"/>
+    <field name="error_url"/>
+    <separator/>
+    <field name="request_details"/>
+    <field name="response_details"/>
+    <group attrs='{"invisible":[["type","!=","bank"]]}'>
+        <separator/>
+        <field name="bank_transfer_amount"/>
+        <field name="bank_transfer_receipt"/>
+        <field name="bank_confirmation_no"/>
+    </group>
+    <separator/>
+    <field name="error" attrs='{"invisible":[["state","!=","error"]]}'/>
+    <field name="company_id" invisible="1"/>
+</form>

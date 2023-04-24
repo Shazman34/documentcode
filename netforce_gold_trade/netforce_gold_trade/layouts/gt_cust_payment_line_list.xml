@@ -1,0 +1,6 @@
+<list model="gt.cust.payment.line">
+    <field name="payment_id"/>
+    <field name="order_id"/>
+    <field name="amount"/>
+    <field name="late_fee"/>
+</list>

@@ -1,0 +1,7 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">RFQs</field>
+    <field name="model">hx.rfq</field>
+    <field name="tabs">[["All",[]],["Pending",[["state","=","pending"]]],["Accepted",[["state","=","accepted"]]],["Completed",[["state","=","done"]]]]</field>
+    <field name="menu">hx_menu</field>
+</action>

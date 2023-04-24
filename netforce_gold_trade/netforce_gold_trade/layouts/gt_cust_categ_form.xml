@@ -1,0 +1,9 @@
+<form model="gt.cust.categ">
+    <field name="name"/>
+    <newline/>
+    <field name="min_margin"/>
+    <field name="disable_margin"/>
+    <newline/>
+    <field name="payment_days"/>
+    <field name="late_pay_fee"/>
+</form>

@@ -1,0 +1,8 @@
+<action>
+    <field name="view_cls">list_view</field>
+    <field name="model">jc.task</field>
+    <field name="domain">[["state","!=","done"]]</field>
+    <field name="order">deadline</field>
+    <field name="view_xml">pending_task_widget</field>
+    <field name="board_select">1</field>
+</action>

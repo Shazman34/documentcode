@@ -1,0 +1,6 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Price Parameters</field>
+    <field name="model">gt.price.param</field>
+    <field name="menu">gt_menu</field>
+</action>

@@ -1,0 +1,7 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Addons</field>
+    <field name="model">addon</field>
+    <field name="tabs">[["All",[]],["Installed",[["state","=","installed"]]],["Not Installed",[["state","=","not_installed"]]]]</field>
+    <field name="menu">addon_menu</field>
+</action>

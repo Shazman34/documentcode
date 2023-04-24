@@ -1,0 +1,7 @@
+<list model="jc.job.template">
+    <field name="product_id"/>
+    <field name="name"/>
+    <field name="job_name"/>
+    <field name="due_date"/>
+    <field name="periodicity"/>
+</list>

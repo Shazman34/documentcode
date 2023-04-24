@@ -1,0 +1,8 @@
+<inherit inherit="sms_account_form">
+    <form position="append">
+        <group>
+            <field name="nexmo_api_key"/>
+            <field name="nexmo_api_secret"/>
+        </group>
+    </form>
+</inherit>

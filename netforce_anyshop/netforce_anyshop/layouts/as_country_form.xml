@@ -1,0 +1,6 @@
+<form model="as.country">
+    <field name="name"/>
+    <related>
+        <field name="regions"/>
+    </related>
+</form>

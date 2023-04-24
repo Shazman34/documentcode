@@ -1,0 +1,12 @@
+<list model="gt.customer">
+    <field name="number"/>
+    <field name="name"/>
+    <field name="email"/>
+    <field name="phone"/>
+    <field name="categ_id"/>
+    <field name="create_time"/>
+    <field name="bal_thb"/>
+    <field name="bal_96"/>
+    <field name="bal_99"/>
+    <field name="margin"/>
+</list>

@@ -1,0 +1,4 @@
+<list model="ed.group">
+    <field name="name"/>
+    <field name="num_students"/>
+</list>

@@ -1,0 +1,6 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Delivery Periods</field>
+    <field name="model">nd.work.period</field>
+    <field name="menu">nd_menu</field>
+</action>

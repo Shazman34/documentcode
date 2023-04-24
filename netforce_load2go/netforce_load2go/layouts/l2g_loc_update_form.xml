@@ -1,0 +1,5 @@
+<form model="l2g.loc.update">
+    <field name="time"/>
+    <field name="driver_id"/>
+    <field name="coords"/>
+</form>

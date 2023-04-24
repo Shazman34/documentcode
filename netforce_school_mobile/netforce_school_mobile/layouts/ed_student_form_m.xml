@@ -1,0 +1,5 @@
+<form_m model="ed.student">
+    <field name="first_name"/>
+    <field name="last_name"/>
+    <field name="gender"/>
+</form_m>

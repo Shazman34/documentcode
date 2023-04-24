@@ -1,0 +1,8 @@
+<form model="hd.categ">
+    <field name="name"/>
+    <field name="sequence"/>
+    <field name="include_pdf"/>
+    <related>
+        <field name="articles"/>
+    </related>
+</form>

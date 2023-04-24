@@ -1,0 +1,5 @@
+<inherit inherit="main_menu">
+    <item string="Addons" position="after">
+        <item string="Gold Trading" action="gt_board" addon="GOLD_TRADE"/>
+    </item>
+</inherit>

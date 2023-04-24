@@ -1,0 +1,22 @@
+<form model="jc.timesheet">
+    <head>
+        <field name="state"/>
+    </head>
+    <group form_layout="stacked">
+        <field name="user_id" span="2"/>
+        <field name="date_from" span="2"/>
+        <field name="date_to" span="2"/>
+    </group>
+    <field name="lines" span="12" nolabel="1">
+        <list>
+            <field name="date"/>
+            <field name="service_id"/>
+            <field name="task_id"/>
+            <field name="hours"/>
+            <field name="description"/>
+        </list>
+    </field>
+    <foot>
+        <button string="Approve" method="approve" type="success" states="draft"/>
+    </foot>
+</form>

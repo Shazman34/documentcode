@@ -1,0 +1,4 @@
+<form model="nd.order.line">
+    <field name="product_id"/>
+    <field name="qty"/>
+</form>

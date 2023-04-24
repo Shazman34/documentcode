@@ -1,0 +1,12 @@
+<form model="gt.price.param" show_save="1">
+    <field name="name"/>
+    <field name="value"/>
+    <separator/>
+    <field name="time_from" view="field_time"/>
+    <field name="time_to" view="field_time"/>
+    <field name="weekday"/>
+    <separator/>
+    <field name="group_id"/>
+    <field name="description"/>
+    <field name="write_time"/>
+</form>

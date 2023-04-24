@@ -1,0 +1,7 @@
+<action>
+    <field name="view">form_popup</field>
+    <field name="title">Print Delivery Routes</field>
+    <field name="model">nd.print</field>
+    <field name="target">popup</field>
+    <field name="context">{"model":"nd.route","field_names":["delivery_date","driver_id.name","round_id.period_id.name","orders.sequence","orders.time_from","orders.time_to","orders.customer_id.code","orders.customer_id.first_name","orders.ship_address_id.street_address","orders.ship_address_id.instructions","orders.item_desc"],"template_type":"route"}</field>
+</action>

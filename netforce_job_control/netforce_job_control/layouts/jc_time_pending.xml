@@ -1,0 +1,7 @@
+<list model="time.entry" hide_page="1" hide_select="1" action="time_popup_stop">
+    <field name="date"/>
+    <field name="jc_job_id"/>
+    <field name="notes"/>
+    <field name="actual_hours" view="field_duration" view_options='{"no_input":true}'/>
+    <field name="timer_start" invisible="1"/>
+</list>

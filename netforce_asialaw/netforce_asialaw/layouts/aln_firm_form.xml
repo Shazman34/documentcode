@@ -1,0 +1,39 @@
+<form model="aln.firm">
+    <field name="logo"/>
+    <field name="name"/>
+    <field name="full_name"/>
+    <field name="business_idno"/>
+    <field name="page_name"/>
+    <field name="email"/>
+    <field name="phone"/>
+    <field name="fax"/>
+    <separator string="Address"/>
+    <field name="street"/>
+    <field name="building"/>
+    <field name="city"/>
+    <field name="state"/>
+    <field name="postal_code"/>
+    <field name="country_id"/>
+    <separator/>
+    <field name="op_countries"/>
+    <field name="website"/>
+    <field name="about"/>
+    <field name="size"/>
+    <field name="year_inc"/>
+    <separator/>
+    <field name="languages_spoken"/>
+    <field name="languages_written"/>
+    <field name="practice_areas"/>
+    <field name="industries"/>
+    <field name="max_practice_areas"/>
+    <separator/>
+    <field name="paypal_email"/>
+    <separator/>
+    <field name="quick_contracts"/>
+    <field name="qctr_categs"/>
+    <field name="qctr_lawyer_id"/>
+    <related>
+        <field name="lawyers"/>
+        <field name="prices"/>
+    </related>
+</form>

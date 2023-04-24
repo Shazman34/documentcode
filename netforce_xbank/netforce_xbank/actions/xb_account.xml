@@ -1,0 +1,6 @@
+<action>
+    <field name="view">multi_view</field>
+    <field name="string">Accounts</field>
+    <field name="model">xb.account</field>
+    <field name="menu">xb_menu</field>
+</action>

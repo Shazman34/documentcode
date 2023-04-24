@@ -1,0 +1,5 @@
+<inherit inherit="main_menu">
+    <item string="General" position="after">
+        <item string="Asia Law Network" action="aln_board" addon="ALN"/>
+    </item>
+</inherit>

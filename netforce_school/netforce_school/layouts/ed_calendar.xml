@@ -1,0 +1,7 @@
+<calendar>
+    <model name="ed.calendar" colors='{"green":[["type","=","school_term"]],"orange":[["type","=","school_holiday"]],"red":[["type","=","public_holiday"]]}'>
+        <field name="type"/>
+        <field name="title"/>
+        <field name="date" invisible="1"/>
+    </model>
+</calendar>

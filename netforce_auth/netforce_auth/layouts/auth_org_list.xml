@@ -1,0 +1,4 @@
+<list model="auth.org">
+    <field name="name"/>
+    <field name="num_users"/>
+</list>

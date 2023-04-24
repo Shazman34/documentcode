@@ -1,0 +1,7 @@
+<action>
+    <field name="view">form</field>
+    <field name="title">Settings</field>
+    <field name="model">settings</field>
+    <field name="active_id">1</field>
+    <field name="menu">nd_menu</field>
+</action>

@@ -1,0 +1,5 @@
+<list model="aln.qctr.categ">
+    <field name="name"/>
+    <field name="parent_id"/>
+    <field name="credits"/>
+</list>

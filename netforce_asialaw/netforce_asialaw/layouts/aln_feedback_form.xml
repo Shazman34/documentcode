@@ -1,0 +1,8 @@
+<form model="aln.feedback">
+    <field name="date"/>
+    <field name="client_id"/>
+    <field name="job_id"/>
+    <field name="lawyer_id"/>
+    <field name="rating"/>
+    <field name="remarks"/>
+</form>

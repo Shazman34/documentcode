@@ -1,0 +1,7 @@
+<action>
+    <field name="string">Services (DEPRECATED)</field>
+    <field name="view_cls">multi_view</field>
+    <field name="model">jc.service</field>
+    <field name="tabs">[["All",[]],["Archived",[["active","=",false]]]]</field>
+    <field name="menu">jc_service_menu</field>
+</action>

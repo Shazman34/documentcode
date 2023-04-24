@@ -1,0 +1,6 @@
+<list_m model="ed.notice">
+    <field name="date"/>
+    <field name="group_id"/>
+    <newline/>
+    <field name="title"/>
+</list_m>

@@ -1,0 +1,6 @@
+<action>
+    <field name="view">list_container</field>
+    <field name="string">Users</field>
+    <field name="model">aln.user</field>
+    <field name="menu">aln_menu</field>
+</action>

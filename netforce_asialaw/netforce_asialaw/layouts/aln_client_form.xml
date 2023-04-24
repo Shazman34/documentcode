@@ -1,0 +1,22 @@
+<form model="aln.client">
+    <field name="date"/>
+    <field name="first_name"/>
+    <field name="last_name"/>
+    <field name="email"/>
+    <field name="phone"/>
+    <field name="country_id"/>
+    <field name="type"/>
+    <field name="date"/>
+    <field name="level"/>
+    <field name="address"/>
+    <related>
+        <field name="users"/>
+        <field name="jobs"/>
+        <field name="meetings"/>
+        <field name="documents"/>
+        <field name="bill_reqs"/>
+        <field name="payments"/>
+        <field name="feedback"/>
+        <field name="logs"/>
+    </related>
+</form>
